@@ -2,85 +2,1045 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>AirSentinel — Delhi Operations Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AirSentinel — Delhi Enforcement Operations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 2rem;
-          background: #fafafa; color: #1a1a1a; }
-  @media (prefers-color-scheme: dark) { body { background: #121212; color: #eee; } }
-  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
-  .subtitle { color: #666; margin-bottom: 1.5rem; }
-  .completeness { margin-bottom: 1.5rem; }
-  .chip { display: inline-block; padding: 0.25rem 0.6rem; border-radius: 999px; font-size: 0.75rem;
-           margin-right: 0.4rem; }
-  .chip.live { background: #e8f5e9; color: #2e7d32; }
-  .chip.pending-chip { background: #eceff1; color: #455a64; }
-  .chip.demo-chip { background: #fff8e1; color: #e6a700; font-weight: 600; }
-  .demo-banner { background: #fff8e1; border: 1px solid #f9a825; color: #7a5900; padding: 0.75rem 1rem;
-                   border-radius: 8px; font-size: 0.85rem; margin-bottom: 1.5rem; line-height: 1.4; }
-  .demo-tag { font-size: 0.75rem; color: #e6a700; font-style: italic; }
-  .top-stats { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
-  .stat { background: white; border-radius: 12px; padding: 1rem 1.5rem; min-width: 100px;
-           box-shadow: 0 1px 3px rgba(0,0,0,0.1); text-align: center; }
-  @media (prefers-color-scheme: dark) { .stat { background: #1e1e1e; } }
-  .stat-num { font-size: 1.8rem; font-weight: 700; }
-  .stat-label { font-size: 0.8rem; color: #888; }
-  table { width: 100%; border-collapse: collapse; background: white; border-radius: 12px;
-           overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 2rem; }
-  @media (prefers-color-scheme: dark) { table { background: #1e1e1e; } }
-  th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid #eee; }
-  @media (prefers-color-scheme: dark) { th, td { border-color: #333; } }
-  th { font-size: 0.75rem; text-transform: uppercase; color: #888; }
-  .zone-name { font-weight: 600; }
-  .aqi-num { font-weight: 700; font-size: 1.1rem; }
-  .badge { padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.8rem; font-weight: 600; }
-  .pending { color: #999; font-style: italic; font-size: 0.85rem; }
-  .honesty-section { background: #f3f4f6; border: 1px solid #d1d5db; border-radius: 10px;
-                      padding: 1rem 1.25rem; margin-bottom: 2rem; }
-  @media (prefers-color-scheme: dark) { .honesty-section { background: #1a1a2e; border-color: #374151; } }
-  .honesty-row { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
-  .honesty-label { font-size: 0.78rem; font-weight: 600; color: #555; min-width: 140px;
-                    padding-top: 0.2rem; text-transform: uppercase; letter-spacing: 0.03em; }
-  .alert-card { background: white; border-radius: 12px; padding: 1.5rem; max-width: 420px;
-                 box-shadow: 0 1px 3px rgba(0,0,0,0.1); font-size: 0.9rem; line-height: 1.6; }
-  @media (prefers-color-scheme: dark) { .alert-card { background: #1e1e1e; } }
-  section { margin-bottom: 2rem; }
-  h2 { font-size: 1.1rem; }
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Design tokens ── */
+:root {
+  --bg:          #0d1117;
+  --surface:     #161b22;
+  --surface-alt: #1c2128;
+  --border:      #30363d;
+  --border-soft: #21262d;
+
+  --text-primary:   #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted:     #6e7681;
+
+  /* semantic */
+  --green:        #2ea043;
+  --green-bg:     #0d1f12;
+  --green-border: #1a4329;
+  --amber:        #d29922;
+  --amber-bg:     #1f1708;
+  --amber-border: #3d2b00;
+  --red:          #da3633;
+  --red-bg:       #1f0c0c;
+  --red-border:   #4a1515;
+  --blue:         #388bfd;
+  --blue-bg:      #0c1a2e;
+
+  /* source type colors */
+  --c-dust:          #d97706;
+  --c-industrial:    #388bfd;
+  --c-traffic:       #f85149;
+  --c-crop:          #bc8cff;
+  --c-clear:         #2ea043;
+
+  --radius: 6px;
+  --radius-lg: 10px;
+  --font-head: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ── Header bar ── */
+.header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 2rem;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-title {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.header-title .dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 6px var(--green);
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.header-meta {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: 'Courier New', monospace;
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* ── Main layout ── */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── Honesty banner ── */
+.honesty-banner {
+  background: var(--amber-bg);
+  border: 1px solid var(--amber-border);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+}
+.honesty-banner-title {
+  font-family: var(--font-head);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--amber);
+  margin-bottom: 0.6rem;
+}
+.honesty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.5rem;
+}
+.honesty-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  font-size: 0.78rem;
+}
+.honesty-key {
+  color: var(--text-muted);
+  font-family: 'Courier New', monospace;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  padding-top: 1px;
+  min-width: 120px;
+}
+.honesty-val {
+  color: var(--text-secondary);
+}
+.vehicle-flag {
+  grid-column: 1 / -1;
+  font-size: 0.78rem;
+  color: var(--amber);
+  margin-top: 0.25rem;
+}
+
+/* ── Data completeness strip ── */
+.completeness-strip {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.chip {
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-family: var(--font-body);
+  white-space: nowrap;
+}
+.chip-live { background: var(--green-bg); color: var(--green); border-color: var(--green-border); }
+.chip-demo { background: var(--amber-bg); color: var(--amber); border-color: var(--amber-border); }
+.chip-pending { background: var(--surface-alt); color: var(--text-muted); border-color: var(--border-soft); }
+
+/* ── Stats row ── */
+.stats-row {
+  display: flex;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.stat {
+  flex: 1;
+  background: var(--surface);
+  padding: 0.9rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.stat-num {
+  font-family: var(--font-head);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.stat-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+.stat-num.amber { color: var(--amber); }
+.stat-num.green { color: var(--green); }
+.stat-num.red   { color: var(--red); }
+
+/* ── Section header ── */
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.section-title {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+.section-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* ── Tables ── */
+.table-wrap {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+}
+thead tr { background: var(--surface-alt); }
+th {
+  font-family: var(--font-head);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  padding: 0.55rem 0.9rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+td {
+  padding: 0.55rem 0.9rem;
+  border-bottom: 1px solid var(--border-soft);
+  vertical-align: middle;
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--surface-alt); }
+
+/* Rank cell */
+.rank-cell {
+  font-family: var(--font-head);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  width: 36px;
+}
+.rank-cell.rank-1 { color: var(--amber); }
+.rank-cell.rank-2 { color: var(--text-secondary); }
+.rank-cell.rank-3 { color: var(--text-secondary); }
+
+/* Zone name */
+.zone-name {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Source badge */
+.source-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  white-space: nowrap;
+}
+.src-dust         { background: #2c1810; color: var(--c-dust); }
+.src-industrial   { background: #0c1a2e; color: var(--c-industrial); }
+.src-traffic      { background: #1f0c0c; color: var(--c-traffic); }
+.src-crop         { background: #1a1228; color: var(--c-crop); }
+.src-clear        { background: var(--green-bg); color: var(--c-clear); }
+
+/* Confidence bar */
+.conf-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 90px;
+}
+.conf-bar-bg {
+  flex: 1;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.conf-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--green);
+  transition: width 0.3s ease;
+}
+.conf-bar-fill.low  { background: var(--red); }
+.conf-bar-fill.mid  { background: var(--amber); }
+.conf-bar-fill.high { background: var(--green); }
+.conf-num {
+  font-family: 'Courier New', monospace;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  min-width: 30px;
+  text-align: right;
+}
+
+/* Score */
+.score-num {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* VEI */
+.vei-num {
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.demo-tag {
+  font-size: 0.65rem;
+  color: var(--amber);
+  margin-left: 0.2rem;
+}
+
+/* GRAP stage badges */
+.grap-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.18rem 0.5rem;
+  border-radius: var(--radius);
+  white-space: nowrap;
+}
+.grap-below  { background: var(--green-bg);  color: var(--green); }
+.grap-1      { background: var(--amber-bg);  color: var(--amber); }
+.grap-2      { background: #2a1800;          color: #f97316; }
+.grap-3      { background: var(--red-bg);    color: var(--red); }
+.grap-4      { background: #1a0505;          color: #ff6b6b; font-weight: 700; }
+.grap-unk    { background: var(--surface-alt); color: var(--text-muted); }
+
+/* AQI number */
+.aqi-num {
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+/* Expand row */
+.expand-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  transition: color 0.15s, background 0.15s;
+}
+.expand-btn:hover { color: var(--text-secondary); background: var(--surface-alt); }
+.detail-row { display: none; }
+.detail-row.open { display: table-row; }
+.detail-cell {
+  background: var(--surface-alt) !important;
+  padding: 0.6rem 0.9rem 0.6rem 2.5rem !important;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-soft) !important;
+}
+.prob-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+}
+.prob-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.prob-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.rank-reason {
+  margin-top: 0.35rem;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Alert card */
+.alert-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  padding: 1.25rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+@media (max-width: 640px) { .alert-card { grid-template-columns: 1fr; } }
+.alert-zone {
+  font-family: var(--font-head);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.alert-aqi {
+  font-family: var(--font-head);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--amber);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+.alert-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 0.2rem;
+}
+.alert-advisory {
+  border-top: 1px solid var(--border-soft);
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+.advisory-item {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.3rem;
+}
+.advisory-item::before { content: '—'; color: var(--text-muted); }
+.caqm-note {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.footer a { color: var(--text-muted); text-decoration: none; }
+.footer a:hover { color: var(--text-secondary); }
+
+/* Utility */
+.text-muted  { color: var(--text-muted); }
+.font-mono   { font-family: 'Courier New', monospace; }
 </style>
 </head>
 <body>
-<h1>AirSentinel — Delhi Operations</h1>
-<div class="subtitle">Forecast horizon: 24h · 11 zones</div>
 
-<div class="completeness"><span class="chip live">forecasting: live</span><span class="chip live">caaqms_current_conditions: live</span><span class="chip demo-chip">vehicle_emissions: live — DEMO DATA (real-world-informed, not verified precision)</span><span class="chip live">satellite_attribution: live</span></div>
-<div class="demo-banner">⚠ Vehicle Emission Load Index below is DEMO DATA — real Delhi-wide vehicle totals and real official BS6 emission limits, but split EVENLY across zones as a placeholder (not real per-zone counts). See vehicle_emissions/src/vehicle_emissions/build_demo_data.py for every citation. Not random — but not verified per-zone precision either.</div>
-<div class="top-stats">
-  <div class="stat"><div class="stat-num">189</div><div class="stat-label">CITY-WIDE AVG AQI (forecast)</div></div>
-  <div class="stat"><div class="stat-num">2</div><div class="stat-label">Stage I</div></div><div class="stat"><div class="stat-num">0</div><div class="stat-label">Stage II</div></div><div class="stat"><div class="stat-num">0</div><div class="stat-label">Stage III</div></div><div class="stat"><div class="stat-num">0</div><div class="stat-label">Stage IV</div></div>
-</div>
+<!-- Header -->
+<header class="header">
+  <div class="header-title">
+    <span class="dot"></span>
+    AirSentinel &mdash; Delhi Enforcement Operations
+  </div>
+  <div class="header-meta">
+    <span>Inference date: 2026-07-16</span>
+    <span>Zones: 13</span>
+    <span>Model: LoRA r=8</span>
+  </div>
+</header>
 
-<section class="honesty-section"><h2>Enforcement ranker — data quality flags</h2><p style="font-size:0.82rem;color:#888;margin-bottom:0.75rem">These tags are present on every row of enforcement_ranking.csv and must be visible here so they cannot be mistaken for final or ground-truth output.</p><div class="honesty-row"><span class="honesty-label">model_version</span><span class="chip live">700-image LoRA r=8 -- final</span></div><div class="honesty-row"><span class="honesty-label">data_provenance</span><span class="chip live">correlation-based (heuristic CAAQMS labels, not ground truth)</span></div><div class="honesty-row"><span class="honesty-label">land_use_note</span><span class="chip live">land-use signal absent from this repo -- scoring uses only satellite + vehicle data</span></div></section>
+<main class="main">
 
-<section>
-  <h2>Top zones needing attention</h2>
-  <table>
-    <tr><th>Rank</th><th>Zone</th><th>Forecast AQI</th><th>GRAP Stage</th><th>Vehicle load index</th><th>Satellite source guess</th></tr>
-    <tr><td>#1</td><td class="zone-name">Wazirpur</td><td class="aqi-num">266</td><td><span class="badge" style="background:#fff8e1;color:#f9a825">Stage I — Poor</span></td><td>0.32 <span class='demo-tag'>(demo)</span></td><td>dust</td></tr><tr><td>#2</td><td class="zone-name">Anand Vihar</td><td class="aqi-num">222</td><td><span class="badge" style="background:#fff8e1;color:#f9a825">Stage I — Poor</span></td><td>0.19 <span class='demo-tag'>(demo)</span></td><td>dust</td></tr><tr><td>#3</td><td class="zone-name">Jahangirpuri</td><td class="aqi-num">199</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.28 <span class='demo-tag'>(demo)</span></td><td>traffic_heavy</td></tr><tr><td>#4</td><td class="zone-name">Ashok Vihar</td><td class="aqi-num">189</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.32 <span class='demo-tag'>(demo)</span></td><td>dust</td></tr><tr><td>#5</td><td class="zone-name">Vivek Vihar</td><td class="aqi-num">189</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.19 <span class='demo-tag'>(demo)</span></td><td>dust</td></tr>
-  </table>
-</section>
+  <!-- Data completeness -->
+  <div class="completeness-strip">
+    <span class="chip chip-live">satellite_attribution: live</span>
+    <span class="chip chip-live">forecasting: live</span>
+    <span class="chip chip-live">caaqms_current_conditions: live</span>
+    <span class="chip chip-demo">vehicle_emissions: live &mdash; DEMO DATA</span>
+  </div>
 
-<section>
-  <h2>Example alert (most urgent zone)</h2>
-  <div class="alert-card">AIR QUALITY ALERT<br>Wazirpur, Delhi<br>266<br>Stage I — Poor<br>Expected to stay in this range for the next 24 hours. Likely major contributor: PM2.5.<br><br>Advisory for residents<br>  - Children, elderly & those with respiratory or heart conditions: avoid outdoor activity<br>  - Use public transport where possible; avoid unnecessary vehicle use in this zone<br><br>Follows the Graded Response Action Plan (GRAP), Commission for Air Quality Management (CAQM).</div>
-</section>
+  <!-- Honesty banner -->
+  <div class="honesty-banner">
+    <div class="honesty-banner-title">Data quality flags &mdash; present on every output row</div>
+    <div class="honesty-grid">
+      <div class="honesty-row">
+        <span class="honesty-key">model_version</span>
+        <span class="honesty-val">700-image LoRA r=8 &mdash; final</span>
+      </div>
+      <div class="honesty-row">
+        <span class="honesty-key">data_provenance</span>
+        <span class="honesty-val">correlation-based (heuristic CAAQMS labels, not ground truth)</span>
+      </div>
+      <div class="honesty-row">
+        <span class="honesty-key">land_use_note</span>
+        <span class="honesty-val">land-use signal absent &mdash; scoring uses only satellite + vehicle data</span>
+      </div>
+      <div class="vehicle-flag">
+        Vehicle Emission Load Index below is DEMO DATA: real Delhi-wide vehicle totals and official BS6 emission limits, split evenly across zones as a placeholder &mdash; not verified per-zone precision. See <span class="font-mono">vehicle-emissions/src/vehicle_emissions/build_demo_data.py</span> for citations.
+      </div>
+    </div>
+  </div>
 
-<section>
-  <h2>All zones</h2>
-  <table>
-    <tr><th>Zone</th><th>Latest actual AQI</th><th>Forecast AQI</th><th>GRAP Stage</th><th>Vehicle load index</th></tr>
-    <tr><td>Wazirpur</td><td>200</td><td class="aqi-num">266</td><td><span class="badge" style="background:#fff8e1;color:#f9a825">Stage I — Poor</span></td><td>0.32 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Anand Vihar</td><td>157</td><td class="aqi-num">222</td><td><span class="badge" style="background:#fff8e1;color:#f9a825">Stage I — Poor</span></td><td>0.19 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Jahangirpuri</td><td>98</td><td class="aqi-num">199</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.28 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Ashok Vihar</td><td>86</td><td class="aqi-num">189</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.32 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Vivek Vihar</td><td>121</td><td class="aqi-num">189</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.19 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Rohini</td><td>81</td><td class="aqi-num">186</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.55 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Okhla</td><td>85</td><td class="aqi-num">183</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.25 <span class='demo-tag'>(demo)</span></td></tr><tr><td>RK Puram</td><td>82</td><td class="aqi-num">178</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>1.00 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Mundka</td><td>108</td><td class="aqi-num">176</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.51 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Dwarka</td><td>79</td><td class="aqi-num">155</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.78 <span class='demo-tag'>(demo)</span></td></tr><tr><td>Narela</td><td>46</td><td class="aqi-num">140</td><td><span class="badge" style="background:#e8f5e9;color:#2e7d32">Below GRAP</span></td><td>0.29 <span class='demo-tag'>(demo)</span></td></tr>
-  </table>
-</section>
+  <!-- Stats -->
+  <div class="stats-row">
+    <div class="stat">
+      <div class="stat-num amber">189</div>
+      <div class="stat-label">City avg AQI (forecast)</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">13</div>
+      <div class="stat-label">Zones ranked</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num amber">2</div>
+      <div class="stat-label">Stage I (Poor)</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num green">11</div>
+      <div class="stat-label">Below GRAP trigger</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" style="color:var(--c-dust)">11</div>
+      <div class="stat-label">Zones: dust dominant</div>
+    </div>
+  </div>
 
+  <!-- Enforcement ranking table -->
+  <section>
+    <div class="section-header">
+      <span class="section-title">Enforcement Zone Ranking</span>
+      <span class="section-sub">score = satellite_conf &times; source_weight + 0.3 &times; vehicle_load &nbsp;&mdash;&nbsp; click row for probabilities</span>
+    </div>
+    <div class="table-wrap">
+      <table id="ranking-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Zone</th>
+            <th>Source guess</th>
+            <th>Confidence</th>
+            <th>Composite score</th>
+            <th>Vehicle load</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <!-- 1 RK Puram -->
+          <tr class="data-row" onclick="toggle('rk')">
+            <td class="rank-cell rank-1">#1</td>
+            <td class="zone-name">RK Puram</td>
+            <td><span class="source-badge src-industrial">industrial_haze</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill mid" style="width:45%"></div></div>
+                <span class="conf-num">0.45</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.708</span></td>
+            <td><span class="vei-num">1.00</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-rk">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-rk">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 45.4%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 44.4%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 7.0%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 2.4%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.8%</div>
+              </div>
+              <div class="rank-reason">industrial emission signature [conf=0.45]; high vehicle load (index=1.00) &rarr; stack checks + PCO orders recommended</div>
+            </td>
+          </tr>
+
+          <!-- 2 Dwarka -->
+          <tr class="data-row" onclick="toggle('dwarka')">
+            <td class="rank-cell rank-2">#2</td>
+            <td class="zone-name">Dwarka</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:85%"></div></div>
+                <span class="conf-num">0.85</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.572</span></td>
+            <td><span class="vei-num">0.78</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-dwarka">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-dwarka">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 84.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 7.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 5.1%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 2.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.4%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.85]; high vehicle load (index=0.78) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 3 Rohini -->
+          <tr class="data-row" onclick="toggle('rohini')">
+            <td class="rank-cell rank-3">#3</td>
+            <td class="zone-name">Rohini</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:82%"></div></div>
+                <span class="conf-num">0.82</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.493</span></td>
+            <td><span class="vei-num">0.55</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-rohini">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-rohini">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 81.8%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 7.8%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 5.5%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 4.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.3%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.82]; moderate vehicle load (index=0.55) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 4 Jahangirpuri -->
+          <tr class="data-row" onclick="toggle('jahan')">
+            <td class="rank-cell">#4</td>
+            <td class="zone-name">Jahangirpuri</td>
+            <td><span class="source-badge src-traffic">traffic_heavy</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill low" style="width:39%"></div></div>
+                <span class="conf-num">0.39</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.474</span></td>
+            <td><span class="vei-num">0.28</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-jahan">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-jahan">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 38.7%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 39.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 17.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 4.4%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.6%</div>
+              </div>
+              <div class="rank-reason">traffic-dominated source [conf=0.39]; low vehicle load (index=0.28) &rarr; enforcement-priority zone (note: near-tie with dust at 38.7%)</div>
+            </td>
+          </tr>
+
+          <!-- 5 Ashok Vihar -->
+          <tr class="data-row" onclick="toggle('ashok')">
+            <td class="rank-cell">#5</td>
+            <td class="zone-name">Ashok Vihar</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:94%"></div></div>
+                <span class="conf-num">0.94</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.470</span></td>
+            <td><span class="vei-num">0.32</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-ashok">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-ashok">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 93.9%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 1.3%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 3.4%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 1.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.1%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.94]; low vehicle load (index=0.32) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 6 Wazirpur -->
+          <tr class="data-row" onclick="toggle('wazir')">
+            <td class="rank-cell">#6</td>
+            <td class="zone-name">Wazirpur</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:87%"></div></div>
+                <span class="conf-num">0.87</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.444</span></td>
+            <td><span class="vei-num">0.32</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-wazir">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-wazir">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 87.3%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 6.9%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 3.7%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 1.9%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.2%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.87]; low vehicle load (index=0.32) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 7 Anand Vihar -->
+          <tr class="data-row" onclick="toggle('anand')">
+            <td class="rank-cell">#7</td>
+            <td class="zone-name">Anand Vihar</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:93%"></div></div>
+                <span class="conf-num">0.93</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.428</span></td>
+            <td><span class="vei-num">0.19</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-anand">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-anand">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 92.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 3.3%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 2.4%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 1.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.04%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.93]; low vehicle load (index=0.19) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 8 Narela -->
+          <tr class="data-row" onclick="toggle('narela')">
+            <td class="rank-cell">#8</td>
+            <td class="zone-name">Narela</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:84%"></div></div>
+                <span class="conf-num">0.84</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.420</span></td>
+            <td><span class="vei-num">0.29</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-narela">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-narela">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 83.7%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 7.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 5.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 3.0%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.1%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.84]; low vehicle load (index=0.29) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 9 Bawana -->
+          <tr class="data-row" onclick="toggle('bawana')">
+            <td class="rank-cell">#9</td>
+            <td class="zone-name">Bawana</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:84%"></div></div>
+                <span class="conf-num">0.84</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.417</span></td>
+            <td><span class="vei-num">0.28</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-bawana">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-bawana">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 83.5%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 7.1%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 3.3%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 5.7%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.4%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.84]; low vehicle load (index=0.28) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 10 Mundka -->
+          <tr class="data-row" onclick="toggle('mundka')">
+            <td class="rank-cell">#10</td>
+            <td class="zone-name">Mundka</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill mid" style="width:62%"></div></div>
+                <span class="conf-num">0.62</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.401</span></td>
+            <td><span class="vei-num">0.51</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-mundka">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-mundka">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 62.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 23.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 9.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 5.0%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.4%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.62]; moderate vehicle load (index=0.51) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 11 Vivek Vihar -->
+          <tr class="data-row" onclick="toggle('vivek')">
+            <td class="rank-cell">#11</td>
+            <td class="zone-name">Vivek Vihar</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill high" style="width:84%"></div></div>
+                <span class="conf-num">0.84</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.393</span></td>
+            <td><span class="vei-num">0.19</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-vivek">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-vivek">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 83.9%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 7.5%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 3.4%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 5.1%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.1%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.84]; low vehicle load (index=0.19) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 12 Okhla -->
+          <tr class="data-row" onclick="toggle('okhla')">
+            <td class="rank-cell">#12</td>
+            <td class="zone-name">Okhla</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill mid" style="width:67%"></div></div>
+                <span class="conf-num">0.67</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.341</span></td>
+            <td><span class="vei-num">0.25</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-okhla">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-okhla">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 66.8%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 22.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 7.7%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 2.8%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.2%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.67]; low vehicle load (index=0.25) &rarr; dust suppression over traffic enforcement</div>
+            </td>
+          </tr>
+
+          <!-- 13 Punjabi Bagh -->
+          <tr class="data-row" onclick="toggle('punjabi')">
+            <td class="rank-cell">#13</td>
+            <td class="zone-name">Punjabi Bagh</td>
+            <td><span class="source-badge src-dust">dust</span></td>
+            <td>
+              <div class="conf-wrap">
+                <div class="conf-bar-bg"><div class="conf-bar-fill mid" style="width:52%"></div></div>
+                <span class="conf-num">0.52</span>
+              </div>
+            </td>
+            <td><span class="score-num">0.312</span></td>
+            <td><span class="vei-num">0.34</span><span class="demo-tag">demo</span></td>
+            <td><button class="expand-btn" id="btn-punjabi">&#9660;</button></td>
+          </tr>
+          <tr class="detail-row" id="detail-punjabi">
+            <td class="detail-cell" colspan="7">
+              <div class="prob-grid">
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-dust)"></div>dust 52.3%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-industrial)"></div>industrial_haze 23.2%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-traffic)"></div>traffic_heavy 16.6%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-clear)"></div>clear 7.1%</div>
+                <div class="prob-item"><div class="prob-dot" style="background:var(--c-crop)"></div>crop_burning 0.8%</div>
+              </div>
+              <div class="rank-reason">dust source signature [conf=0.52]; heuristic label was industrial_haze (conflicting signal) &rarr; model uncertain, treat with caution</div>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- AQI Forecast table -->
+  <section>
+    <div class="section-header">
+      <span class="section-title">AQI Forecast (24h)</span>
+      <span class="section-sub">GRAP stages per CAQM 2023 thresholds &mdash; Stage I &ge;201, Stage II &ge;301, Stage III &ge;401</span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Zone</th>
+            <th>Current AQI</th>
+            <th>Forecast AQI (24h)</th>
+            <th>GRAP Stage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="zone-name">Wazirpur</td>   <td class="text-muted">200</td><td><span class="aqi-num" style="color:var(--amber)">266</span></td><td><span class="grap-badge grap-1">Stage I &mdash; Poor</span></td></tr>
+          <tr><td class="zone-name">Anand Vihar</td><td class="text-muted">157</td><td><span class="aqi-num" style="color:var(--amber)">222</span></td><td><span class="grap-badge grap-1">Stage I &mdash; Poor</span></td></tr>
+          <tr><td class="zone-name">Jahangirpuri</td><td class="text-muted">98</td><td><span class="aqi-num">199</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">Ashok Vihar</td><td class="text-muted">86</td><td><span class="aqi-num">189</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">Vivek Vihar</td><td class="text-muted">121</td><td><span class="aqi-num">189</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">Rohini</td>     <td class="text-muted">81</td><td><span class="aqi-num">186</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">Okhla</td>      <td class="text-muted">85</td><td><span class="aqi-num">183</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">RK Puram</td>   <td class="text-muted">82</td><td><span class="aqi-num">178</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">Mundka</td>     <td class="text-muted">108</td><td><span class="aqi-num">176</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">Dwarka</td>     <td class="text-muted">79</td><td><span class="aqi-num">155</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name">Narela</td>     <td class="text-muted">46</td><td><span class="aqi-num">140</span></td><td><span class="grap-badge grap-below">Below GRAP</span></td></tr>
+          <tr><td class="zone-name text-muted" style="font-weight:400">Bawana</td><td colspan="3" class="text-muted" style="font-style:italic;font-size:0.78rem">forecast not available for this zone</td></tr>
+          <tr><td class="zone-name text-muted" style="font-weight:400">Punjabi Bagh</td><td colspan="3" class="text-muted" style="font-style:italic;font-size:0.78rem">forecast not available for this zone</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Alert card -->
+  <section>
+    <div class="section-header">
+      <span class="section-title">Priority Alert &mdash; Most Urgent Zone</span>
+    </div>
+    <div class="alert-card">
+      <div>
+        <div class="alert-label">Priority zone</div>
+        <div class="alert-zone">Wazirpur</div>
+        <div style="margin-top:0.5rem;display:flex;gap:0.5rem;align-items:center">
+          <span class="grap-badge grap-1">Stage I &mdash; Poor</span>
+          <span class="source-badge src-dust" style="font-size:0.72rem">dust</span>
+        </div>
+        <div class="alert-advisory">
+          <div class="advisory-item">Children, elderly, and those with respiratory or heart conditions: avoid outdoor activity</div>
+          <div class="advisory-item">Use public transport where possible; avoid unnecessary vehicle use in this zone</div>
+          <div class="advisory-item">Consider mechanical road sweeping and water sprinklers to suppress road dust</div>
+        </div>
+        <div class="caqm-note">Follows the Graded Response Action Plan (GRAP), Commission for Air Quality Management (CAQM) 2023.</div>
+      </div>
+      <div>
+        <div style="display:flex;gap:2rem;margin-bottom:1rem">
+          <div>
+            <div class="alert-label">Current AQI</div>
+            <div class="aqi-num" style="font-size:1.4rem;color:var(--text-secondary)">200</div>
+          </div>
+          <div>
+            <div class="alert-label">Forecast (24h)</div>
+            <div class="alert-aqi">266</div>
+          </div>
+        </div>
+        <div>
+          <div class="alert-label" style="margin-bottom:0.4rem">Enforcement score breakdown</div>
+          <div style="font-size:0.78rem;color:var(--text-secondary);line-height:2">
+            satellite conf (dust) &times; 0.4 + 0.3 &times; vei (0.32)<br>
+            = 0.87 &times; 0.4 + 0.3 &times; 0.32<br>
+            = 0.348 + 0.096 = <strong style="color:var(--text-primary)">0.444</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>AirSentinel &mdash; Inference date: 2026-07-16 &mdash; Ranked: 2026-07-22</span>
+    <span>Model: Prithvi-EO-2.0-100M-TL + LoRA r=8 &mdash; Val acc: 71.1%</span>
+    <span>Source: <a href="../enforcement/enforcement_ranking.csv">enforcement_ranking.csv</a></span>
+  </footer>
+
+</main>
+
+<script>
+function toggle(id) {
+  const detail = document.getElementById('detail-' + id);
+  const btn    = document.getElementById('btn-' + id);
+  const open   = detail.classList.toggle('open');
+  btn.innerHTML = open ? '&#9650;' : '&#9660;';
+}
+</script>
 </body>
 </html>

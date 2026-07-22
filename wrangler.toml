@@ -1,0 +1,11 @@
+name = "airsentinel"
+pages_build_output_dir = "dashboard"
+
+# dashboard.html is a pre-generated static file.
+# dashboard.py is a local Python script — Cloudflare Pages does not run Python.
+# Regenerate dashboard.html locally (run team-pipeline/shared's pipeline.py),
+# then commit and push. Cloudflare Pages serves the committed file as-is.
+#
+# In the Cloudflare Pages UI:
+#   Build command:        (leave blank)
+#   Build output dir:     dashboard

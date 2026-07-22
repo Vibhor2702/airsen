@@ -2,6 +2,8 @@
 
 Satellite-based air pollution source attribution and enforcement zone ranking for Delhi.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Vibhor2702/airsen/blob/master/data-pipeline/AirSentinel_Satellite_Pull_OPTIMIZED.ipynb)
+
 Full write-up and results: [docs/SUBMISSION_SUMMARY.md](docs/SUBMISSION_SUMMARY.md)
 
 ---
@@ -55,7 +57,7 @@ Source weights: traffic_heavy=1.0, industrial_haze=0.9, dust=0.4, crop_burning_s
 .venv/Scripts/python.exe enforcement/enforcement_ranker.py
 
 # 2. Regenerate dashboard
-cd P2/airsentinel-master/shared
+cd team-pipeline/shared
 PYTHONPATH=src python -m shared.pipeline
 ```
 
