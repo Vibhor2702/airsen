@@ -15,7 +15,7 @@ Full write-up and results: [docs/SUBMISSION_SUMMARY.md](docs/SUBMISSION_SUMMARY.
 /model/               Prithvi LoRA training, label building, augmentation scripts
 /vehicle-emissions/   Vehicle emissions pipeline (VAHAN → emission index) + methodology doc
 /enforcement/         Enforcement zone ranker — combines satellite attribution + vehicle index
-/dashboard/           dashboard.html — the final fused output (open this in a browser)
+/dashboard/           index.html — the final fused output (open in browser or via Cloudflare Pages)
 /docs/                LORA_EVAL_REPORT.md and other reference docs
 /team-pipeline/       Teammate's forecasting pipeline, fusion layer (fuse.py), dashboard source
 ```
@@ -26,7 +26,7 @@ Full write-up and results: [docs/SUBMISSION_SUMMARY.md](docs/SUBMISSION_SUMMARY.
 
 **Prithvi-EO-2.0-100M-TL + LoRA (r=8)** — checkpoint: `prithvi_lora_best.pt`
 
-- Val accuracy: **71.1%** (5-class, heuristic CAAQMS labels)
+- Val accuracy: **78.9%** (5-class, heuristic CAAQMS labels)
 - Training set: 700 real S2 images × 8 D4 augmentations = 5,600 rows
 - Per-class: crop_burning_smoke F1=0.896, industrial_haze F1=0.755, clear F1=0.439, traffic_heavy F1=0.260, dust F1=0.000
 - Full classification report: [docs/LORA_EVAL_REPORT.md](docs/LORA_EVAL_REPORT.md)
