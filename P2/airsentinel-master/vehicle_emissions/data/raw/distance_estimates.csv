@@ -1,0 +1,3 @@
+vehicle_category,avg_daily_distance_km,source_citation
+two_wheeler,30.0,"[DEMO DATA — see build_demo_data.py for full citations] Real cited range 27-33 km/day, Indian-cities urban mobility study; midpoint used."
+car,30.0,"[DEMO DATA — see build_demo_data.py for full citations] No car-specific citation found this session — reused the two-wheeler urban-mobility figure as an approximation, NOT a distinct real car number."

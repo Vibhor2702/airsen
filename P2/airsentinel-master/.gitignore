@@ -1,0 +1,19 @@
+# Python virtual environments (one per module: forecasting/.venv, vehicle_emissions/.venv, shared/.venv)
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Local Claude Code harness config, not part of the project
+.claude/
+
+# Local overrides (never commit secrets or machine-specific config)
+.env

@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Model checkpoints (too large for git — regenerate via training scripts)
+*.pt
+*.pth
+
+# Backbone feature cache
+backbone_features_cache.pt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Satellite images (live on Google Drive, not in repo)
+*.tif
+*.tiff
+
+# Env files
+.env
+*.env

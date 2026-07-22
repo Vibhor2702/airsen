@@ -1,0 +1,80 @@
+AirSentinel — Environment Setup
+================================
+
+Conda is not installed on this machine. Choose one of the two options below.
+Option A is faster. Option B is more reliable for CUDA on Windows.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPTION A — venv with your existing Python 3.12  (try this first)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Run these in PowerShell from the AirSen project folder:
+
+  python -m venv .venv
+  .\.venv\Scripts\Activate.ps1
+
+  (If Activate.ps1 is blocked by execution policy, run this first:)
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+After activation, your prompt should show (.venv).
+
+Then install dependencies:
+
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+  pip install "terratorch>=1.1"
+  pip install rasterio pandas numpy tqdm huggingface_hub
+
+Verify GPU is detected:
+
+  python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+
+Expected output:  True  NVIDIA GeForce RTX 4060 Laptop GPU
+
+If TerraTorch throws a Python 3.12 compatibility error during install,
+switch to Option B (install Miniconda at Python 3.11).
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OPTION B — Install Miniconda, then create a Python 3.11 env
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Download and run the Miniconda installer for Windows (64-bit):
+     https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+
+   During install: check "Add Miniconda3 to my PATH" (or use Anaconda Prompt).
+
+2. Close and reopen PowerShell (PATH needs to refresh), then:
+
+     conda create -n airsen python=3.11 -y
+     conda activate airsen
+
+3. Install dependencies (same as Option A):
+
+     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+     pip install "terratorch>=1.1"
+     pip install rasterio pandas numpy tqdm huggingface_hub
+
+4. Verify:
+
+     python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AFTER EITHER OPTION — Select interpreter in VS Code
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Open train_prithvi.py in VS Code
+  2. Ctrl+Shift+P → "Python: Select Interpreter"
+  3. Choose:
+       Option A: the path ending in .venv\Scripts\python.exe
+       Option B: the one labelled "airsen"
+  4. Run the script from that terminal (make sure the env is activated)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUTHENTICATION NOTE (only if you get a 403/HuggingFace auth error)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  huggingface-cli login
+  (paste a token from https://huggingface.co/settings/tokens — free account)
+  The Prithvi model is open-access; this is only needed under rate limits.

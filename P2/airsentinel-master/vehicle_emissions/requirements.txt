@@ -1,0 +1,7 @@
+pandas>=2.1
+numpy>=1.26
+matplotlib>=3.8
+
+# airsentinel is installed separately in editable mode from its own directory — see
+# README.md "Setup" (pip's relative -e paths in requirements.txt are resolved inconsistently
+# across platforms, so this is done as an explicit second install step instead).

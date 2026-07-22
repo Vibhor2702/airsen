@@ -1,0 +1,14 @@
+zone,source_guess,confidence,model_version,data_provenance,land_use_note
+Dwarka,dust,0.9335,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Okhla,traffic_heavy,0.5188,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Mundka,dust,0.9964,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Rohini,traffic_heavy,0.382,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+RK Puram,crop_burning_smoke,0.6621,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Bawana,dust,0.8316,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Wazirpur,dust,0.7846,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Anand Vihar,dust,0.845,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Vivek Vihar,dust,0.7255,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Narela,dust,0.593,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Jahangirpuri,crop_burning_smoke,0.7169,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Ashok Vihar,crop_burning_smoke,0.5208,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data
+Punjabi Bagh,clear,0.5577,247-image placeholder -- not final,"correlation-based (heuristic CAAQMS labels, not ground truth)",land-use signal absent from this repo -- scoring uses only satellite + vehicle data

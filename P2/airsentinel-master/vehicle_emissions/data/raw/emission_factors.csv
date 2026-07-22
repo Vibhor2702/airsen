@@ -1,0 +1,7 @@
+vehicle_category,fuel_type,pollutant,emission_factor_g_per_km,bs_norm,source_citation
+two_wheeler,petrol,NOx,0.06,BS6,"Bharat Stage VI (BS6) emission limit, petrol two-wheeler (L3 category), Type I test: NOx 60 mg/km. Source: MoRTH/CMVR notification GSR 889(E) dated 16 Sep 2016 (Phase I: Apr 2019, Phase II: Apr 2020); confirmed in CPCB vehicular exhaust standards (cpcb.nic.in/vehicular-exhaust/). Value verified 2026-07-22."
+two_wheeler,petrol,PM,0.0045,BS6,"Bharat Stage VI (BS6) emission limit, PM 4.5 mg/km — applies across all BS6 vehicle categories (L, M1) under Type I test. Source: same GSR 889(E) / CMVR Schedule VI notification. Value verified 2026-07-22."
+car,petrol,NOx,0.06,BS6,"Bharat Stage VI (BS6) emission limit, petrol passenger car (M1 category), Type I test: NOx 60 mg/km. Source: MoRTH/CMVR notification GSR 889(E) / Schedule VI; corroborated by ARAI test protocol documentation and SIAM BS6 transition reports. Value verified 2026-07-22."
+car,petrol,PM,0.0045,BS6,"Bharat Stage VI (BS6) PM limit, 4.5 mg/km, M1 petrol. Source: GSR 889(E) / CMVR Schedule VI. Value verified 2026-07-22."
+car,diesel,NOx,0.08,BS6,"Bharat Stage VI (BS6) emission limit, diesel passenger car (M1 category), Type I test: NOx 80 mg/km. Source: MoRTH/CMVR notification GSR 889(E) / Schedule VI; Type Approval mandatory from Sep 2018 (diesel), Apr 2020 (all). Value verified 2026-07-22."
+car,diesel,PM,0.0045,BS6,"Bharat Stage VI (BS6) PM limit, 4.5 mg/km, M1 diesel. Source: GSR 889(E) / CMVR Schedule VI. Value verified 2026-07-22."
