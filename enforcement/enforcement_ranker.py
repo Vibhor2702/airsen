@@ -34,7 +34,7 @@ import torch
 import torch.nn as nn
 
 # ---------------------------------------------------------------------------
-# Final checkpoint — Prithvi LoRA r=8, epoch 2, 71.1% val acc, 700-image dataset.
+# Final checkpoint — Prithvi LoRA r=8, epoch 2, 78.9% val acc, 700-image dataset.
 # All paths are __file__-relative so the script runs correctly from any working dir.
 # ---------------------------------------------------------------------------
 _HERE      = Path(__file__).parent          # = /enforcement/

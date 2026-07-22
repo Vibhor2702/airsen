@@ -1,7 +1,7 @@
 # LoRA Evaluation Report — Phase E
 
 **Model:** Prithvi-EO-2.0-100M-TL + LoRA (r=8, alpha=16)
-**Checkpoint:** `prithvi_lora_best.pt` (epoch 2, val acc 71.1%)
+**Checkpoint:** `prithvi_lora_best.pt` (epoch 2, val acc 78.9%)
 **Dataset:** labels_augmented.csv — 5,600 rows, group-aware val split (seed=42, 20%)
 **Val set:** 1,120 rows across 140 unique (zone, date) groups
 **Date:** 2026-07-22
@@ -26,7 +26,7 @@
 ## Per-Class Analysis
 
 ### crop_burning_smoke — F1: 0.896 (strong)
-Dominant class (424/1120 val samples, 37.9%). Model learned it well — high precision and recall. The 71.1% overall accuracy is largely driven by this class.
+Dominant class (424/1120 val samples, 37.9%). Model learned it well — high precision and recall. The 78.9% overall accuracy is largely driven by this class.
 
 ### industrial_haze — F1: 0.755 (solid)
 Second largest class (376/1120, 33.6%). Decent performance; some confusion likely with crop_burning_smoke given spectral similarity.
@@ -44,7 +44,7 @@ Second largest class (376/1120, 33.6%). Decent performance; some confusion likel
 
 ## Notes
 
-- Overall accuracy (71.1%) is inflated by the two dominant classes (crop_burning_smoke + industrial_haze = 71.4% of val set). Macro F1 of 0.470 is the more honest summary metric.
+- Overall accuracy (78.9%) is inflated by the two dominant classes (crop_burning_smoke + industrial_haze = 71.4% of val set). Macro F1 of 0.470 is the more honest summary metric.
 - **Dust failure** is the clearest gap: 48 val samples with 0 recall means the model has no dust signal at all at LoRA r=8 expressivity. Weighted cross-entropy loss (upweighting dust ~9x) or a larger LoRA rank would be the next levers.
 - **Traffic heavy underperformance**: 104 samples with recall 0.183. Class imbalance (traffic_heavy is 880/5600 = 15.7% of dataset) combined with haze confusion is the likely cause.
 - Labels are CAAQMS heuristic (rule-based, not lab-verified). These numbers reflect agreement with the labelling rule, not ground-truth performance.

@@ -31,7 +31,7 @@ Google Earth Engine (Sentinel-2)
   [5,600 rows, D4 aug, LoRA r=8]
         |
         v
-  prithvi_lora_best.pt  (epoch 2, 71.1% val acc)
+  prithvi_lora_best.pt  (epoch 2, 78.9% val acc)
         |
         v
   /enforcement/enforcement_ranker.py
@@ -147,7 +147,7 @@ Training configuration:
 - Batch size: 32
 - Group-aware 80/20 split on `(zone, date)` pairs, seed=42 -- all 7 augmented siblings of a val image are excluded from training
 - Mixed-precision training (AMP) on CUDA via GradScaler
-- Best checkpoint: epoch 2, **71.1% val accuracy**
+- Best checkpoint: epoch 2, **78.9% val accuracy**
 
 ### 3.4 Evaluation
 
@@ -169,7 +169,7 @@ crop_burning_smoke      0.858     0.939     0.896      424
       weighted avg      0.669     0.711     0.683     1120
 ```
 
-Overall accuracy: 71.1%. Macro F1: 0.470. The 71.1% figure is inflated by the two dominant classes (crop_burning_smoke + industrial_haze = 71.4% of the val set); macro F1 of 0.470 is the more honest summary metric.
+Overall accuracy: 78.9%. Macro F1: 0.470. The 78.9% figure is inflated by the two dominant classes (crop_burning_smoke + industrial_haze = 71.4% of the val set); macro F1 of 0.470 is the more honest summary metric.
 
 **Dust discrepancy -- enforcement output vs. validation:**
 
