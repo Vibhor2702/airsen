@@ -170,7 +170,8 @@ class AirSentinelDataset(Dataset):
 
     def __getitem__(self, idx: int):
         row = self.df.iloc[idx]
-        tif_path = self.data_dir / row["s2_file"]
+        p = Path(row["s2_file"])
+        tif_path = p if p.is_absolute() else self.data_dir / p
         image = load_s2_image(tif_path)                              # (6, 224, 224)
         label = CLASS_TO_IDX[row["dominant_pollutant"]]
         return torch.tensor(image, dtype=torch.float32), torch.tensor(label, dtype=torch.long)

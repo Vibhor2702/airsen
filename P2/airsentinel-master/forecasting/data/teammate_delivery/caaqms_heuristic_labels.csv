@@ -1,4 +1,61 @@
 zone,date,source_category
+Anand Vihar,2025-10-01,dust
+Anand Vihar,2025-10-02,dust
+Anand Vihar,2025-10-03,dust
+Anand Vihar,2025-10-04,dust
+Anand Vihar,2025-10-05,dust
+Anand Vihar,2025-10-06,industrial_haze
+Anand Vihar,2025-10-07,industrial_haze
+Anand Vihar,2025-10-08,dust
+Anand Vihar,2025-10-09,dust
+Anand Vihar,2025-10-10,dust
+Anand Vihar,2025-10-11,dust
+Anand Vihar,2025-10-12,dust
+Anand Vihar,2025-10-13,dust
+Anand Vihar,2025-10-14,dust
+Anand Vihar,2025-10-15,dust
+Anand Vihar,2025-10-16,dust
+Anand Vihar,2025-10-17,dust
+Anand Vihar,2025-10-18,dust
+Anand Vihar,2025-10-19,dust
+Anand Vihar,2025-10-20,crop_burning_smoke
+Anand Vihar,2025-10-21,dust
+Anand Vihar,2025-10-22,dust
+Anand Vihar,2025-10-23,traffic_heavy
+Anand Vihar,2025-10-24,traffic_heavy
+Anand Vihar,2025-10-25,traffic_heavy
+Anand Vihar,2025-10-26,traffic_heavy
+Anand Vihar,2025-10-27,dust
+Anand Vihar,2025-10-28,crop_burning_smoke
+Anand Vihar,2025-10-29,crop_burning_smoke
+Anand Vihar,2025-10-30,crop_burning_smoke
+Anand Vihar,2025-10-31,crop_burning_smoke
+Anand Vihar,2025-11-01,crop_burning_smoke
+Anand Vihar,2025-11-02,crop_burning_smoke
+Anand Vihar,2025-11-03,crop_burning_smoke
+Anand Vihar,2025-11-04,traffic_heavy
+Anand Vihar,2025-11-05,traffic_heavy
+Anand Vihar,2025-11-06,crop_burning_smoke
+Anand Vihar,2025-11-07,crop_burning_smoke
+Anand Vihar,2025-11-08,crop_burning_smoke
+Anand Vihar,2025-11-09,crop_burning_smoke
+Anand Vihar,2025-11-10,crop_burning_smoke
+Anand Vihar,2025-11-11,crop_burning_smoke
+Anand Vihar,2025-11-12,crop_burning_smoke
+Anand Vihar,2025-11-13,crop_burning_smoke
+Anand Vihar,2025-11-14,crop_burning_smoke
+Anand Vihar,2025-11-15,crop_burning_smoke
+Anand Vihar,2025-11-16,crop_burning_smoke
+Anand Vihar,2025-11-17,crop_burning_smoke
+Anand Vihar,2025-11-18,crop_burning_smoke
+Anand Vihar,2025-11-19,crop_burning_smoke
+Anand Vihar,2025-11-20,crop_burning_smoke
+Anand Vihar,2025-11-21,crop_burning_smoke
+Anand Vihar,2025-11-22,crop_burning_smoke
+Anand Vihar,2025-11-23,crop_burning_smoke
+Anand Vihar,2025-11-24,crop_burning_smoke
+Anand Vihar,2025-11-25,crop_burning_smoke
+Anand Vihar,2025-11-26,crop_burning_smoke
 Anand Vihar,2025-12-01,crop_burning_smoke
 Anand Vihar,2025-12-02,crop_burning_smoke
 Anand Vihar,2025-12-03,crop_burning_smoke
@@ -6,6 +63,285 @@ Anand Vihar,2025-12-04,crop_burning_smoke
 Anand Vihar,2025-12-05,crop_burning_smoke
 Anand Vihar,2025-12-06,crop_burning_smoke
 Anand Vihar,2025-12-07,crop_burning_smoke
+Anand Vihar,2025-12-08,crop_burning_smoke
+Anand Vihar,2025-12-09,traffic_heavy
+Anand Vihar,2025-12-10,crop_burning_smoke
+Anand Vihar,2025-12-11,crop_burning_smoke
+Anand Vihar,2025-12-12,crop_burning_smoke
+Anand Vihar,2025-12-13,crop_burning_smoke
+Anand Vihar,2025-12-14,crop_burning_smoke
+Anand Vihar,2025-12-15,crop_burning_smoke
+Anand Vihar,2025-12-16,crop_burning_smoke
+Anand Vihar,2025-12-17,traffic_heavy
+Anand Vihar,2025-12-18,crop_burning_smoke
+Anand Vihar,2025-12-19,crop_burning_smoke
+Anand Vihar,2025-12-20,crop_burning_smoke
+Anand Vihar,2025-12-21,crop_burning_smoke
+Anand Vihar,2025-12-22,crop_burning_smoke
+Anand Vihar,2025-12-23,crop_burning_smoke
+Anand Vihar,2025-12-24,dust
+Anand Vihar,2025-12-25,traffic_heavy
+Anand Vihar,2025-12-26,crop_burning_smoke
+Anand Vihar,2025-12-27,crop_burning_smoke
+Anand Vihar,2025-12-28,crop_burning_smoke
+Anand Vihar,2025-12-29,crop_burning_smoke
+Anand Vihar,2025-12-30,crop_burning_smoke
+Anand Vihar,2025-12-31,crop_burning_smoke
+Anand Vihar,2026-01-01,crop_burning_smoke
+Anand Vihar,2026-01-02,crop_burning_smoke
+Anand Vihar,2026-01-03,crop_burning_smoke
+Anand Vihar,2026-01-04,crop_burning_smoke
+Anand Vihar,2026-01-05,crop_burning_smoke
+Anand Vihar,2026-01-06,crop_burning_smoke
+Anand Vihar,2026-01-07,crop_burning_smoke
+Anand Vihar,2026-01-08,crop_burning_smoke
+Anand Vihar,2026-01-09,crop_burning_smoke
+Anand Vihar,2026-01-10,crop_burning_smoke
+Anand Vihar,2026-01-11,crop_burning_smoke
+Anand Vihar,2026-01-12,crop_burning_smoke
+Anand Vihar,2026-01-13,crop_burning_smoke
+Anand Vihar,2026-01-14,dust
+Anand Vihar,2026-01-15,dust
+Anand Vihar,2026-01-16,crop_burning_smoke
+Anand Vihar,2026-01-17,crop_burning_smoke
+Anand Vihar,2026-01-18,crop_burning_smoke
+Anand Vihar,2026-01-19,crop_burning_smoke
+Anand Vihar,2026-01-20,crop_burning_smoke
+Anand Vihar,2026-01-21,traffic_heavy
+Anand Vihar,2026-01-22,traffic_heavy
+Anand Vihar,2026-01-23,crop_burning_smoke
+Anand Vihar,2026-01-24,dust
+Anand Vihar,2026-01-25,dust
+Anand Vihar,2026-01-26,traffic_heavy
+Anand Vihar,2026-01-27,crop_burning_smoke
+Anand Vihar,2026-01-28,crop_burning_smoke
+Anand Vihar,2026-01-29,dust
+Anand Vihar,2026-01-30,dust
+Anand Vihar,2026-01-31,crop_burning_smoke
+Anand Vihar,2026-02-01,dust
+Anand Vihar,2026-02-02,crop_burning_smoke
+Anand Vihar,2026-02-03,crop_burning_smoke
+Anand Vihar,2026-02-04,crop_burning_smoke
+Anand Vihar,2026-02-05,dust
+Anand Vihar,2026-02-06,dust
+Anand Vihar,2026-02-07,dust
+Anand Vihar,2026-02-08,dust
+Anand Vihar,2026-02-09,dust
+Anand Vihar,2026-02-10,crop_burning_smoke
+Anand Vihar,2026-02-11,traffic_heavy
+Anand Vihar,2026-02-12,dust
+Anand Vihar,2026-02-13,dust
+Anand Vihar,2026-02-14,traffic_heavy
+Anand Vihar,2026-02-15,traffic_heavy
+Anand Vihar,2026-02-16,traffic_heavy
+Anand Vihar,2026-02-17,dust
+Anand Vihar,2026-02-18,dust
+Anand Vihar,2026-02-19,crop_burning_smoke
+Anand Vihar,2026-02-20,dust
+Anand Vihar,2026-02-21,dust
+Anand Vihar,2026-02-22,dust
+Anand Vihar,2026-02-23,dust
+Anand Vihar,2026-02-24,traffic_heavy
+Anand Vihar,2026-02-25,dust
+Anand Vihar,2026-02-26,dust
+Anand Vihar,2026-02-27,dust
+Anand Vihar,2026-02-28,dust
+Anand Vihar,2026-03-01,dust
+Anand Vihar,2026-03-02,dust
+Anand Vihar,2026-03-03,dust
+Anand Vihar,2026-03-05,dust
+Anand Vihar,2026-03-06,dust
+Anand Vihar,2026-03-07,crop_burning_smoke
+Anand Vihar,2026-03-08,dust
+Anand Vihar,2026-03-09,dust
+Anand Vihar,2026-03-10,dust
+Anand Vihar,2026-03-11,dust
+Anand Vihar,2026-03-12,dust
+Anand Vihar,2026-03-13,dust
+Anand Vihar,2026-03-14,dust
+Anand Vihar,2026-03-15,dust
+Anand Vihar,2026-03-16,dust
+Anand Vihar,2026-03-17,traffic_heavy
+Anand Vihar,2026-03-18,traffic_heavy
+Anand Vihar,2026-03-19,dust
+Anand Vihar,2026-03-20,clear
+Anand Vihar,2026-03-21,dust
+Anand Vihar,2026-03-22,dust
+Anand Vihar,2026-03-23,dust
+Anand Vihar,2026-03-24,dust
+Anand Vihar,2026-03-25,traffic_heavy
+Anand Vihar,2026-03-26,traffic_heavy
+Anand Vihar,2026-03-27,dust
+Anand Vihar,2026-03-28,dust
+Anand Vihar,2026-03-29,dust
+Anand Vihar,2026-03-30,dust
+Anand Vihar,2026-03-31,dust
+Anand Vihar,2026-04-01,dust
+Anand Vihar,2026-04-02,dust
+Anand Vihar,2026-04-03,dust
+Anand Vihar,2026-04-04,dust
+Anand Vihar,2026-04-05,dust
+Anand Vihar,2026-04-06,dust
+Anand Vihar,2026-04-07,dust
+Anand Vihar,2026-04-08,dust
+Anand Vihar,2026-04-09,dust
+Anand Vihar,2026-04-10,dust
+Anand Vihar,2026-04-11,dust
+Anand Vihar,2026-04-12,dust
+Anand Vihar,2026-04-13,dust
+Anand Vihar,2026-04-14,dust
+Anand Vihar,2026-04-15,traffic_heavy
+Anand Vihar,2026-04-16,dust
+Anand Vihar,2026-04-17,dust
+Anand Vihar,2026-04-19,dust
+Anand Vihar,2026-04-20,dust
+Anand Vihar,2026-04-21,dust
+Anand Vihar,2026-04-22,dust
+Anand Vihar,2026-04-23,traffic_heavy
+Anand Vihar,2026-04-24,traffic_heavy
+Anand Vihar,2026-04-25,dust
+Anand Vihar,2026-04-26,dust
+Anand Vihar,2026-04-27,dust
+Anand Vihar,2026-04-28,dust
+Anand Vihar,2026-04-29,dust
+Anand Vihar,2026-04-30,dust
+Anand Vihar,2026-05-01,dust
+Anand Vihar,2026-05-02,dust
+Anand Vihar,2026-05-03,dust
+Anand Vihar,2026-05-04,dust
+Anand Vihar,2026-05-05,dust
+Anand Vihar,2026-05-06,dust
+Anand Vihar,2026-05-07,dust
+Anand Vihar,2026-05-08,dust
+Anand Vihar,2026-05-09,dust
+Anand Vihar,2026-05-10,dust
+Anand Vihar,2026-05-11,dust
+Anand Vihar,2026-05-12,dust
+Anand Vihar,2026-05-13,dust
+Anand Vihar,2026-05-14,dust
+Anand Vihar,2026-05-15,dust
+Anand Vihar,2026-05-16,dust
+Anand Vihar,2026-05-17,dust
+Anand Vihar,2026-05-18,dust
+Anand Vihar,2026-05-19,dust
+Anand Vihar,2026-05-20,dust
+Anand Vihar,2026-05-21,dust
+Anand Vihar,2026-05-22,dust
+Anand Vihar,2026-05-23,dust
+Anand Vihar,2026-05-24,dust
+Anand Vihar,2026-05-25,dust
+Anand Vihar,2026-05-26,dust
+Anand Vihar,2026-05-27,dust
+Anand Vihar,2026-05-28,dust
+Anand Vihar,2026-05-29,dust
+Anand Vihar,2026-05-30,clear
+Anand Vihar,2026-05-31,clear
+Anand Vihar,2026-06-01,dust
+Anand Vihar,2026-06-02,dust
+Anand Vihar,2026-06-03,dust
+Anand Vihar,2026-06-04,dust
+Anand Vihar,2026-06-06,dust
+Anand Vihar,2026-06-08,dust
+Anand Vihar,2026-06-09,dust
+Anand Vihar,2026-06-10,dust
+Anand Vihar,2026-06-11,dust
+Anand Vihar,2026-06-12,dust
+Anand Vihar,2026-06-13,dust
+Anand Vihar,2026-06-14,dust
+Anand Vihar,2026-06-15,dust
+Anand Vihar,2026-06-16,dust
+Anand Vihar,2026-06-17,dust
+Anand Vihar,2026-06-18,dust
+Anand Vihar,2026-06-19,dust
+Anand Vihar,2026-06-20,dust
+Anand Vihar,2026-06-21,dust
+Anand Vihar,2026-06-22,dust
+Anand Vihar,2026-06-23,dust
+Anand Vihar,2026-06-24,dust
+Anand Vihar,2026-06-25,dust
+Anand Vihar,2026-06-26,dust
+Anand Vihar,2026-06-27,dust
+Anand Vihar,2026-06-28,dust
+Anand Vihar,2026-06-29,dust
+Anand Vihar,2026-06-30,dust
+Anand Vihar,2026-07-01,dust
+Anand Vihar,2026-07-02,dust
+Anand Vihar,2026-07-03,dust
+Anand Vihar,2026-07-04,dust
+Anand Vihar,2026-07-05,dust
+Anand Vihar,2026-07-06,dust
+Anand Vihar,2026-07-07,dust
+Anand Vihar,2026-07-08,clear
+Anand Vihar,2026-07-09,dust
+Anand Vihar,2026-07-10,dust
+Anand Vihar,2026-07-11,dust
+Anand Vihar,2026-07-12,dust
+Anand Vihar,2026-07-13,dust
+Anand Vihar,2026-07-14,dust
+Anand Vihar,2026-07-15,dust
+Anand Vihar,2026-07-16,dust
+Anand Vihar,2026-07-17,dust
+Anand Vihar,2026-07-18,dust
+Anand Vihar,2026-07-19,dust
+Anand Vihar,2026-07-20,dust
+Anand Vihar,2026-07-21,dust
+Ashok Vihar,2025-10-01,traffic_heavy
+Ashok Vihar,2025-10-02,traffic_heavy
+Ashok Vihar,2025-10-03,traffic_heavy
+Ashok Vihar,2025-10-04,traffic_heavy
+Ashok Vihar,2025-10-05,dust
+Ashok Vihar,2025-10-06,clear
+Ashok Vihar,2025-10-07,clear
+Ashok Vihar,2025-10-08,clear
+Ashok Vihar,2025-10-09,dust
+Ashok Vihar,2025-10-10,dust
+Ashok Vihar,2025-10-11,dust
+Ashok Vihar,2025-10-12,dust
+Ashok Vihar,2025-10-13,traffic_heavy
+Ashok Vihar,2025-10-14,traffic_heavy
+Ashok Vihar,2025-10-15,traffic_heavy
+Ashok Vihar,2025-10-16,traffic_heavy
+Ashok Vihar,2025-10-17,traffic_heavy
+Ashok Vihar,2025-10-18,crop_burning_smoke
+Ashok Vihar,2025-10-19,crop_burning_smoke
+Ashok Vihar,2025-10-20,crop_burning_smoke
+Ashok Vihar,2025-10-21,crop_burning_smoke
+Ashok Vihar,2025-10-22,crop_burning_smoke
+Ashok Vihar,2025-10-23,crop_burning_smoke
+Ashok Vihar,2025-10-24,crop_burning_smoke
+Ashok Vihar,2025-10-25,crop_burning_smoke
+Ashok Vihar,2025-10-26,crop_burning_smoke
+Ashok Vihar,2025-10-27,crop_burning_smoke
+Ashok Vihar,2025-10-28,crop_burning_smoke
+Ashok Vihar,2025-10-29,crop_burning_smoke
+Ashok Vihar,2025-10-30,crop_burning_smoke
+Ashok Vihar,2025-10-31,crop_burning_smoke
+Ashok Vihar,2025-11-01,crop_burning_smoke
+Ashok Vihar,2025-11-02,crop_burning_smoke
+Ashok Vihar,2025-11-03,crop_burning_smoke
+Ashok Vihar,2025-11-04,crop_burning_smoke
+Ashok Vihar,2025-11-05,crop_burning_smoke
+Ashok Vihar,2025-11-06,crop_burning_smoke
+Ashok Vihar,2025-11-07,crop_burning_smoke
+Ashok Vihar,2025-11-08,crop_burning_smoke
+Ashok Vihar,2025-11-09,crop_burning_smoke
+Ashok Vihar,2025-11-10,crop_burning_smoke
+Ashok Vihar,2025-11-11,crop_burning_smoke
+Ashok Vihar,2025-11-12,crop_burning_smoke
+Ashok Vihar,2025-11-13,crop_burning_smoke
+Ashok Vihar,2025-11-14,crop_burning_smoke
+Ashok Vihar,2025-11-15,crop_burning_smoke
+Ashok Vihar,2025-11-16,crop_burning_smoke
+Ashok Vihar,2025-11-17,crop_burning_smoke
+Ashok Vihar,2025-11-18,crop_burning_smoke
+Ashok Vihar,2025-11-19,crop_burning_smoke
+Ashok Vihar,2025-11-20,crop_burning_smoke
+Ashok Vihar,2025-11-21,crop_burning_smoke
+Ashok Vihar,2025-11-22,crop_burning_smoke
+Ashok Vihar,2025-11-23,crop_burning_smoke
+Ashok Vihar,2025-11-24,crop_burning_smoke
+Ashok Vihar,2025-11-25,crop_burning_smoke
+Ashok Vihar,2025-11-26,crop_burning_smoke
 Ashok Vihar,2025-12-01,crop_burning_smoke
 Ashok Vihar,2025-12-02,crop_burning_smoke
 Ashok Vihar,2025-12-03,crop_burning_smoke
@@ -13,6 +349,288 @@ Ashok Vihar,2025-12-04,crop_burning_smoke
 Ashok Vihar,2025-12-05,crop_burning_smoke
 Ashok Vihar,2025-12-06,crop_burning_smoke
 Ashok Vihar,2025-12-07,crop_burning_smoke
+Ashok Vihar,2025-12-08,crop_burning_smoke
+Ashok Vihar,2025-12-09,crop_burning_smoke
+Ashok Vihar,2025-12-10,crop_burning_smoke
+Ashok Vihar,2025-12-11,crop_burning_smoke
+Ashok Vihar,2025-12-12,crop_burning_smoke
+Ashok Vihar,2025-12-13,crop_burning_smoke
+Ashok Vihar,2025-12-14,crop_burning_smoke
+Ashok Vihar,2025-12-15,crop_burning_smoke
+Ashok Vihar,2025-12-16,crop_burning_smoke
+Ashok Vihar,2025-12-17,crop_burning_smoke
+Ashok Vihar,2025-12-18,crop_burning_smoke
+Ashok Vihar,2025-12-19,crop_burning_smoke
+Ashok Vihar,2025-12-20,crop_burning_smoke
+Ashok Vihar,2025-12-21,crop_burning_smoke
+Ashok Vihar,2025-12-22,crop_burning_smoke
+Ashok Vihar,2025-12-23,crop_burning_smoke
+Ashok Vihar,2025-12-24,crop_burning_smoke
+Ashok Vihar,2025-12-25,crop_burning_smoke
+Ashok Vihar,2025-12-26,crop_burning_smoke
+Ashok Vihar,2025-12-27,crop_burning_smoke
+Ashok Vihar,2025-12-28,crop_burning_smoke
+Ashok Vihar,2025-12-29,crop_burning_smoke
+Ashok Vihar,2025-12-30,crop_burning_smoke
+Ashok Vihar,2025-12-31,crop_burning_smoke
+Ashok Vihar,2026-01-01,crop_burning_smoke
+Ashok Vihar,2026-01-02,crop_burning_smoke
+Ashok Vihar,2026-01-03,crop_burning_smoke
+Ashok Vihar,2026-01-04,crop_burning_smoke
+Ashok Vihar,2026-01-05,crop_burning_smoke
+Ashok Vihar,2026-01-06,crop_burning_smoke
+Ashok Vihar,2026-01-07,crop_burning_smoke
+Ashok Vihar,2026-01-08,crop_burning_smoke
+Ashok Vihar,2026-01-09,crop_burning_smoke
+Ashok Vihar,2026-01-10,crop_burning_smoke
+Ashok Vihar,2026-01-11,crop_burning_smoke
+Ashok Vihar,2026-01-12,crop_burning_smoke
+Ashok Vihar,2026-01-13,crop_burning_smoke
+Ashok Vihar,2026-01-14,crop_burning_smoke
+Ashok Vihar,2026-01-15,crop_burning_smoke
+Ashok Vihar,2026-01-16,crop_burning_smoke
+Ashok Vihar,2026-01-17,crop_burning_smoke
+Ashok Vihar,2026-01-18,crop_burning_smoke
+Ashok Vihar,2026-01-19,crop_burning_smoke
+Ashok Vihar,2026-01-20,crop_burning_smoke
+Ashok Vihar,2026-01-21,crop_burning_smoke
+Ashok Vihar,2026-01-22,crop_burning_smoke
+Ashok Vihar,2026-01-23,crop_burning_smoke
+Ashok Vihar,2026-01-24,dust
+Ashok Vihar,2026-01-25,traffic_heavy
+Ashok Vihar,2026-01-26,crop_burning_smoke
+Ashok Vihar,2026-01-27,crop_burning_smoke
+Ashok Vihar,2026-01-28,crop_burning_smoke
+Ashok Vihar,2026-01-29,crop_burning_smoke
+Ashok Vihar,2026-01-30,crop_burning_smoke
+Ashok Vihar,2026-01-31,crop_burning_smoke
+Ashok Vihar,2026-02-01,crop_burning_smoke
+Ashok Vihar,2026-02-02,crop_burning_smoke
+Ashok Vihar,2026-02-03,crop_burning_smoke
+Ashok Vihar,2026-02-04,crop_burning_smoke
+Ashok Vihar,2026-02-05,crop_burning_smoke
+Ashok Vihar,2026-02-06,crop_burning_smoke
+Ashok Vihar,2026-02-07,crop_burning_smoke
+Ashok Vihar,2026-02-08,crop_burning_smoke
+Ashok Vihar,2026-02-09,crop_burning_smoke
+Ashok Vihar,2026-02-10,traffic_heavy
+Ashok Vihar,2026-02-11,crop_burning_smoke
+Ashok Vihar,2026-02-12,traffic_heavy
+Ashok Vihar,2026-02-13,crop_burning_smoke
+Ashok Vihar,2026-02-14,crop_burning_smoke
+Ashok Vihar,2026-02-15,crop_burning_smoke
+Ashok Vihar,2026-02-16,traffic_heavy
+Ashok Vihar,2026-02-17,traffic_heavy
+Ashok Vihar,2026-02-18,crop_burning_smoke
+Ashok Vihar,2026-02-19,crop_burning_smoke
+Ashok Vihar,2026-02-20,crop_burning_smoke
+Ashok Vihar,2026-02-21,crop_burning_smoke
+Ashok Vihar,2026-02-22,crop_burning_smoke
+Ashok Vihar,2026-02-23,traffic_heavy
+Ashok Vihar,2026-02-24,traffic_heavy
+Ashok Vihar,2026-02-25,dust
+Ashok Vihar,2026-02-26,dust
+Ashok Vihar,2026-02-27,traffic_heavy
+Ashok Vihar,2026-02-28,traffic_heavy
+Ashok Vihar,2026-03-01,dust
+Ashok Vihar,2026-03-02,traffic_heavy
+Ashok Vihar,2026-03-03,dust
+Ashok Vihar,2026-03-04,dust
+Ashok Vihar,2026-03-05,dust
+Ashok Vihar,2026-03-06,traffic_heavy
+Ashok Vihar,2026-03-07,traffic_heavy
+Ashok Vihar,2026-03-08,crop_burning_smoke
+Ashok Vihar,2026-03-09,industrial_haze
+Ashok Vihar,2026-03-10,crop_burning_smoke
+Ashok Vihar,2026-03-11,industrial_haze
+Ashok Vihar,2026-03-12,dust
+Ashok Vihar,2026-03-13,dust
+Ashok Vihar,2026-03-14,industrial_haze
+Ashok Vihar,2026-03-15,clear
+Ashok Vihar,2026-03-16,dust
+Ashok Vihar,2026-03-17,dust
+Ashok Vihar,2026-03-18,dust
+Ashok Vihar,2026-03-19,traffic_heavy
+Ashok Vihar,2026-03-20,clear
+Ashok Vihar,2026-03-21,traffic_heavy
+Ashok Vihar,2026-03-22,dust
+Ashok Vihar,2026-03-23,dust
+Ashok Vihar,2026-03-24,dust
+Ashok Vihar,2026-03-25,traffic_heavy
+Ashok Vihar,2026-03-26,dust
+Ashok Vihar,2026-03-27,dust
+Ashok Vihar,2026-03-28,traffic_heavy
+Ashok Vihar,2026-03-29,traffic_heavy
+Ashok Vihar,2026-03-30,traffic_heavy
+Ashok Vihar,2026-03-31,dust
+Ashok Vihar,2026-04-01,traffic_heavy
+Ashok Vihar,2026-04-02,traffic_heavy
+Ashok Vihar,2026-04-03,dust
+Ashok Vihar,2026-04-04,dust
+Ashok Vihar,2026-04-05,dust
+Ashok Vihar,2026-04-06,dust
+Ashok Vihar,2026-04-07,dust
+Ashok Vihar,2026-04-08,clear
+Ashok Vihar,2026-04-09,dust
+Ashok Vihar,2026-04-10,dust
+Ashok Vihar,2026-04-11,dust
+Ashok Vihar,2026-04-12,dust
+Ashok Vihar,2026-04-13,dust
+Ashok Vihar,2026-04-14,dust
+Ashok Vihar,2026-04-15,industrial_haze
+Ashok Vihar,2026-04-16,traffic_heavy
+Ashok Vihar,2026-04-17,traffic_heavy
+Ashok Vihar,2026-04-18,industrial_haze
+Ashok Vihar,2026-04-19,traffic_heavy
+Ashok Vihar,2026-04-20,dust
+Ashok Vihar,2026-04-21,traffic_heavy
+Ashok Vihar,2026-04-22,industrial_haze
+Ashok Vihar,2026-04-23,traffic_heavy
+Ashok Vihar,2026-04-24,industrial_haze
+Ashok Vihar,2026-04-25,traffic_heavy
+Ashok Vihar,2026-04-26,industrial_haze
+Ashok Vihar,2026-04-27,dust
+Ashok Vihar,2026-04-28,dust
+Ashok Vihar,2026-04-29,dust
+Ashok Vihar,2026-04-30,dust
+Ashok Vihar,2026-05-01,dust
+Ashok Vihar,2026-05-02,dust
+Ashok Vihar,2026-05-03,dust
+Ashok Vihar,2026-05-04,clear
+Ashok Vihar,2026-05-05,clear
+Ashok Vihar,2026-05-06,traffic_heavy
+Ashok Vihar,2026-05-07,dust
+Ashok Vihar,2026-05-08,clear
+Ashok Vihar,2026-05-09,dust
+Ashok Vihar,2026-05-10,dust
+Ashok Vihar,2026-05-11,dust
+Ashok Vihar,2026-05-12,dust
+Ashok Vihar,2026-05-13,dust
+Ashok Vihar,2026-05-14,dust
+Ashok Vihar,2026-05-15,dust
+Ashok Vihar,2026-05-16,dust
+Ashok Vihar,2026-05-17,dust
+Ashok Vihar,2026-05-18,dust
+Ashok Vihar,2026-05-19,traffic_heavy
+Ashok Vihar,2026-05-20,dust
+Ashok Vihar,2026-05-21,dust
+Ashok Vihar,2026-05-22,industrial_haze
+Ashok Vihar,2026-05-23,dust
+Ashok Vihar,2026-05-24,industrial_haze
+Ashok Vihar,2026-05-25,industrial_haze
+Ashok Vihar,2026-05-26,industrial_haze
+Ashok Vihar,2026-05-27,industrial_haze
+Ashok Vihar,2026-05-28,industrial_haze
+Ashok Vihar,2026-05-29,dust
+Ashok Vihar,2026-05-30,clear
+Ashok Vihar,2026-05-31,clear
+Ashok Vihar,2026-06-01,dust
+Ashok Vihar,2026-06-02,dust
+Ashok Vihar,2026-06-03,dust
+Ashok Vihar,2026-06-04,dust
+Ashok Vihar,2026-06-05,dust
+Ashok Vihar,2026-06-06,dust
+Ashok Vihar,2026-06-07,dust
+Ashok Vihar,2026-06-08,dust
+Ashok Vihar,2026-06-09,dust
+Ashok Vihar,2026-06-10,dust
+Ashok Vihar,2026-06-11,dust
+Ashok Vihar,2026-06-12,clear
+Ashok Vihar,2026-06-13,dust
+Ashok Vihar,2026-06-14,dust
+Ashok Vihar,2026-06-15,dust
+Ashok Vihar,2026-06-16,traffic_heavy
+Ashok Vihar,2026-06-17,dust
+Ashok Vihar,2026-06-18,dust
+Ashok Vihar,2026-06-19,dust
+Ashok Vihar,2026-06-20,dust
+Ashok Vihar,2026-06-21,dust
+Ashok Vihar,2026-06-22,dust
+Ashok Vihar,2026-06-23,dust
+Ashok Vihar,2026-06-24,dust
+Ashok Vihar,2026-06-25,dust
+Ashok Vihar,2026-06-26,dust
+Ashok Vihar,2026-06-27,dust
+Ashok Vihar,2026-06-28,dust
+Ashok Vihar,2026-06-29,dust
+Ashok Vihar,2026-06-30,dust
+Ashok Vihar,2026-07-01,dust
+Ashok Vihar,2026-07-02,clear
+Ashok Vihar,2026-07-03,dust
+Ashok Vihar,2026-07-04,traffic_heavy
+Ashok Vihar,2026-07-05,dust
+Ashok Vihar,2026-07-06,clear
+Ashok Vihar,2026-07-07,dust
+Ashok Vihar,2026-07-08,dust
+Ashok Vihar,2026-07-09,clear
+Ashok Vihar,2026-07-10,clear
+Ashok Vihar,2026-07-11,dust
+Ashok Vihar,2026-07-12,dust
+Ashok Vihar,2026-07-13,dust
+Ashok Vihar,2026-07-14,dust
+Ashok Vihar,2026-07-15,dust
+Ashok Vihar,2026-07-16,dust
+Ashok Vihar,2026-07-17,dust
+Ashok Vihar,2026-07-18,dust
+Ashok Vihar,2026-07-19,dust
+Ashok Vihar,2026-07-20,dust
+Ashok Vihar,2026-07-21,clear
+Bawana,2025-10-01,clear
+Bawana,2025-10-03,clear
+Bawana,2025-10-04,crop_burning_smoke
+Bawana,2025-10-05,crop_burning_smoke
+Bawana,2025-10-06,clear
+Bawana,2025-10-07,clear
+Bawana,2025-10-08,dust
+Bawana,2025-10-09,dust
+Bawana,2025-10-10,dust
+Bawana,2025-10-11,dust
+Bawana,2025-10-12,dust
+Bawana,2025-10-13,crop_burning_smoke
+Bawana,2025-10-14,crop_burning_smoke
+Bawana,2025-10-15,crop_burning_smoke
+Bawana,2025-10-16,crop_burning_smoke
+Bawana,2025-10-17,crop_burning_smoke
+Bawana,2025-10-18,crop_burning_smoke
+Bawana,2025-10-19,crop_burning_smoke
+Bawana,2025-10-20,crop_burning_smoke
+Bawana,2025-10-21,crop_burning_smoke
+Bawana,2025-10-22,crop_burning_smoke
+Bawana,2025-10-23,crop_burning_smoke
+Bawana,2025-10-24,crop_burning_smoke
+Bawana,2025-10-25,crop_burning_smoke
+Bawana,2025-10-26,crop_burning_smoke
+Bawana,2025-10-27,crop_burning_smoke
+Bawana,2025-10-28,crop_burning_smoke
+Bawana,2025-10-29,crop_burning_smoke
+Bawana,2025-10-30,crop_burning_smoke
+Bawana,2025-10-31,crop_burning_smoke
+Bawana,2025-11-01,crop_burning_smoke
+Bawana,2025-11-02,crop_burning_smoke
+Bawana,2025-11-03,crop_burning_smoke
+Bawana,2025-11-04,crop_burning_smoke
+Bawana,2025-11-05,crop_burning_smoke
+Bawana,2025-11-06,crop_burning_smoke
+Bawana,2025-11-07,crop_burning_smoke
+Bawana,2025-11-08,crop_burning_smoke
+Bawana,2025-11-09,crop_burning_smoke
+Bawana,2025-11-10,crop_burning_smoke
+Bawana,2025-11-11,crop_burning_smoke
+Bawana,2025-11-12,crop_burning_smoke
+Bawana,2025-11-13,crop_burning_smoke
+Bawana,2025-11-14,crop_burning_smoke
+Bawana,2025-11-15,crop_burning_smoke
+Bawana,2025-11-16,crop_burning_smoke
+Bawana,2025-11-17,crop_burning_smoke
+Bawana,2025-11-18,crop_burning_smoke
+Bawana,2025-11-19,crop_burning_smoke
+Bawana,2025-11-20,crop_burning_smoke
+Bawana,2025-11-21,crop_burning_smoke
+Bawana,2025-11-22,crop_burning_smoke
+Bawana,2025-11-23,crop_burning_smoke
+Bawana,2025-11-24,crop_burning_smoke
+Bawana,2025-11-25,crop_burning_smoke
+Bawana,2025-11-26,crop_burning_smoke
 Bawana,2025-12-01,crop_burning_smoke
 Bawana,2025-12-02,crop_burning_smoke
 Bawana,2025-12-03,crop_burning_smoke
@@ -20,6 +638,288 @@ Bawana,2025-12-04,crop_burning_smoke
 Bawana,2025-12-05,crop_burning_smoke
 Bawana,2025-12-06,crop_burning_smoke
 Bawana,2025-12-07,crop_burning_smoke
+Bawana,2025-12-08,crop_burning_smoke
+Bawana,2025-12-09,crop_burning_smoke
+Bawana,2025-12-10,crop_burning_smoke
+Bawana,2025-12-11,crop_burning_smoke
+Bawana,2025-12-12,crop_burning_smoke
+Bawana,2025-12-13,crop_burning_smoke
+Bawana,2025-12-14,crop_burning_smoke
+Bawana,2025-12-15,crop_burning_smoke
+Bawana,2025-12-16,crop_burning_smoke
+Bawana,2025-12-17,crop_burning_smoke
+Bawana,2025-12-18,crop_burning_smoke
+Bawana,2025-12-19,crop_burning_smoke
+Bawana,2025-12-20,crop_burning_smoke
+Bawana,2025-12-21,crop_burning_smoke
+Bawana,2025-12-22,crop_burning_smoke
+Bawana,2025-12-23,crop_burning_smoke
+Bawana,2025-12-24,crop_burning_smoke
+Bawana,2025-12-25,crop_burning_smoke
+Bawana,2025-12-26,crop_burning_smoke
+Bawana,2025-12-27,crop_burning_smoke
+Bawana,2025-12-28,crop_burning_smoke
+Bawana,2025-12-29,crop_burning_smoke
+Bawana,2025-12-30,crop_burning_smoke
+Bawana,2025-12-31,crop_burning_smoke
+Bawana,2026-01-01,crop_burning_smoke
+Bawana,2026-01-02,dust
+Bawana,2026-01-03,crop_burning_smoke
+Bawana,2026-01-04,crop_burning_smoke
+Bawana,2026-01-05,dust
+Bawana,2026-01-06,dust
+Bawana,2026-01-07,dust
+Bawana,2026-01-08,crop_burning_smoke
+Bawana,2026-01-09,crop_burning_smoke
+Bawana,2026-01-10,crop_burning_smoke
+Bawana,2026-01-11,crop_burning_smoke
+Bawana,2026-01-12,crop_burning_smoke
+Bawana,2026-01-13,crop_burning_smoke
+Bawana,2026-01-14,crop_burning_smoke
+Bawana,2026-01-15,crop_burning_smoke
+Bawana,2026-01-16,crop_burning_smoke
+Bawana,2026-01-17,crop_burning_smoke
+Bawana,2026-01-18,crop_burning_smoke
+Bawana,2026-01-19,crop_burning_smoke
+Bawana,2026-01-20,crop_burning_smoke
+Bawana,2026-01-21,crop_burning_smoke
+Bawana,2026-01-22,crop_burning_smoke
+Bawana,2026-01-23,crop_burning_smoke
+Bawana,2026-01-24,dust
+Bawana,2026-01-25,crop_burning_smoke
+Bawana,2026-01-26,crop_burning_smoke
+Bawana,2026-01-27,crop_burning_smoke
+Bawana,2026-01-28,crop_burning_smoke
+Bawana,2026-01-29,crop_burning_smoke
+Bawana,2026-01-30,crop_burning_smoke
+Bawana,2026-01-31,crop_burning_smoke
+Bawana,2026-02-01,crop_burning_smoke
+Bawana,2026-02-02,crop_burning_smoke
+Bawana,2026-02-03,crop_burning_smoke
+Bawana,2026-02-04,crop_burning_smoke
+Bawana,2026-02-05,crop_burning_smoke
+Bawana,2026-02-06,crop_burning_smoke
+Bawana,2026-02-07,crop_burning_smoke
+Bawana,2026-02-08,crop_burning_smoke
+Bawana,2026-02-09,crop_burning_smoke
+Bawana,2026-02-10,crop_burning_smoke
+Bawana,2026-02-11,crop_burning_smoke
+Bawana,2026-02-12,crop_burning_smoke
+Bawana,2026-02-13,crop_burning_smoke
+Bawana,2026-02-14,crop_burning_smoke
+Bawana,2026-02-15,crop_burning_smoke
+Bawana,2026-02-16,crop_burning_smoke
+Bawana,2026-02-17,crop_burning_smoke
+Bawana,2026-02-18,crop_burning_smoke
+Bawana,2026-02-19,crop_burning_smoke
+Bawana,2026-02-20,crop_burning_smoke
+Bawana,2026-02-21,crop_burning_smoke
+Bawana,2026-02-22,dust
+Bawana,2026-02-23,crop_burning_smoke
+Bawana,2026-02-24,crop_burning_smoke
+Bawana,2026-02-25,crop_burning_smoke
+Bawana,2026-02-26,dust
+Bawana,2026-02-27,dust
+Bawana,2026-02-28,dust
+Bawana,2026-03-02,dust
+Bawana,2026-03-03,dust
+Bawana,2026-03-04,crop_burning_smoke
+Bawana,2026-03-05,dust
+Bawana,2026-03-06,dust
+Bawana,2026-03-07,dust
+Bawana,2026-03-08,crop_burning_smoke
+Bawana,2026-03-09,dust
+Bawana,2026-03-10,dust
+Bawana,2026-03-11,dust
+Bawana,2026-03-12,dust
+Bawana,2026-03-13,dust
+Bawana,2026-03-14,crop_burning_smoke
+Bawana,2026-03-15,dust
+Bawana,2026-03-16,dust
+Bawana,2026-03-17,dust
+Bawana,2026-03-18,dust
+Bawana,2026-03-19,dust
+Bawana,2026-03-20,dust
+Bawana,2026-03-21,dust
+Bawana,2026-03-22,dust
+Bawana,2026-03-23,dust
+Bawana,2026-03-24,dust
+Bawana,2026-03-25,dust
+Bawana,2026-03-26,dust
+Bawana,2026-03-27,dust
+Bawana,2026-03-28,dust
+Bawana,2026-03-29,dust
+Bawana,2026-03-30,dust
+Bawana,2026-03-31,dust
+Bawana,2026-04-01,dust
+Bawana,2026-04-02,dust
+Bawana,2026-04-03,dust
+Bawana,2026-04-04,dust
+Bawana,2026-04-05,dust
+Bawana,2026-04-06,dust
+Bawana,2026-04-07,clear
+Bawana,2026-04-08,clear
+Bawana,2026-04-09,dust
+Bawana,2026-04-10,dust
+Bawana,2026-04-11,dust
+Bawana,2026-04-12,dust
+Bawana,2026-04-13,dust
+Bawana,2026-04-14,dust
+Bawana,2026-04-15,dust
+Bawana,2026-04-16,dust
+Bawana,2026-04-17,dust
+Bawana,2026-04-18,dust
+Bawana,2026-04-19,dust
+Bawana,2026-04-20,dust
+Bawana,2026-04-21,dust
+Bawana,2026-04-22,dust
+Bawana,2026-04-23,dust
+Bawana,2026-04-24,dust
+Bawana,2026-04-25,dust
+Bawana,2026-04-26,dust
+Bawana,2026-04-27,dust
+Bawana,2026-04-28,dust
+Bawana,2026-04-29,dust
+Bawana,2026-04-30,dust
+Bawana,2026-05-01,dust
+Bawana,2026-05-02,dust
+Bawana,2026-05-03,dust
+Bawana,2026-05-04,clear
+Bawana,2026-05-05,clear
+Bawana,2026-05-06,dust
+Bawana,2026-05-07,dust
+Bawana,2026-05-08,dust
+Bawana,2026-05-09,dust
+Bawana,2026-05-10,dust
+Bawana,2026-05-11,dust
+Bawana,2026-05-12,dust
+Bawana,2026-05-13,dust
+Bawana,2026-05-14,dust
+Bawana,2026-05-15,dust
+Bawana,2026-05-16,dust
+Bawana,2026-05-17,dust
+Bawana,2026-05-18,dust
+Bawana,2026-05-19,dust
+Bawana,2026-05-20,dust
+Bawana,2026-05-21,dust
+Bawana,2026-05-22,dust
+Bawana,2026-05-23,dust
+Bawana,2026-05-24,dust
+Bawana,2026-05-25,dust
+Bawana,2026-05-26,dust
+Bawana,2026-05-27,dust
+Bawana,2026-05-28,dust
+Bawana,2026-05-29,dust
+Bawana,2026-05-30,dust
+Bawana,2026-05-31,clear
+Bawana,2026-06-01,dust
+Bawana,2026-06-02,dust
+Bawana,2026-06-03,dust
+Bawana,2026-06-04,dust
+Bawana,2026-06-05,dust
+Bawana,2026-06-06,dust
+Bawana,2026-06-07,dust
+Bawana,2026-06-08,dust
+Bawana,2026-06-09,dust
+Bawana,2026-06-10,dust
+Bawana,2026-06-11,dust
+Bawana,2026-06-12,clear
+Bawana,2026-06-13,dust
+Bawana,2026-06-14,dust
+Bawana,2026-06-15,dust
+Bawana,2026-06-16,clear
+Bawana,2026-06-17,dust
+Bawana,2026-06-18,dust
+Bawana,2026-06-19,dust
+Bawana,2026-06-20,dust
+Bawana,2026-06-21,dust
+Bawana,2026-06-22,dust
+Bawana,2026-06-23,dust
+Bawana,2026-06-24,dust
+Bawana,2026-06-25,dust
+Bawana,2026-06-26,clear
+Bawana,2026-06-27,dust
+Bawana,2026-06-28,dust
+Bawana,2026-06-29,dust
+Bawana,2026-06-30,dust
+Bawana,2026-07-01,dust
+Bawana,2026-07-02,clear
+Bawana,2026-07-03,crop_burning_smoke
+Bawana,2026-07-04,crop_burning_smoke
+Bawana,2026-07-05,dust
+Bawana,2026-07-06,dust
+Bawana,2026-07-07,dust
+Bawana,2026-07-08,dust
+Bawana,2026-07-09,clear
+Bawana,2026-07-10,dust
+Bawana,2026-07-11,dust
+Bawana,2026-07-12,dust
+Bawana,2026-07-13,dust
+Bawana,2026-07-14,dust
+Bawana,2026-07-15,dust
+Bawana,2026-07-16,dust
+Bawana,2026-07-17,dust
+Bawana,2026-07-18,dust
+Bawana,2026-07-19,dust
+Bawana,2026-07-20,clear
+Bawana,2026-07-21,clear
+Dwarka,2025-10-01,traffic_heavy
+Dwarka,2025-10-02,dust
+Dwarka,2025-10-03,traffic_heavy
+Dwarka,2025-10-04,traffic_heavy
+Dwarka,2025-10-05,traffic_heavy
+Dwarka,2025-10-06,clear
+Dwarka,2025-10-07,traffic_heavy
+Dwarka,2025-10-08,traffic_heavy
+Dwarka,2025-10-09,dust
+Dwarka,2025-10-10,traffic_heavy
+Dwarka,2025-10-11,traffic_heavy
+Dwarka,2025-10-12,traffic_heavy
+Dwarka,2025-10-13,traffic_heavy
+Dwarka,2025-10-14,traffic_heavy
+Dwarka,2025-10-15,traffic_heavy
+Dwarka,2025-10-16,traffic_heavy
+Dwarka,2025-10-17,traffic_heavy
+Dwarka,2025-10-18,traffic_heavy
+Dwarka,2025-10-19,industrial_haze
+Dwarka,2025-10-20,crop_burning_smoke
+Dwarka,2025-10-21,crop_burning_smoke
+Dwarka,2025-10-22,crop_burning_smoke
+Dwarka,2025-10-23,traffic_heavy
+Dwarka,2025-10-24,traffic_heavy
+Dwarka,2025-10-25,traffic_heavy
+Dwarka,2025-10-26,traffic_heavy
+Dwarka,2025-10-27,industrial_haze
+Dwarka,2025-10-28,crop_burning_smoke
+Dwarka,2025-10-29,crop_burning_smoke
+Dwarka,2025-10-30,crop_burning_smoke
+Dwarka,2025-10-31,crop_burning_smoke
+Dwarka,2025-11-01,crop_burning_smoke
+Dwarka,2025-11-02,crop_burning_smoke
+Dwarka,2025-11-03,traffic_heavy
+Dwarka,2025-11-04,traffic_heavy
+Dwarka,2025-11-05,crop_burning_smoke
+Dwarka,2025-11-06,crop_burning_smoke
+Dwarka,2025-11-07,crop_burning_smoke
+Dwarka,2025-11-08,crop_burning_smoke
+Dwarka,2025-11-09,crop_burning_smoke
+Dwarka,2025-11-10,crop_burning_smoke
+Dwarka,2025-11-11,crop_burning_smoke
+Dwarka,2025-11-12,crop_burning_smoke
+Dwarka,2025-11-13,crop_burning_smoke
+Dwarka,2025-11-14,crop_burning_smoke
+Dwarka,2025-11-15,crop_burning_smoke
+Dwarka,2025-11-16,crop_burning_smoke
+Dwarka,2025-11-17,crop_burning_smoke
+Dwarka,2025-11-18,crop_burning_smoke
+Dwarka,2025-11-19,crop_burning_smoke
+Dwarka,2025-11-20,crop_burning_smoke
+Dwarka,2025-11-21,crop_burning_smoke
+Dwarka,2025-11-22,crop_burning_smoke
+Dwarka,2025-11-23,crop_burning_smoke
+Dwarka,2025-11-24,crop_burning_smoke
+Dwarka,2025-11-25,crop_burning_smoke
+Dwarka,2025-11-26,crop_burning_smoke
 Dwarka,2025-12-01,crop_burning_smoke
 Dwarka,2025-12-02,crop_burning_smoke
 Dwarka,2025-12-03,crop_burning_smoke
@@ -27,6 +927,288 @@ Dwarka,2025-12-04,crop_burning_smoke
 Dwarka,2025-12-05,crop_burning_smoke
 Dwarka,2025-12-06,crop_burning_smoke
 Dwarka,2025-12-07,crop_burning_smoke
+Dwarka,2025-12-08,crop_burning_smoke
+Dwarka,2025-12-09,crop_burning_smoke
+Dwarka,2025-12-10,crop_burning_smoke
+Dwarka,2025-12-11,crop_burning_smoke
+Dwarka,2025-12-12,crop_burning_smoke
+Dwarka,2025-12-13,crop_burning_smoke
+Dwarka,2025-12-14,crop_burning_smoke
+Dwarka,2025-12-15,crop_burning_smoke
+Dwarka,2025-12-16,crop_burning_smoke
+Dwarka,2025-12-17,crop_burning_smoke
+Dwarka,2025-12-18,crop_burning_smoke
+Dwarka,2025-12-19,crop_burning_smoke
+Dwarka,2025-12-20,crop_burning_smoke
+Dwarka,2025-12-21,crop_burning_smoke
+Dwarka,2025-12-22,crop_burning_smoke
+Dwarka,2025-12-23,crop_burning_smoke
+Dwarka,2025-12-24,crop_burning_smoke
+Dwarka,2025-12-25,crop_burning_smoke
+Dwarka,2025-12-26,crop_burning_smoke
+Dwarka,2025-12-27,crop_burning_smoke
+Dwarka,2025-12-28,crop_burning_smoke
+Dwarka,2025-12-29,crop_burning_smoke
+Dwarka,2025-12-30,crop_burning_smoke
+Dwarka,2025-12-31,crop_burning_smoke
+Dwarka,2026-01-01,crop_burning_smoke
+Dwarka,2026-01-02,crop_burning_smoke
+Dwarka,2026-01-03,crop_burning_smoke
+Dwarka,2026-01-04,crop_burning_smoke
+Dwarka,2026-01-05,crop_burning_smoke
+Dwarka,2026-01-06,crop_burning_smoke
+Dwarka,2026-01-07,crop_burning_smoke
+Dwarka,2026-01-08,crop_burning_smoke
+Dwarka,2026-01-09,crop_burning_smoke
+Dwarka,2026-01-10,crop_burning_smoke
+Dwarka,2026-01-11,crop_burning_smoke
+Dwarka,2026-01-12,crop_burning_smoke
+Dwarka,2026-01-13,crop_burning_smoke
+Dwarka,2026-01-14,crop_burning_smoke
+Dwarka,2026-01-15,crop_burning_smoke
+Dwarka,2026-01-16,crop_burning_smoke
+Dwarka,2026-01-17,crop_burning_smoke
+Dwarka,2026-01-18,crop_burning_smoke
+Dwarka,2026-01-19,crop_burning_smoke
+Dwarka,2026-01-20,crop_burning_smoke
+Dwarka,2026-01-21,crop_burning_smoke
+Dwarka,2026-01-22,crop_burning_smoke
+Dwarka,2026-01-23,crop_burning_smoke
+Dwarka,2026-01-24,industrial_haze
+Dwarka,2026-01-25,traffic_heavy
+Dwarka,2026-01-26,traffic_heavy
+Dwarka,2026-01-27,crop_burning_smoke
+Dwarka,2026-01-28,crop_burning_smoke
+Dwarka,2026-01-29,crop_burning_smoke
+Dwarka,2026-01-30,crop_burning_smoke
+Dwarka,2026-01-31,crop_burning_smoke
+Dwarka,2026-02-01,crop_burning_smoke
+Dwarka,2026-02-02,crop_burning_smoke
+Dwarka,2026-02-03,crop_burning_smoke
+Dwarka,2026-02-04,crop_burning_smoke
+Dwarka,2026-02-05,crop_burning_smoke
+Dwarka,2026-02-06,crop_burning_smoke
+Dwarka,2026-02-07,crop_burning_smoke
+Dwarka,2026-02-08,crop_burning_smoke
+Dwarka,2026-02-09,crop_burning_smoke
+Dwarka,2026-02-10,industrial_haze
+Dwarka,2026-02-11,crop_burning_smoke
+Dwarka,2026-02-12,traffic_heavy
+Dwarka,2026-02-13,traffic_heavy
+Dwarka,2026-02-14,industrial_haze
+Dwarka,2026-02-15,crop_burning_smoke
+Dwarka,2026-02-16,traffic_heavy
+Dwarka,2026-02-17,traffic_heavy
+Dwarka,2026-02-18,traffic_heavy
+Dwarka,2026-02-19,crop_burning_smoke
+Dwarka,2026-02-20,crop_burning_smoke
+Dwarka,2026-02-21,traffic_heavy
+Dwarka,2026-02-22,traffic_heavy
+Dwarka,2026-02-23,traffic_heavy
+Dwarka,2026-02-24,traffic_heavy
+Dwarka,2026-02-25,traffic_heavy
+Dwarka,2026-02-26,traffic_heavy
+Dwarka,2026-02-27,traffic_heavy
+Dwarka,2026-02-28,traffic_heavy
+Dwarka,2026-03-01,traffic_heavy
+Dwarka,2026-03-02,industrial_haze
+Dwarka,2026-03-03,dust
+Dwarka,2026-03-05,traffic_heavy
+Dwarka,2026-03-06,dust
+Dwarka,2026-03-07,traffic_heavy
+Dwarka,2026-03-08,traffic_heavy
+Dwarka,2026-03-09,industrial_haze
+Dwarka,2026-03-10,traffic_heavy
+Dwarka,2026-03-11,traffic_heavy
+Dwarka,2026-03-12,dust
+Dwarka,2026-03-13,dust
+Dwarka,2026-03-14,industrial_haze
+Dwarka,2026-03-15,traffic_heavy
+Dwarka,2026-03-16,traffic_heavy
+Dwarka,2026-03-17,industrial_haze
+Dwarka,2026-03-18,traffic_heavy
+Dwarka,2026-03-19,traffic_heavy
+Dwarka,2026-03-20,clear
+Dwarka,2026-03-21,traffic_heavy
+Dwarka,2026-03-22,traffic_heavy
+Dwarka,2026-03-23,traffic_heavy
+Dwarka,2026-03-24,traffic_heavy
+Dwarka,2026-03-25,traffic_heavy
+Dwarka,2026-03-26,traffic_heavy
+Dwarka,2026-03-27,dust
+Dwarka,2026-03-28,industrial_haze
+Dwarka,2026-03-29,traffic_heavy
+Dwarka,2026-03-30,traffic_heavy
+Dwarka,2026-03-31,traffic_heavy
+Dwarka,2026-04-01,traffic_heavy
+Dwarka,2026-04-02,industrial_haze
+Dwarka,2026-04-03,industrial_haze
+Dwarka,2026-04-04,traffic_heavy
+Dwarka,2026-04-05,traffic_heavy
+Dwarka,2026-04-06,traffic_heavy
+Dwarka,2026-04-07,clear
+Dwarka,2026-04-08,traffic_heavy
+Dwarka,2026-04-09,traffic_heavy
+Dwarka,2026-04-10,traffic_heavy
+Dwarka,2026-04-11,dust
+Dwarka,2026-04-12,traffic_heavy
+Dwarka,2026-04-13,traffic_heavy
+Dwarka,2026-04-14,traffic_heavy
+Dwarka,2026-04-15,traffic_heavy
+Dwarka,2026-04-16,traffic_heavy
+Dwarka,2026-04-17,traffic_heavy
+Dwarka,2026-04-18,crop_burning_smoke
+Dwarka,2026-04-19,traffic_heavy
+Dwarka,2026-04-20,traffic_heavy
+Dwarka,2026-04-21,industrial_haze
+Dwarka,2026-04-22,industrial_haze
+Dwarka,2026-04-23,traffic_heavy
+Dwarka,2026-04-24,traffic_heavy
+Dwarka,2026-04-25,industrial_haze
+Dwarka,2026-04-26,industrial_haze
+Dwarka,2026-04-27,industrial_haze
+Dwarka,2026-04-28,dust
+Dwarka,2026-04-29,dust
+Dwarka,2026-04-30,traffic_heavy
+Dwarka,2026-05-01,traffic_heavy
+Dwarka,2026-05-02,traffic_heavy
+Dwarka,2026-05-03,dust
+Dwarka,2026-05-04,dust
+Dwarka,2026-05-05,traffic_heavy
+Dwarka,2026-05-06,traffic_heavy
+Dwarka,2026-05-07,dust
+Dwarka,2026-05-08,dust
+Dwarka,2026-05-09,dust
+Dwarka,2026-05-10,dust
+Dwarka,2026-05-11,dust
+Dwarka,2026-05-12,dust
+Dwarka,2026-05-13,dust
+Dwarka,2026-05-14,dust
+Dwarka,2026-05-15,dust
+Dwarka,2026-05-16,dust
+Dwarka,2026-05-17,industrial_haze
+Dwarka,2026-05-18,dust
+Dwarka,2026-05-19,dust
+Dwarka,2026-05-20,traffic_heavy
+Dwarka,2026-05-21,dust
+Dwarka,2026-05-22,dust
+Dwarka,2026-05-23,dust
+Dwarka,2026-05-24,traffic_heavy
+Dwarka,2026-05-25,dust
+Dwarka,2026-05-26,traffic_heavy
+Dwarka,2026-05-27,traffic_heavy
+Dwarka,2026-05-28,dust
+Dwarka,2026-05-29,dust
+Dwarka,2026-05-30,dust
+Dwarka,2026-05-31,dust
+Dwarka,2026-06-01,dust
+Dwarka,2026-06-02,dust
+Dwarka,2026-06-03,dust
+Dwarka,2026-06-04,dust
+Dwarka,2026-06-05,dust
+Dwarka,2026-06-06,dust
+Dwarka,2026-06-07,dust
+Dwarka,2026-06-08,dust
+Dwarka,2026-06-09,dust
+Dwarka,2026-06-10,dust
+Dwarka,2026-06-11,dust
+Dwarka,2026-06-12,clear
+Dwarka,2026-06-13,traffic_heavy
+Dwarka,2026-06-14,dust
+Dwarka,2026-06-15,dust
+Dwarka,2026-06-16,dust
+Dwarka,2026-06-17,dust
+Dwarka,2026-06-18,dust
+Dwarka,2026-06-19,dust
+Dwarka,2026-06-20,dust
+Dwarka,2026-06-21,dust
+Dwarka,2026-06-22,dust
+Dwarka,2026-06-23,industrial_haze
+Dwarka,2026-06-24,traffic_heavy
+Dwarka,2026-06-25,dust
+Dwarka,2026-06-26,dust
+Dwarka,2026-06-27,dust
+Dwarka,2026-06-28,dust
+Dwarka,2026-06-29,dust
+Dwarka,2026-06-30,dust
+Dwarka,2026-07-01,dust
+Dwarka,2026-07-02,dust
+Dwarka,2026-07-03,dust
+Dwarka,2026-07-04,dust
+Dwarka,2026-07-05,traffic_heavy
+Dwarka,2026-07-06,dust
+Dwarka,2026-07-07,dust
+Dwarka,2026-07-08,clear
+Dwarka,2026-07-09,clear
+Dwarka,2026-07-10,dust
+Dwarka,2026-07-11,dust
+Dwarka,2026-07-12,dust
+Dwarka,2026-07-13,dust
+Dwarka,2026-07-14,dust
+Dwarka,2026-07-15,dust
+Dwarka,2026-07-16,dust
+Dwarka,2026-07-17,traffic_heavy
+Dwarka,2026-07-18,dust
+Dwarka,2026-07-19,dust
+Dwarka,2026-07-20,dust
+Dwarka,2026-07-21,clear
+Jahangirpuri,2025-10-01,crop_burning_smoke
+Jahangirpuri,2025-10-02,crop_burning_smoke
+Jahangirpuri,2025-10-03,dust
+Jahangirpuri,2025-10-04,traffic_heavy
+Jahangirpuri,2025-10-05,traffic_heavy
+Jahangirpuri,2025-10-06,clear
+Jahangirpuri,2025-10-07,clear
+Jahangirpuri,2025-10-08,clear
+Jahangirpuri,2025-10-09,traffic_heavy
+Jahangirpuri,2025-10-10,traffic_heavy
+Jahangirpuri,2025-10-11,traffic_heavy
+Jahangirpuri,2025-10-12,traffic_heavy
+Jahangirpuri,2025-10-13,traffic_heavy
+Jahangirpuri,2025-10-14,traffic_heavy
+Jahangirpuri,2025-10-15,traffic_heavy
+Jahangirpuri,2025-10-16,traffic_heavy
+Jahangirpuri,2025-10-17,traffic_heavy
+Jahangirpuri,2025-10-18,crop_burning_smoke
+Jahangirpuri,2025-10-19,crop_burning_smoke
+Jahangirpuri,2025-10-20,crop_burning_smoke
+Jahangirpuri,2025-10-21,crop_burning_smoke
+Jahangirpuri,2025-10-22,crop_burning_smoke
+Jahangirpuri,2025-10-23,crop_burning_smoke
+Jahangirpuri,2025-10-24,traffic_heavy
+Jahangirpuri,2025-10-25,traffic_heavy
+Jahangirpuri,2025-10-26,crop_burning_smoke
+Jahangirpuri,2025-10-27,crop_burning_smoke
+Jahangirpuri,2025-10-28,crop_burning_smoke
+Jahangirpuri,2025-10-29,crop_burning_smoke
+Jahangirpuri,2025-10-30,crop_burning_smoke
+Jahangirpuri,2025-10-31,crop_burning_smoke
+Jahangirpuri,2025-11-01,crop_burning_smoke
+Jahangirpuri,2025-11-02,traffic_heavy
+Jahangirpuri,2025-11-03,crop_burning_smoke
+Jahangirpuri,2025-11-04,crop_burning_smoke
+Jahangirpuri,2025-11-05,crop_burning_smoke
+Jahangirpuri,2025-11-06,crop_burning_smoke
+Jahangirpuri,2025-11-07,crop_burning_smoke
+Jahangirpuri,2025-11-08,crop_burning_smoke
+Jahangirpuri,2025-11-09,crop_burning_smoke
+Jahangirpuri,2025-11-10,crop_burning_smoke
+Jahangirpuri,2025-11-11,crop_burning_smoke
+Jahangirpuri,2025-11-12,crop_burning_smoke
+Jahangirpuri,2025-11-13,crop_burning_smoke
+Jahangirpuri,2025-11-14,crop_burning_smoke
+Jahangirpuri,2025-11-15,crop_burning_smoke
+Jahangirpuri,2025-11-16,crop_burning_smoke
+Jahangirpuri,2025-11-17,crop_burning_smoke
+Jahangirpuri,2025-11-18,crop_burning_smoke
+Jahangirpuri,2025-11-19,crop_burning_smoke
+Jahangirpuri,2025-11-20,crop_burning_smoke
+Jahangirpuri,2025-11-21,crop_burning_smoke
+Jahangirpuri,2025-11-22,crop_burning_smoke
+Jahangirpuri,2025-11-23,crop_burning_smoke
+Jahangirpuri,2025-11-24,crop_burning_smoke
+Jahangirpuri,2025-11-25,crop_burning_smoke
+Jahangirpuri,2025-11-26,crop_burning_smoke
 Jahangirpuri,2025-12-01,crop_burning_smoke
 Jahangirpuri,2025-12-02,crop_burning_smoke
 Jahangirpuri,2025-12-03,crop_burning_smoke
@@ -34,6 +1216,287 @@ Jahangirpuri,2025-12-04,crop_burning_smoke
 Jahangirpuri,2025-12-05,crop_burning_smoke
 Jahangirpuri,2025-12-06,crop_burning_smoke
 Jahangirpuri,2025-12-07,crop_burning_smoke
+Jahangirpuri,2025-12-08,crop_burning_smoke
+Jahangirpuri,2025-12-09,crop_burning_smoke
+Jahangirpuri,2025-12-10,crop_burning_smoke
+Jahangirpuri,2025-12-11,crop_burning_smoke
+Jahangirpuri,2025-12-12,crop_burning_smoke
+Jahangirpuri,2025-12-13,crop_burning_smoke
+Jahangirpuri,2025-12-14,crop_burning_smoke
+Jahangirpuri,2025-12-15,crop_burning_smoke
+Jahangirpuri,2025-12-16,crop_burning_smoke
+Jahangirpuri,2025-12-17,crop_burning_smoke
+Jahangirpuri,2025-12-18,crop_burning_smoke
+Jahangirpuri,2025-12-19,crop_burning_smoke
+Jahangirpuri,2025-12-20,crop_burning_smoke
+Jahangirpuri,2025-12-21,crop_burning_smoke
+Jahangirpuri,2025-12-22,crop_burning_smoke
+Jahangirpuri,2025-12-23,crop_burning_smoke
+Jahangirpuri,2025-12-24,crop_burning_smoke
+Jahangirpuri,2025-12-25,crop_burning_smoke
+Jahangirpuri,2025-12-26,crop_burning_smoke
+Jahangirpuri,2025-12-27,crop_burning_smoke
+Jahangirpuri,2025-12-28,crop_burning_smoke
+Jahangirpuri,2025-12-29,crop_burning_smoke
+Jahangirpuri,2025-12-30,crop_burning_smoke
+Jahangirpuri,2025-12-31,crop_burning_smoke
+Jahangirpuri,2026-01-01,crop_burning_smoke
+Jahangirpuri,2026-01-02,crop_burning_smoke
+Jahangirpuri,2026-01-03,crop_burning_smoke
+Jahangirpuri,2026-01-04,crop_burning_smoke
+Jahangirpuri,2026-01-05,crop_burning_smoke
+Jahangirpuri,2026-01-06,crop_burning_smoke
+Jahangirpuri,2026-01-07,crop_burning_smoke
+Jahangirpuri,2026-01-08,crop_burning_smoke
+Jahangirpuri,2026-01-09,crop_burning_smoke
+Jahangirpuri,2026-01-10,crop_burning_smoke
+Jahangirpuri,2026-01-11,crop_burning_smoke
+Jahangirpuri,2026-01-12,crop_burning_smoke
+Jahangirpuri,2026-01-13,crop_burning_smoke
+Jahangirpuri,2026-01-14,crop_burning_smoke
+Jahangirpuri,2026-01-15,crop_burning_smoke
+Jahangirpuri,2026-01-16,crop_burning_smoke
+Jahangirpuri,2026-01-17,crop_burning_smoke
+Jahangirpuri,2026-01-18,crop_burning_smoke
+Jahangirpuri,2026-01-19,crop_burning_smoke
+Jahangirpuri,2026-01-20,crop_burning_smoke
+Jahangirpuri,2026-01-21,crop_burning_smoke
+Jahangirpuri,2026-01-22,crop_burning_smoke
+Jahangirpuri,2026-01-23,crop_burning_smoke
+Jahangirpuri,2026-01-24,dust
+Jahangirpuri,2026-01-25,crop_burning_smoke
+Jahangirpuri,2026-01-26,crop_burning_smoke
+Jahangirpuri,2026-01-27,crop_burning_smoke
+Jahangirpuri,2026-01-28,crop_burning_smoke
+Jahangirpuri,2026-01-29,crop_burning_smoke
+Jahangirpuri,2026-01-30,crop_burning_smoke
+Jahangirpuri,2026-01-31,crop_burning_smoke
+Jahangirpuri,2026-02-01,crop_burning_smoke
+Jahangirpuri,2026-02-02,crop_burning_smoke
+Jahangirpuri,2026-02-03,crop_burning_smoke
+Jahangirpuri,2026-02-04,crop_burning_smoke
+Jahangirpuri,2026-02-05,crop_burning_smoke
+Jahangirpuri,2026-02-06,crop_burning_smoke
+Jahangirpuri,2026-02-07,crop_burning_smoke
+Jahangirpuri,2026-02-08,crop_burning_smoke
+Jahangirpuri,2026-02-09,crop_burning_smoke
+Jahangirpuri,2026-02-10,crop_burning_smoke
+Jahangirpuri,2026-02-11,crop_burning_smoke
+Jahangirpuri,2026-02-12,industrial_haze
+Jahangirpuri,2026-02-13,industrial_haze
+Jahangirpuri,2026-02-14,crop_burning_smoke
+Jahangirpuri,2026-02-15,crop_burning_smoke
+Jahangirpuri,2026-02-16,industrial_haze
+Jahangirpuri,2026-02-17,industrial_haze
+Jahangirpuri,2026-02-18,crop_burning_smoke
+Jahangirpuri,2026-02-19,crop_burning_smoke
+Jahangirpuri,2026-02-20,crop_burning_smoke
+Jahangirpuri,2026-02-21,crop_burning_smoke
+Jahangirpuri,2026-02-22,crop_burning_smoke
+Jahangirpuri,2026-02-23,industrial_haze
+Jahangirpuri,2026-02-24,industrial_haze
+Jahangirpuri,2026-02-25,industrial_haze
+Jahangirpuri,2026-02-26,industrial_haze
+Jahangirpuri,2026-02-27,industrial_haze
+Jahangirpuri,2026-02-28,industrial_haze
+Jahangirpuri,2026-03-01,industrial_haze
+Jahangirpuri,2026-03-02,industrial_haze
+Jahangirpuri,2026-03-03,industrial_haze
+Jahangirpuri,2026-03-05,industrial_haze
+Jahangirpuri,2026-03-06,industrial_haze
+Jahangirpuri,2026-03-07,crop_burning_smoke
+Jahangirpuri,2026-03-08,industrial_haze
+Jahangirpuri,2026-03-09,industrial_haze
+Jahangirpuri,2026-03-10,crop_burning_smoke
+Jahangirpuri,2026-03-11,industrial_haze
+Jahangirpuri,2026-03-12,industrial_haze
+Jahangirpuri,2026-03-13,industrial_haze
+Jahangirpuri,2026-03-14,industrial_haze
+Jahangirpuri,2026-03-15,clear
+Jahangirpuri,2026-03-16,industrial_haze
+Jahangirpuri,2026-03-17,industrial_haze
+Jahangirpuri,2026-03-18,crop_burning_smoke
+Jahangirpuri,2026-03-19,industrial_haze
+Jahangirpuri,2026-03-20,clear
+Jahangirpuri,2026-03-21,industrial_haze
+Jahangirpuri,2026-03-22,industrial_haze
+Jahangirpuri,2026-03-23,industrial_haze
+Jahangirpuri,2026-03-24,industrial_haze
+Jahangirpuri,2026-03-25,industrial_haze
+Jahangirpuri,2026-03-26,industrial_haze
+Jahangirpuri,2026-03-27,industrial_haze
+Jahangirpuri,2026-03-28,industrial_haze
+Jahangirpuri,2026-03-29,industrial_haze
+Jahangirpuri,2026-03-30,industrial_haze
+Jahangirpuri,2026-03-31,industrial_haze
+Jahangirpuri,2026-04-01,industrial_haze
+Jahangirpuri,2026-04-02,industrial_haze
+Jahangirpuri,2026-04-03,industrial_haze
+Jahangirpuri,2026-04-04,industrial_haze
+Jahangirpuri,2026-04-05,industrial_haze
+Jahangirpuri,2026-04-06,industrial_haze
+Jahangirpuri,2026-04-07,industrial_haze
+Jahangirpuri,2026-04-08,clear
+Jahangirpuri,2026-04-09,industrial_haze
+Jahangirpuri,2026-04-10,industrial_haze
+Jahangirpuri,2026-04-11,industrial_haze
+Jahangirpuri,2026-04-12,industrial_haze
+Jahangirpuri,2026-04-13,industrial_haze
+Jahangirpuri,2026-04-14,industrial_haze
+Jahangirpuri,2026-04-15,industrial_haze
+Jahangirpuri,2026-04-16,industrial_haze
+Jahangirpuri,2026-04-17,industrial_haze
+Jahangirpuri,2026-04-18,industrial_haze
+Jahangirpuri,2026-04-19,industrial_haze
+Jahangirpuri,2026-04-20,industrial_haze
+Jahangirpuri,2026-04-21,industrial_haze
+Jahangirpuri,2026-04-22,industrial_haze
+Jahangirpuri,2026-04-23,industrial_haze
+Jahangirpuri,2026-04-24,industrial_haze
+Jahangirpuri,2026-04-25,industrial_haze
+Jahangirpuri,2026-04-26,dust
+Jahangirpuri,2026-04-27,traffic_heavy
+Jahangirpuri,2026-04-28,dust
+Jahangirpuri,2026-04-29,dust
+Jahangirpuri,2026-04-30,traffic_heavy
+Jahangirpuri,2026-05-01,dust
+Jahangirpuri,2026-05-02,dust
+Jahangirpuri,2026-05-03,dust
+Jahangirpuri,2026-05-04,dust
+Jahangirpuri,2026-05-05,clear
+Jahangirpuri,2026-05-06,traffic_heavy
+Jahangirpuri,2026-05-07,dust
+Jahangirpuri,2026-05-08,dust
+Jahangirpuri,2026-05-09,dust
+Jahangirpuri,2026-05-10,traffic_heavy
+Jahangirpuri,2026-05-11,dust
+Jahangirpuri,2026-05-12,traffic_heavy
+Jahangirpuri,2026-05-13,dust
+Jahangirpuri,2026-05-14,dust
+Jahangirpuri,2026-05-15,traffic_heavy
+Jahangirpuri,2026-05-16,traffic_heavy
+Jahangirpuri,2026-05-17,dust
+Jahangirpuri,2026-05-18,traffic_heavy
+Jahangirpuri,2026-05-19,traffic_heavy
+Jahangirpuri,2026-05-20,traffic_heavy
+Jahangirpuri,2026-05-21,dust
+Jahangirpuri,2026-05-22,dust
+Jahangirpuri,2026-05-23,dust
+Jahangirpuri,2026-05-24,traffic_heavy
+Jahangirpuri,2026-05-25,dust
+Jahangirpuri,2026-05-26,traffic_heavy
+Jahangirpuri,2026-05-27,traffic_heavy
+Jahangirpuri,2026-05-28,traffic_heavy
+Jahangirpuri,2026-05-29,dust
+Jahangirpuri,2026-05-30,dust
+Jahangirpuri,2026-05-31,clear
+Jahangirpuri,2026-06-01,dust
+Jahangirpuri,2026-06-02,dust
+Jahangirpuri,2026-06-03,traffic_heavy
+Jahangirpuri,2026-06-04,traffic_heavy
+Jahangirpuri,2026-06-05,dust
+Jahangirpuri,2026-06-06,traffic_heavy
+Jahangirpuri,2026-06-07,dust
+Jahangirpuri,2026-06-08,dust
+Jahangirpuri,2026-06-09,dust
+Jahangirpuri,2026-06-10,dust
+Jahangirpuri,2026-06-11,dust
+Jahangirpuri,2026-06-12,clear
+Jahangirpuri,2026-06-13,traffic_heavy
+Jahangirpuri,2026-06-14,traffic_heavy
+Jahangirpuri,2026-06-15,dust
+Jahangirpuri,2026-06-16,traffic_heavy
+Jahangirpuri,2026-06-17,traffic_heavy
+Jahangirpuri,2026-06-18,dust
+Jahangirpuri,2026-06-19,dust
+Jahangirpuri,2026-06-20,traffic_heavy
+Jahangirpuri,2026-06-21,dust
+Jahangirpuri,2026-06-22,traffic_heavy
+Jahangirpuri,2026-06-23,dust
+Jahangirpuri,2026-06-24,traffic_heavy
+Jahangirpuri,2026-06-25,traffic_heavy
+Jahangirpuri,2026-06-26,dust
+Jahangirpuri,2026-06-27,traffic_heavy
+Jahangirpuri,2026-06-28,traffic_heavy
+Jahangirpuri,2026-06-29,dust
+Jahangirpuri,2026-06-30,dust
+Jahangirpuri,2026-07-01,traffic_heavy
+Jahangirpuri,2026-07-02,dust
+Jahangirpuri,2026-07-03,dust
+Jahangirpuri,2026-07-04,crop_burning_smoke
+Jahangirpuri,2026-07-05,crop_burning_smoke
+Jahangirpuri,2026-07-06,traffic_heavy
+Jahangirpuri,2026-07-07,traffic_heavy
+Jahangirpuri,2026-07-08,clear
+Jahangirpuri,2026-07-09,dust
+Jahangirpuri,2026-07-10,dust
+Jahangirpuri,2026-07-11,dust
+Jahangirpuri,2026-07-12,dust
+Jahangirpuri,2026-07-13,dust
+Jahangirpuri,2026-07-14,dust
+Jahangirpuri,2026-07-15,dust
+Jahangirpuri,2026-07-16,dust
+Jahangirpuri,2026-07-17,dust
+Jahangirpuri,2026-07-18,dust
+Jahangirpuri,2026-07-19,dust
+Jahangirpuri,2026-07-20,dust
+Jahangirpuri,2026-07-21,clear
+Mundka,2025-10-01,dust
+Mundka,2025-10-02,dust
+Mundka,2025-10-03,clear
+Mundka,2025-10-04,dust
+Mundka,2025-10-05,dust
+Mundka,2025-10-07,dust
+Mundka,2025-10-08,clear
+Mundka,2025-10-09,dust
+Mundka,2025-10-10,dust
+Mundka,2025-10-11,dust
+Mundka,2025-10-12,dust
+Mundka,2025-10-13,dust
+Mundka,2025-10-14,traffic_heavy
+Mundka,2025-10-15,traffic_heavy
+Mundka,2025-10-16,traffic_heavy
+Mundka,2025-10-17,traffic_heavy
+Mundka,2025-10-18,dust
+Mundka,2025-10-19,crop_burning_smoke
+Mundka,2025-10-20,crop_burning_smoke
+Mundka,2025-10-21,crop_burning_smoke
+Mundka,2025-10-22,crop_burning_smoke
+Mundka,2025-10-23,crop_burning_smoke
+Mundka,2025-10-24,traffic_heavy
+Mundka,2025-10-25,traffic_heavy
+Mundka,2025-10-26,traffic_heavy
+Mundka,2025-10-27,crop_burning_smoke
+Mundka,2025-10-28,crop_burning_smoke
+Mundka,2025-10-29,crop_burning_smoke
+Mundka,2025-10-30,crop_burning_smoke
+Mundka,2025-10-31,traffic_heavy
+Mundka,2025-11-01,crop_burning_smoke
+Mundka,2025-11-02,crop_burning_smoke
+Mundka,2025-11-03,crop_burning_smoke
+Mundka,2025-11-04,dust
+Mundka,2025-11-05,traffic_heavy
+Mundka,2025-11-06,crop_burning_smoke
+Mundka,2025-11-07,crop_burning_smoke
+Mundka,2025-11-08,crop_burning_smoke
+Mundka,2025-11-09,crop_burning_smoke
+Mundka,2025-11-10,crop_burning_smoke
+Mundka,2025-11-11,crop_burning_smoke
+Mundka,2025-11-12,crop_burning_smoke
+Mundka,2025-11-13,crop_burning_smoke
+Mundka,2025-11-14,crop_burning_smoke
+Mundka,2025-11-15,crop_burning_smoke
+Mundka,2025-11-16,crop_burning_smoke
+Mundka,2025-11-17,crop_burning_smoke
+Mundka,2025-11-18,crop_burning_smoke
+Mundka,2025-11-19,crop_burning_smoke
+Mundka,2025-11-20,crop_burning_smoke
+Mundka,2025-11-21,crop_burning_smoke
+Mundka,2025-11-22,crop_burning_smoke
+Mundka,2025-11-23,crop_burning_smoke
+Mundka,2025-11-24,crop_burning_smoke
+Mundka,2025-11-25,crop_burning_smoke
+Mundka,2025-11-26,crop_burning_smoke
 Mundka,2025-12-01,crop_burning_smoke
 Mundka,2025-12-02,crop_burning_smoke
 Mundka,2025-12-03,crop_burning_smoke
@@ -41,6 +1504,288 @@ Mundka,2025-12-04,crop_burning_smoke
 Mundka,2025-12-05,crop_burning_smoke
 Mundka,2025-12-06,crop_burning_smoke
 Mundka,2025-12-07,crop_burning_smoke
+Mundka,2025-12-08,crop_burning_smoke
+Mundka,2025-12-09,traffic_heavy
+Mundka,2025-12-10,traffic_heavy
+Mundka,2025-12-11,crop_burning_smoke
+Mundka,2025-12-12,crop_burning_smoke
+Mundka,2025-12-13,crop_burning_smoke
+Mundka,2025-12-14,crop_burning_smoke
+Mundka,2025-12-15,crop_burning_smoke
+Mundka,2025-12-16,crop_burning_smoke
+Mundka,2025-12-17,crop_burning_smoke
+Mundka,2025-12-18,crop_burning_smoke
+Mundka,2025-12-19,crop_burning_smoke
+Mundka,2025-12-20,crop_burning_smoke
+Mundka,2025-12-21,crop_burning_smoke
+Mundka,2025-12-22,crop_burning_smoke
+Mundka,2025-12-23,crop_burning_smoke
+Mundka,2025-12-24,crop_burning_smoke
+Mundka,2025-12-25,crop_burning_smoke
+Mundka,2025-12-26,crop_burning_smoke
+Mundka,2025-12-27,crop_burning_smoke
+Mundka,2025-12-28,crop_burning_smoke
+Mundka,2025-12-29,crop_burning_smoke
+Mundka,2025-12-30,crop_burning_smoke
+Mundka,2025-12-31,crop_burning_smoke
+Mundka,2026-01-01,crop_burning_smoke
+Mundka,2026-01-02,crop_burning_smoke
+Mundka,2026-01-03,crop_burning_smoke
+Mundka,2026-01-04,crop_burning_smoke
+Mundka,2026-01-05,crop_burning_smoke
+Mundka,2026-01-06,crop_burning_smoke
+Mundka,2026-01-07,crop_burning_smoke
+Mundka,2026-01-08,crop_burning_smoke
+Mundka,2026-01-09,crop_burning_smoke
+Mundka,2026-01-10,crop_burning_smoke
+Mundka,2026-01-11,crop_burning_smoke
+Mundka,2026-01-12,crop_burning_smoke
+Mundka,2026-01-13,crop_burning_smoke
+Mundka,2026-01-14,crop_burning_smoke
+Mundka,2026-01-15,crop_burning_smoke
+Mundka,2026-01-16,crop_burning_smoke
+Mundka,2026-01-17,crop_burning_smoke
+Mundka,2026-01-18,crop_burning_smoke
+Mundka,2026-01-19,crop_burning_smoke
+Mundka,2026-01-20,crop_burning_smoke
+Mundka,2026-01-21,crop_burning_smoke
+Mundka,2026-01-22,crop_burning_smoke
+Mundka,2026-01-23,crop_burning_smoke
+Mundka,2026-01-24,dust
+Mundka,2026-01-25,traffic_heavy
+Mundka,2026-01-26,traffic_heavy
+Mundka,2026-01-27,crop_burning_smoke
+Mundka,2026-01-28,crop_burning_smoke
+Mundka,2026-01-29,crop_burning_smoke
+Mundka,2026-01-30,crop_burning_smoke
+Mundka,2026-01-31,crop_burning_smoke
+Mundka,2026-02-01,crop_burning_smoke
+Mundka,2026-02-02,crop_burning_smoke
+Mundka,2026-02-03,crop_burning_smoke
+Mundka,2026-02-04,crop_burning_smoke
+Mundka,2026-02-05,crop_burning_smoke
+Mundka,2026-02-06,traffic_heavy
+Mundka,2026-02-07,traffic_heavy
+Mundka,2026-02-08,crop_burning_smoke
+Mundka,2026-02-09,traffic_heavy
+Mundka,2026-02-10,traffic_heavy
+Mundka,2026-02-11,crop_burning_smoke
+Mundka,2026-02-12,traffic_heavy
+Mundka,2026-02-13,traffic_heavy
+Mundka,2026-02-14,crop_burning_smoke
+Mundka,2026-02-15,traffic_heavy
+Mundka,2026-02-16,dust
+Mundka,2026-02-17,traffic_heavy
+Mundka,2026-02-18,industrial_haze
+Mundka,2026-02-19,crop_burning_smoke
+Mundka,2026-02-20,traffic_heavy
+Mundka,2026-02-21,traffic_heavy
+Mundka,2026-02-22,crop_burning_smoke
+Mundka,2026-02-23,traffic_heavy
+Mundka,2026-02-24,crop_burning_smoke
+Mundka,2026-02-25,traffic_heavy
+Mundka,2026-02-26,traffic_heavy
+Mundka,2026-02-27,industrial_haze
+Mundka,2026-02-28,industrial_haze
+Mundka,2026-03-01,industrial_haze
+Mundka,2026-03-02,traffic_heavy
+Mundka,2026-03-03,traffic_heavy
+Mundka,2026-03-05,traffic_heavy
+Mundka,2026-03-06,traffic_heavy
+Mundka,2026-03-07,industrial_haze
+Mundka,2026-03-08,industrial_haze
+Mundka,2026-03-09,industrial_haze
+Mundka,2026-03-10,industrial_haze
+Mundka,2026-03-11,industrial_haze
+Mundka,2026-03-12,traffic_heavy
+Mundka,2026-03-13,traffic_heavy
+Mundka,2026-03-14,traffic_heavy
+Mundka,2026-03-15,traffic_heavy
+Mundka,2026-03-16,dust
+Mundka,2026-03-17,industrial_haze
+Mundka,2026-03-18,industrial_haze
+Mundka,2026-03-19,traffic_heavy
+Mundka,2026-03-20,clear
+Mundka,2026-03-21,industrial_haze
+Mundka,2026-03-22,crop_burning_smoke
+Mundka,2026-03-23,traffic_heavy
+Mundka,2026-03-24,industrial_haze
+Mundka,2026-03-25,crop_burning_smoke
+Mundka,2026-03-26,industrial_haze
+Mundka,2026-03-27,industrial_haze
+Mundka,2026-03-28,industrial_haze
+Mundka,2026-03-29,traffic_heavy
+Mundka,2026-03-30,traffic_heavy
+Mundka,2026-03-31,traffic_heavy
+Mundka,2026-04-01,dust
+Mundka,2026-04-02,traffic_heavy
+Mundka,2026-04-03,dust
+Mundka,2026-04-04,dust
+Mundka,2026-04-05,dust
+Mundka,2026-04-06,industrial_haze
+Mundka,2026-04-07,traffic_heavy
+Mundka,2026-04-08,dust
+Mundka,2026-04-09,traffic_heavy
+Mundka,2026-04-10,dust
+Mundka,2026-04-11,industrial_haze
+Mundka,2026-04-12,dust
+Mundka,2026-04-13,industrial_haze
+Mundka,2026-04-14,industrial_haze
+Mundka,2026-04-15,industrial_haze
+Mundka,2026-04-16,industrial_haze
+Mundka,2026-04-17,traffic_heavy
+Mundka,2026-04-18,industrial_haze
+Mundka,2026-04-19,industrial_haze
+Mundka,2026-04-20,industrial_haze
+Mundka,2026-04-21,industrial_haze
+Mundka,2026-04-22,industrial_haze
+Mundka,2026-04-23,industrial_haze
+Mundka,2026-04-24,industrial_haze
+Mundka,2026-04-25,industrial_haze
+Mundka,2026-04-26,industrial_haze
+Mundka,2026-04-27,industrial_haze
+Mundka,2026-04-28,traffic_heavy
+Mundka,2026-04-29,traffic_heavy
+Mundka,2026-04-30,traffic_heavy
+Mundka,2026-05-01,dust
+Mundka,2026-05-02,dust
+Mundka,2026-05-03,dust
+Mundka,2026-05-04,dust
+Mundka,2026-05-05,dust
+Mundka,2026-05-06,traffic_heavy
+Mundka,2026-05-07,traffic_heavy
+Mundka,2026-05-08,traffic_heavy
+Mundka,2026-05-09,traffic_heavy
+Mundka,2026-05-10,dust
+Mundka,2026-05-11,traffic_heavy
+Mundka,2026-05-12,traffic_heavy
+Mundka,2026-05-13,traffic_heavy
+Mundka,2026-05-14,traffic_heavy
+Mundka,2026-05-15,dust
+Mundka,2026-05-16,industrial_haze
+Mundka,2026-05-17,industrial_haze
+Mundka,2026-05-18,industrial_haze
+Mundka,2026-05-19,industrial_haze
+Mundka,2026-05-20,traffic_heavy
+Mundka,2026-05-21,dust
+Mundka,2026-05-22,traffic_heavy
+Mundka,2026-05-23,traffic_heavy
+Mundka,2026-05-24,traffic_heavy
+Mundka,2026-05-25,dust
+Mundka,2026-05-26,dust
+Mundka,2026-05-27,traffic_heavy
+Mundka,2026-05-28,traffic_heavy
+Mundka,2026-05-29,traffic_heavy
+Mundka,2026-05-30,dust
+Mundka,2026-05-31,dust
+Mundka,2026-06-01,traffic_heavy
+Mundka,2026-06-02,dust
+Mundka,2026-06-03,traffic_heavy
+Mundka,2026-06-04,dust
+Mundka,2026-06-05,dust
+Mundka,2026-06-06,traffic_heavy
+Mundka,2026-06-07,dust
+Mundka,2026-06-08,dust
+Mundka,2026-06-09,dust
+Mundka,2026-06-10,dust
+Mundka,2026-06-11,dust
+Mundka,2026-06-12,clear
+Mundka,2026-06-13,dust
+Mundka,2026-06-14,dust
+Mundka,2026-06-15,dust
+Mundka,2026-06-16,traffic_heavy
+Mundka,2026-06-17,dust
+Mundka,2026-06-18,traffic_heavy
+Mundka,2026-06-19,dust
+Mundka,2026-06-20,dust
+Mundka,2026-06-21,dust
+Mundka,2026-06-22,dust
+Mundka,2026-06-23,dust
+Mundka,2026-06-24,dust
+Mundka,2026-06-25,dust
+Mundka,2026-06-26,dust
+Mundka,2026-06-27,dust
+Mundka,2026-06-28,dust
+Mundka,2026-06-29,dust
+Mundka,2026-06-30,dust
+Mundka,2026-07-01,dust
+Mundka,2026-07-02,dust
+Mundka,2026-07-03,clear
+Mundka,2026-07-04,traffic_heavy
+Mundka,2026-07-05,traffic_heavy
+Mundka,2026-07-06,traffic_heavy
+Mundka,2026-07-07,clear
+Mundka,2026-07-08,traffic_heavy
+Mundka,2026-07-09,clear
+Mundka,2026-07-10,clear
+Mundka,2026-07-11,dust
+Mundka,2026-07-12,dust
+Mundka,2026-07-13,dust
+Mundka,2026-07-14,dust
+Mundka,2026-07-15,dust
+Mundka,2026-07-16,dust
+Mundka,2026-07-17,dust
+Mundka,2026-07-18,dust
+Mundka,2026-07-19,dust
+Mundka,2026-07-20,dust
+Mundka,2026-07-21,traffic_heavy
+Narela,2025-10-01,dust
+Narela,2025-10-02,dust
+Narela,2025-10-03,clear
+Narela,2025-10-04,dust
+Narela,2025-10-05,crop_burning_smoke
+Narela,2025-10-06,clear
+Narela,2025-10-07,clear
+Narela,2025-10-08,clear
+Narela,2025-10-09,dust
+Narela,2025-10-10,dust
+Narela,2025-10-11,dust
+Narela,2025-10-12,dust
+Narela,2025-10-13,dust
+Narela,2025-10-14,dust
+Narela,2025-10-15,dust
+Narela,2025-10-16,dust
+Narela,2025-10-17,crop_burning_smoke
+Narela,2025-10-18,dust
+Narela,2025-10-19,dust
+Narela,2025-10-20,crop_burning_smoke
+Narela,2025-10-21,crop_burning_smoke
+Narela,2025-10-22,crop_burning_smoke
+Narela,2025-10-23,crop_burning_smoke
+Narela,2025-10-24,crop_burning_smoke
+Narela,2025-10-25,crop_burning_smoke
+Narela,2025-10-26,crop_burning_smoke
+Narela,2025-10-27,crop_burning_smoke
+Narela,2025-10-28,crop_burning_smoke
+Narela,2025-10-29,crop_burning_smoke
+Narela,2025-10-30,crop_burning_smoke
+Narela,2025-10-31,crop_burning_smoke
+Narela,2025-11-01,crop_burning_smoke
+Narela,2025-11-02,crop_burning_smoke
+Narela,2025-11-03,crop_burning_smoke
+Narela,2025-11-04,crop_burning_smoke
+Narela,2025-11-05,crop_burning_smoke
+Narela,2025-11-06,crop_burning_smoke
+Narela,2025-11-07,crop_burning_smoke
+Narela,2025-11-08,crop_burning_smoke
+Narela,2025-11-09,crop_burning_smoke
+Narela,2025-11-10,crop_burning_smoke
+Narela,2025-11-11,crop_burning_smoke
+Narela,2025-11-12,crop_burning_smoke
+Narela,2025-11-13,crop_burning_smoke
+Narela,2025-11-14,crop_burning_smoke
+Narela,2025-11-15,crop_burning_smoke
+Narela,2025-11-16,crop_burning_smoke
+Narela,2025-11-17,crop_burning_smoke
+Narela,2025-11-18,crop_burning_smoke
+Narela,2025-11-19,crop_burning_smoke
+Narela,2025-11-20,crop_burning_smoke
+Narela,2025-11-21,crop_burning_smoke
+Narela,2025-11-22,crop_burning_smoke
+Narela,2025-11-23,crop_burning_smoke
+Narela,2025-11-24,crop_burning_smoke
+Narela,2025-11-25,crop_burning_smoke
+Narela,2025-11-26,crop_burning_smoke
 Narela,2025-12-01,crop_burning_smoke
 Narela,2025-12-02,crop_burning_smoke
 Narela,2025-12-03,crop_burning_smoke
@@ -48,6 +1793,288 @@ Narela,2025-12-04,crop_burning_smoke
 Narela,2025-12-05,crop_burning_smoke
 Narela,2025-12-06,crop_burning_smoke
 Narela,2025-12-07,crop_burning_smoke
+Narela,2025-12-08,crop_burning_smoke
+Narela,2025-12-09,crop_burning_smoke
+Narela,2025-12-10,crop_burning_smoke
+Narela,2025-12-11,crop_burning_smoke
+Narela,2025-12-12,crop_burning_smoke
+Narela,2025-12-13,crop_burning_smoke
+Narela,2025-12-14,crop_burning_smoke
+Narela,2025-12-15,crop_burning_smoke
+Narela,2025-12-16,crop_burning_smoke
+Narela,2025-12-17,crop_burning_smoke
+Narela,2025-12-18,crop_burning_smoke
+Narela,2025-12-19,crop_burning_smoke
+Narela,2025-12-20,crop_burning_smoke
+Narela,2025-12-21,crop_burning_smoke
+Narela,2025-12-22,crop_burning_smoke
+Narela,2025-12-23,crop_burning_smoke
+Narela,2025-12-24,crop_burning_smoke
+Narela,2025-12-25,crop_burning_smoke
+Narela,2025-12-26,crop_burning_smoke
+Narela,2025-12-27,crop_burning_smoke
+Narela,2025-12-28,crop_burning_smoke
+Narela,2025-12-29,crop_burning_smoke
+Narela,2025-12-30,crop_burning_smoke
+Narela,2025-12-31,crop_burning_smoke
+Narela,2026-01-01,crop_burning_smoke
+Narela,2026-01-02,crop_burning_smoke
+Narela,2026-01-03,crop_burning_smoke
+Narela,2026-01-04,crop_burning_smoke
+Narela,2026-01-05,crop_burning_smoke
+Narela,2026-01-06,crop_burning_smoke
+Narela,2026-01-07,crop_burning_smoke
+Narela,2026-01-08,crop_burning_smoke
+Narela,2026-01-09,crop_burning_smoke
+Narela,2026-01-10,crop_burning_smoke
+Narela,2026-01-11,crop_burning_smoke
+Narela,2026-01-12,crop_burning_smoke
+Narela,2026-01-13,crop_burning_smoke
+Narela,2026-01-14,crop_burning_smoke
+Narela,2026-01-15,crop_burning_smoke
+Narela,2026-01-16,crop_burning_smoke
+Narela,2026-01-17,crop_burning_smoke
+Narela,2026-01-18,crop_burning_smoke
+Narela,2026-01-19,crop_burning_smoke
+Narela,2026-01-20,crop_burning_smoke
+Narela,2026-01-21,crop_burning_smoke
+Narela,2026-01-22,crop_burning_smoke
+Narela,2026-01-23,crop_burning_smoke
+Narela,2026-01-24,dust
+Narela,2026-01-25,dust
+Narela,2026-01-26,crop_burning_smoke
+Narela,2026-01-27,crop_burning_smoke
+Narela,2026-01-28,crop_burning_smoke
+Narela,2026-01-29,dust
+Narela,2026-01-30,dust
+Narela,2026-01-31,dust
+Narela,2026-02-01,dust
+Narela,2026-02-02,dust
+Narela,2026-02-03,dust
+Narela,2026-02-04,dust
+Narela,2026-02-05,dust
+Narela,2026-02-06,dust
+Narela,2026-02-07,crop_burning_smoke
+Narela,2026-02-08,dust
+Narela,2026-02-09,crop_burning_smoke
+Narela,2026-02-10,traffic_heavy
+Narela,2026-02-11,crop_burning_smoke
+Narela,2026-02-12,dust
+Narela,2026-02-13,crop_burning_smoke
+Narela,2026-02-14,crop_burning_smoke
+Narela,2026-02-15,crop_burning_smoke
+Narela,2026-02-16,dust
+Narela,2026-02-17,traffic_heavy
+Narela,2026-02-18,dust
+Narela,2026-02-19,dust
+Narela,2026-02-20,dust
+Narela,2026-02-21,dust
+Narela,2026-02-22,dust
+Narela,2026-02-23,dust
+Narela,2026-02-24,dust
+Narela,2026-02-25,dust
+Narela,2026-02-26,dust
+Narela,2026-02-27,dust
+Narela,2026-02-28,traffic_heavy
+Narela,2026-03-01,dust
+Narela,2026-03-02,dust
+Narela,2026-03-03,dust
+Narela,2026-03-05,dust
+Narela,2026-03-06,dust
+Narela,2026-03-07,traffic_heavy
+Narela,2026-03-08,dust
+Narela,2026-03-09,dust
+Narela,2026-03-10,dust
+Narela,2026-03-11,dust
+Narela,2026-03-12,dust
+Narela,2026-03-13,dust
+Narela,2026-03-14,dust
+Narela,2026-03-15,dust
+Narela,2026-03-16,dust
+Narela,2026-03-17,dust
+Narela,2026-03-18,dust
+Narela,2026-03-19,dust
+Narela,2026-03-20,dust
+Narela,2026-03-21,dust
+Narela,2026-03-22,dust
+Narela,2026-03-23,dust
+Narela,2026-03-24,dust
+Narela,2026-03-25,crop_burning_smoke
+Narela,2026-03-26,dust
+Narela,2026-03-27,dust
+Narela,2026-03-28,crop_burning_smoke
+Narela,2026-03-29,dust
+Narela,2026-03-30,dust
+Narela,2026-03-31,dust
+Narela,2026-04-01,dust
+Narela,2026-04-02,dust
+Narela,2026-04-03,dust
+Narela,2026-04-04,dust
+Narela,2026-04-05,dust
+Narela,2026-04-06,dust
+Narela,2026-04-07,dust
+Narela,2026-04-08,dust
+Narela,2026-04-09,dust
+Narela,2026-04-10,dust
+Narela,2026-04-11,dust
+Narela,2026-04-12,dust
+Narela,2026-04-13,dust
+Narela,2026-04-14,dust
+Narela,2026-04-15,dust
+Narela,2026-04-16,traffic_heavy
+Narela,2026-04-17,industrial_haze
+Narela,2026-04-18,traffic_heavy
+Narela,2026-04-19,industrial_haze
+Narela,2026-04-20,dust
+Narela,2026-04-21,dust
+Narela,2026-04-22,industrial_haze
+Narela,2026-04-23,dust
+Narela,2026-04-24,industrial_haze
+Narela,2026-04-25,dust
+Narela,2026-04-26,dust
+Narela,2026-04-27,industrial_haze
+Narela,2026-04-28,dust
+Narela,2026-04-29,dust
+Narela,2026-04-30,dust
+Narela,2026-05-01,dust
+Narela,2026-05-02,dust
+Narela,2026-05-03,dust
+Narela,2026-05-04,dust
+Narela,2026-05-05,clear
+Narela,2026-05-06,dust
+Narela,2026-05-07,clear
+Narela,2026-05-08,dust
+Narela,2026-05-09,dust
+Narela,2026-05-10,dust
+Narela,2026-05-11,dust
+Narela,2026-05-12,dust
+Narela,2026-05-13,dust
+Narela,2026-05-14,dust
+Narela,2026-05-15,dust
+Narela,2026-05-16,dust
+Narela,2026-05-17,dust
+Narela,2026-05-18,dust
+Narela,2026-05-19,dust
+Narela,2026-05-20,dust
+Narela,2026-05-21,dust
+Narela,2026-05-22,dust
+Narela,2026-05-23,dust
+Narela,2026-05-24,dust
+Narela,2026-05-25,dust
+Narela,2026-05-26,dust
+Narela,2026-05-27,dust
+Narela,2026-05-28,dust
+Narela,2026-05-29,dust
+Narela,2026-05-30,dust
+Narela,2026-05-31,clear
+Narela,2026-06-01,dust
+Narela,2026-06-02,dust
+Narela,2026-06-03,dust
+Narela,2026-06-04,dust
+Narela,2026-06-05,dust
+Narela,2026-06-06,dust
+Narela,2026-06-07,dust
+Narela,2026-06-08,dust
+Narela,2026-06-09,dust
+Narela,2026-06-10,dust
+Narela,2026-06-11,dust
+Narela,2026-06-12,clear
+Narela,2026-06-13,dust
+Narela,2026-06-14,dust
+Narela,2026-06-15,dust
+Narela,2026-06-16,dust
+Narela,2026-06-17,dust
+Narela,2026-06-18,dust
+Narela,2026-06-19,dust
+Narela,2026-06-20,dust
+Narela,2026-06-21,dust
+Narela,2026-06-22,dust
+Narela,2026-06-23,dust
+Narela,2026-06-24,dust
+Narela,2026-06-25,dust
+Narela,2026-06-26,dust
+Narela,2026-06-27,dust
+Narela,2026-06-28,dust
+Narela,2026-06-29,dust
+Narela,2026-06-30,dust
+Narela,2026-07-01,dust
+Narela,2026-07-02,dust
+Narela,2026-07-03,dust
+Narela,2026-07-04,crop_burning_smoke
+Narela,2026-07-05,dust
+Narela,2026-07-06,dust
+Narela,2026-07-07,clear
+Narela,2026-07-08,clear
+Narela,2026-07-09,clear
+Narela,2026-07-10,clear
+Narela,2026-07-11,dust
+Narela,2026-07-12,dust
+Narela,2026-07-13,dust
+Narela,2026-07-14,dust
+Narela,2026-07-15,dust
+Narela,2026-07-16,dust
+Narela,2026-07-17,dust
+Narela,2026-07-18,dust
+Narela,2026-07-19,dust
+Narela,2026-07-20,dust
+Narela,2026-07-21,clear
+Okhla,2025-10-01,dust
+Okhla,2025-10-02,dust
+Okhla,2025-10-03,dust
+Okhla,2025-10-04,traffic_heavy
+Okhla,2025-10-05,traffic_heavy
+Okhla,2025-10-06,clear
+Okhla,2025-10-07,dust
+Okhla,2025-10-08,clear
+Okhla,2025-10-09,traffic_heavy
+Okhla,2025-10-10,traffic_heavy
+Okhla,2025-10-11,traffic_heavy
+Okhla,2025-10-12,dust
+Okhla,2025-10-13,traffic_heavy
+Okhla,2025-10-14,traffic_heavy
+Okhla,2025-10-15,traffic_heavy
+Okhla,2025-10-16,traffic_heavy
+Okhla,2025-10-17,traffic_heavy
+Okhla,2025-10-18,traffic_heavy
+Okhla,2025-10-19,crop_burning_smoke
+Okhla,2025-10-20,crop_burning_smoke
+Okhla,2025-10-21,crop_burning_smoke
+Okhla,2025-10-22,crop_burning_smoke
+Okhla,2025-10-23,crop_burning_smoke
+Okhla,2025-10-24,traffic_heavy
+Okhla,2025-10-25,traffic_heavy
+Okhla,2025-10-26,traffic_heavy
+Okhla,2025-10-27,traffic_heavy
+Okhla,2025-10-28,crop_burning_smoke
+Okhla,2025-10-29,crop_burning_smoke
+Okhla,2025-10-30,crop_burning_smoke
+Okhla,2025-10-31,crop_burning_smoke
+Okhla,2025-11-01,crop_burning_smoke
+Okhla,2025-11-02,crop_burning_smoke
+Okhla,2025-11-03,traffic_heavy
+Okhla,2025-11-04,traffic_heavy
+Okhla,2025-11-05,traffic_heavy
+Okhla,2025-11-06,crop_burning_smoke
+Okhla,2025-11-07,crop_burning_smoke
+Okhla,2025-11-08,crop_burning_smoke
+Okhla,2025-11-09,crop_burning_smoke
+Okhla,2025-11-10,crop_burning_smoke
+Okhla,2025-11-11,crop_burning_smoke
+Okhla,2025-11-12,crop_burning_smoke
+Okhla,2025-11-13,crop_burning_smoke
+Okhla,2025-11-14,crop_burning_smoke
+Okhla,2025-11-15,crop_burning_smoke
+Okhla,2025-11-16,crop_burning_smoke
+Okhla,2025-11-17,crop_burning_smoke
+Okhla,2025-11-18,crop_burning_smoke
+Okhla,2025-11-19,crop_burning_smoke
+Okhla,2025-11-20,crop_burning_smoke
+Okhla,2025-11-21,crop_burning_smoke
+Okhla,2025-11-22,crop_burning_smoke
+Okhla,2025-11-23,crop_burning_smoke
+Okhla,2025-11-24,crop_burning_smoke
+Okhla,2025-11-25,crop_burning_smoke
+Okhla,2025-11-26,crop_burning_smoke
 Okhla,2025-12-01,crop_burning_smoke
 Okhla,2025-12-02,crop_burning_smoke
 Okhla,2025-12-03,crop_burning_smoke
@@ -55,6 +2082,286 @@ Okhla,2025-12-04,crop_burning_smoke
 Okhla,2025-12-05,crop_burning_smoke
 Okhla,2025-12-06,crop_burning_smoke
 Okhla,2025-12-07,crop_burning_smoke
+Okhla,2025-12-08,crop_burning_smoke
+Okhla,2025-12-09,crop_burning_smoke
+Okhla,2025-12-10,traffic_heavy
+Okhla,2025-12-11,traffic_heavy
+Okhla,2025-12-12,crop_burning_smoke
+Okhla,2025-12-13,crop_burning_smoke
+Okhla,2025-12-14,crop_burning_smoke
+Okhla,2025-12-15,crop_burning_smoke
+Okhla,2025-12-16,crop_burning_smoke
+Okhla,2025-12-17,crop_burning_smoke
+Okhla,2025-12-18,crop_burning_smoke
+Okhla,2025-12-19,crop_burning_smoke
+Okhla,2025-12-20,crop_burning_smoke
+Okhla,2025-12-21,crop_burning_smoke
+Okhla,2025-12-22,crop_burning_smoke
+Okhla,2025-12-23,crop_burning_smoke
+Okhla,2025-12-24,crop_burning_smoke
+Okhla,2025-12-25,traffic_heavy
+Okhla,2025-12-26,crop_burning_smoke
+Okhla,2025-12-27,crop_burning_smoke
+Okhla,2025-12-28,crop_burning_smoke
+Okhla,2025-12-29,crop_burning_smoke
+Okhla,2025-12-30,crop_burning_smoke
+Okhla,2025-12-31,crop_burning_smoke
+Okhla,2026-01-01,crop_burning_smoke
+Okhla,2026-01-02,crop_burning_smoke
+Okhla,2026-01-03,crop_burning_smoke
+Okhla,2026-01-04,crop_burning_smoke
+Okhla,2026-01-05,crop_burning_smoke
+Okhla,2026-01-06,crop_burning_smoke
+Okhla,2026-01-07,crop_burning_smoke
+Okhla,2026-01-08,crop_burning_smoke
+Okhla,2026-01-09,crop_burning_smoke
+Okhla,2026-01-10,crop_burning_smoke
+Okhla,2026-01-11,crop_burning_smoke
+Okhla,2026-01-12,crop_burning_smoke
+Okhla,2026-01-13,traffic_heavy
+Okhla,2026-01-14,crop_burning_smoke
+Okhla,2026-01-15,crop_burning_smoke
+Okhla,2026-01-16,crop_burning_smoke
+Okhla,2026-01-17,crop_burning_smoke
+Okhla,2026-01-18,crop_burning_smoke
+Okhla,2026-01-19,crop_burning_smoke
+Okhla,2026-01-20,crop_burning_smoke
+Okhla,2026-01-21,crop_burning_smoke
+Okhla,2026-01-22,crop_burning_smoke
+Okhla,2026-01-23,crop_burning_smoke
+Okhla,2026-01-24,traffic_heavy
+Okhla,2026-01-25,traffic_heavy
+Okhla,2026-01-26,crop_burning_smoke
+Okhla,2026-01-27,crop_burning_smoke
+Okhla,2026-01-28,crop_burning_smoke
+Okhla,2026-01-29,crop_burning_smoke
+Okhla,2026-01-30,crop_burning_smoke
+Okhla,2026-01-31,crop_burning_smoke
+Okhla,2026-02-01,crop_burning_smoke
+Okhla,2026-02-02,crop_burning_smoke
+Okhla,2026-02-03,crop_burning_smoke
+Okhla,2026-02-04,crop_burning_smoke
+Okhla,2026-02-05,crop_burning_smoke
+Okhla,2026-02-06,crop_burning_smoke
+Okhla,2026-02-07,crop_burning_smoke
+Okhla,2026-02-08,traffic_heavy
+Okhla,2026-02-09,traffic_heavy
+Okhla,2026-02-10,traffic_heavy
+Okhla,2026-02-11,traffic_heavy
+Okhla,2026-02-12,traffic_heavy
+Okhla,2026-02-13,traffic_heavy
+Okhla,2026-02-14,traffic_heavy
+Okhla,2026-02-16,traffic_heavy
+Okhla,2026-02-17,traffic_heavy
+Okhla,2026-02-18,traffic_heavy
+Okhla,2026-02-19,traffic_heavy
+Okhla,2026-02-20,traffic_heavy
+Okhla,2026-02-21,traffic_heavy
+Okhla,2026-02-22,crop_burning_smoke
+Okhla,2026-02-23,traffic_heavy
+Okhla,2026-02-24,traffic_heavy
+Okhla,2026-02-25,traffic_heavy
+Okhla,2026-02-26,traffic_heavy
+Okhla,2026-02-27,traffic_heavy
+Okhla,2026-02-28,traffic_heavy
+Okhla,2026-03-01,traffic_heavy
+Okhla,2026-03-02,traffic_heavy
+Okhla,2026-03-03,traffic_heavy
+Okhla,2026-03-05,traffic_heavy
+Okhla,2026-03-06,traffic_heavy
+Okhla,2026-03-07,traffic_heavy
+Okhla,2026-03-08,traffic_heavy
+Okhla,2026-03-09,traffic_heavy
+Okhla,2026-03-10,traffic_heavy
+Okhla,2026-03-11,traffic_heavy
+Okhla,2026-03-12,dust
+Okhla,2026-03-13,dust
+Okhla,2026-03-14,traffic_heavy
+Okhla,2026-03-15,traffic_heavy
+Okhla,2026-03-16,traffic_heavy
+Okhla,2026-03-17,dust
+Okhla,2026-03-18,traffic_heavy
+Okhla,2026-03-19,traffic_heavy
+Okhla,2026-03-20,clear
+Okhla,2026-03-21,traffic_heavy
+Okhla,2026-03-22,traffic_heavy
+Okhla,2026-03-23,traffic_heavy
+Okhla,2026-03-24,dust
+Okhla,2026-03-25,dust
+Okhla,2026-03-26,dust
+Okhla,2026-03-27,traffic_heavy
+Okhla,2026-03-28,traffic_heavy
+Okhla,2026-03-29,dust
+Okhla,2026-03-30,traffic_heavy
+Okhla,2026-03-31,traffic_heavy
+Okhla,2026-04-01,traffic_heavy
+Okhla,2026-04-02,traffic_heavy
+Okhla,2026-04-03,dust
+Okhla,2026-04-04,traffic_heavy
+Okhla,2026-04-05,dust
+Okhla,2026-04-06,dust
+Okhla,2026-04-07,clear
+Okhla,2026-04-08,clear
+Okhla,2026-04-09,traffic_heavy
+Okhla,2026-04-10,dust
+Okhla,2026-04-11,dust
+Okhla,2026-04-12,traffic_heavy
+Okhla,2026-04-13,dust
+Okhla,2026-04-14,traffic_heavy
+Okhla,2026-04-15,traffic_heavy
+Okhla,2026-04-16,industrial_haze
+Okhla,2026-04-17,industrial_haze
+Okhla,2026-04-18,industrial_haze
+Okhla,2026-04-19,industrial_haze
+Okhla,2026-04-20,industrial_haze
+Okhla,2026-04-21,industrial_haze
+Okhla,2026-04-22,industrial_haze
+Okhla,2026-04-23,traffic_heavy
+Okhla,2026-04-24,traffic_heavy
+Okhla,2026-04-25,industrial_haze
+Okhla,2026-04-26,traffic_heavy
+Okhla,2026-04-27,dust
+Okhla,2026-04-28,dust
+Okhla,2026-04-29,dust
+Okhla,2026-04-30,dust
+Okhla,2026-05-01,dust
+Okhla,2026-05-02,dust
+Okhla,2026-05-03,dust
+Okhla,2026-05-04,clear
+Okhla,2026-05-05,dust
+Okhla,2026-05-06,traffic_heavy
+Okhla,2026-05-07,dust
+Okhla,2026-05-08,dust
+Okhla,2026-05-09,dust
+Okhla,2026-05-10,dust
+Okhla,2026-05-11,dust
+Okhla,2026-05-12,dust
+Okhla,2026-05-13,dust
+Okhla,2026-05-14,dust
+Okhla,2026-05-15,dust
+Okhla,2026-05-16,dust
+Okhla,2026-05-17,dust
+Okhla,2026-05-18,dust
+Okhla,2026-05-19,dust
+Okhla,2026-05-20,traffic_heavy
+Okhla,2026-05-21,dust
+Okhla,2026-05-22,dust
+Okhla,2026-05-23,dust
+Okhla,2026-05-24,dust
+Okhla,2026-05-25,traffic_heavy
+Okhla,2026-05-26,dust
+Okhla,2026-05-27,traffic_heavy
+Okhla,2026-05-28,dust
+Okhla,2026-05-29,dust
+Okhla,2026-05-30,dust
+Okhla,2026-05-31,clear
+Okhla,2026-06-01,dust
+Okhla,2026-06-02,dust
+Okhla,2026-06-03,dust
+Okhla,2026-06-04,dust
+Okhla,2026-06-05,dust
+Okhla,2026-06-06,dust
+Okhla,2026-06-07,dust
+Okhla,2026-06-08,dust
+Okhla,2026-06-09,dust
+Okhla,2026-06-10,dust
+Okhla,2026-06-11,dust
+Okhla,2026-06-12,clear
+Okhla,2026-06-13,dust
+Okhla,2026-06-14,dust
+Okhla,2026-06-15,dust
+Okhla,2026-06-16,dust
+Okhla,2026-06-17,traffic_heavy
+Okhla,2026-06-18,dust
+Okhla,2026-06-19,dust
+Okhla,2026-06-20,dust
+Okhla,2026-06-21,dust
+Okhla,2026-06-22,dust
+Okhla,2026-06-23,dust
+Okhla,2026-06-24,dust
+Okhla,2026-06-25,dust
+Okhla,2026-06-26,dust
+Okhla,2026-06-27,dust
+Okhla,2026-06-28,dust
+Okhla,2026-06-29,dust
+Okhla,2026-06-30,dust
+Okhla,2026-07-01,dust
+Okhla,2026-07-02,dust
+Okhla,2026-07-03,dust
+Okhla,2026-07-04,dust
+Okhla,2026-07-05,dust
+Okhla,2026-07-06,clear
+Okhla,2026-07-07,dust
+Okhla,2026-07-08,clear
+Okhla,2026-07-09,clear
+Okhla,2026-07-10,clear
+Okhla,2026-07-11,dust
+Okhla,2026-07-12,dust
+Okhla,2026-07-13,dust
+Okhla,2026-07-14,dust
+Okhla,2026-07-15,dust
+Okhla,2026-07-16,dust
+Okhla,2026-07-17,dust
+Okhla,2026-07-18,dust
+Okhla,2026-07-19,dust
+Okhla,2026-07-20,clear
+Okhla,2026-07-21,clear
+Punjabi Bagh,2025-10-01,traffic_heavy
+Punjabi Bagh,2025-10-02,traffic_heavy
+Punjabi Bagh,2025-10-03,traffic_heavy
+Punjabi Bagh,2025-10-04,industrial_haze
+Punjabi Bagh,2025-10-05,dust
+Punjabi Bagh,2025-10-06,clear
+Punjabi Bagh,2025-10-07,clear
+Punjabi Bagh,2025-10-08,clear
+Punjabi Bagh,2025-10-09,dust
+Punjabi Bagh,2025-10-10,dust
+Punjabi Bagh,2025-10-11,dust
+Punjabi Bagh,2025-10-12,dust
+Punjabi Bagh,2025-10-13,dust
+Punjabi Bagh,2025-10-14,dust
+Punjabi Bagh,2025-10-15,traffic_heavy
+Punjabi Bagh,2025-10-16,traffic_heavy
+Punjabi Bagh,2025-10-17,dust
+Punjabi Bagh,2025-10-18,crop_burning_smoke
+Punjabi Bagh,2025-10-19,crop_burning_smoke
+Punjabi Bagh,2025-10-20,crop_burning_smoke
+Punjabi Bagh,2025-10-21,crop_burning_smoke
+Punjabi Bagh,2025-10-22,crop_burning_smoke
+Punjabi Bagh,2025-10-23,crop_burning_smoke
+Punjabi Bagh,2025-10-24,crop_burning_smoke
+Punjabi Bagh,2025-10-25,traffic_heavy
+Punjabi Bagh,2025-10-26,crop_burning_smoke
+Punjabi Bagh,2025-10-27,crop_burning_smoke
+Punjabi Bagh,2025-10-28,crop_burning_smoke
+Punjabi Bagh,2025-10-29,crop_burning_smoke
+Punjabi Bagh,2025-10-30,crop_burning_smoke
+Punjabi Bagh,2025-10-31,crop_burning_smoke
+Punjabi Bagh,2025-11-01,crop_burning_smoke
+Punjabi Bagh,2025-11-02,crop_burning_smoke
+Punjabi Bagh,2025-11-03,crop_burning_smoke
+Punjabi Bagh,2025-11-04,traffic_heavy
+Punjabi Bagh,2025-11-05,crop_burning_smoke
+Punjabi Bagh,2025-11-06,crop_burning_smoke
+Punjabi Bagh,2025-11-07,crop_burning_smoke
+Punjabi Bagh,2025-11-08,crop_burning_smoke
+Punjabi Bagh,2025-11-09,crop_burning_smoke
+Punjabi Bagh,2025-11-10,crop_burning_smoke
+Punjabi Bagh,2025-11-11,crop_burning_smoke
+Punjabi Bagh,2025-11-12,crop_burning_smoke
+Punjabi Bagh,2025-11-13,crop_burning_smoke
+Punjabi Bagh,2025-11-14,crop_burning_smoke
+Punjabi Bagh,2025-11-15,crop_burning_smoke
+Punjabi Bagh,2025-11-16,crop_burning_smoke
+Punjabi Bagh,2025-11-17,crop_burning_smoke
+Punjabi Bagh,2025-11-18,crop_burning_smoke
+Punjabi Bagh,2025-11-19,crop_burning_smoke
+Punjabi Bagh,2025-11-20,crop_burning_smoke
+Punjabi Bagh,2025-11-21,crop_burning_smoke
+Punjabi Bagh,2025-11-22,crop_burning_smoke
+Punjabi Bagh,2025-11-23,crop_burning_smoke
+Punjabi Bagh,2025-11-24,crop_burning_smoke
+Punjabi Bagh,2025-11-25,crop_burning_smoke
 Punjabi Bagh,2025-12-01,crop_burning_smoke
 Punjabi Bagh,2025-12-02,crop_burning_smoke
 Punjabi Bagh,2025-12-03,crop_burning_smoke
@@ -62,6 +2369,288 @@ Punjabi Bagh,2025-12-04,crop_burning_smoke
 Punjabi Bagh,2025-12-05,crop_burning_smoke
 Punjabi Bagh,2025-12-06,crop_burning_smoke
 Punjabi Bagh,2025-12-07,crop_burning_smoke
+Punjabi Bagh,2025-12-08,crop_burning_smoke
+Punjabi Bagh,2025-12-09,crop_burning_smoke
+Punjabi Bagh,2025-12-10,crop_burning_smoke
+Punjabi Bagh,2025-12-11,crop_burning_smoke
+Punjabi Bagh,2025-12-12,crop_burning_smoke
+Punjabi Bagh,2025-12-13,crop_burning_smoke
+Punjabi Bagh,2025-12-14,crop_burning_smoke
+Punjabi Bagh,2025-12-15,crop_burning_smoke
+Punjabi Bagh,2025-12-16,crop_burning_smoke
+Punjabi Bagh,2025-12-17,crop_burning_smoke
+Punjabi Bagh,2025-12-18,crop_burning_smoke
+Punjabi Bagh,2025-12-19,crop_burning_smoke
+Punjabi Bagh,2025-12-20,crop_burning_smoke
+Punjabi Bagh,2025-12-21,crop_burning_smoke
+Punjabi Bagh,2025-12-22,crop_burning_smoke
+Punjabi Bagh,2025-12-23,crop_burning_smoke
+Punjabi Bagh,2025-12-24,crop_burning_smoke
+Punjabi Bagh,2025-12-25,crop_burning_smoke
+Punjabi Bagh,2025-12-26,crop_burning_smoke
+Punjabi Bagh,2025-12-27,crop_burning_smoke
+Punjabi Bagh,2025-12-28,crop_burning_smoke
+Punjabi Bagh,2025-12-29,crop_burning_smoke
+Punjabi Bagh,2025-12-30,crop_burning_smoke
+Punjabi Bagh,2025-12-31,crop_burning_smoke
+Punjabi Bagh,2026-01-01,crop_burning_smoke
+Punjabi Bagh,2026-01-02,crop_burning_smoke
+Punjabi Bagh,2026-01-03,crop_burning_smoke
+Punjabi Bagh,2026-01-04,crop_burning_smoke
+Punjabi Bagh,2026-01-05,crop_burning_smoke
+Punjabi Bagh,2026-01-06,crop_burning_smoke
+Punjabi Bagh,2026-01-07,crop_burning_smoke
+Punjabi Bagh,2026-01-08,crop_burning_smoke
+Punjabi Bagh,2026-01-09,crop_burning_smoke
+Punjabi Bagh,2026-01-10,crop_burning_smoke
+Punjabi Bagh,2026-01-11,crop_burning_smoke
+Punjabi Bagh,2026-01-12,crop_burning_smoke
+Punjabi Bagh,2026-01-13,crop_burning_smoke
+Punjabi Bagh,2026-01-14,crop_burning_smoke
+Punjabi Bagh,2026-01-15,crop_burning_smoke
+Punjabi Bagh,2026-01-16,crop_burning_smoke
+Punjabi Bagh,2026-01-17,crop_burning_smoke
+Punjabi Bagh,2026-01-18,crop_burning_smoke
+Punjabi Bagh,2026-01-19,crop_burning_smoke
+Punjabi Bagh,2026-01-20,crop_burning_smoke
+Punjabi Bagh,2026-01-21,crop_burning_smoke
+Punjabi Bagh,2026-01-22,crop_burning_smoke
+Punjabi Bagh,2026-01-23,crop_burning_smoke
+Punjabi Bagh,2026-01-24,dust
+Punjabi Bagh,2026-01-25,traffic_heavy
+Punjabi Bagh,2026-01-26,crop_burning_smoke
+Punjabi Bagh,2026-01-27,crop_burning_smoke
+Punjabi Bagh,2026-01-28,crop_burning_smoke
+Punjabi Bagh,2026-01-29,crop_burning_smoke
+Punjabi Bagh,2026-01-30,crop_burning_smoke
+Punjabi Bagh,2026-01-31,crop_burning_smoke
+Punjabi Bagh,2026-02-01,crop_burning_smoke
+Punjabi Bagh,2026-02-02,crop_burning_smoke
+Punjabi Bagh,2026-02-03,crop_burning_smoke
+Punjabi Bagh,2026-02-04,crop_burning_smoke
+Punjabi Bagh,2026-02-05,crop_burning_smoke
+Punjabi Bagh,2026-02-06,crop_burning_smoke
+Punjabi Bagh,2026-02-07,crop_burning_smoke
+Punjabi Bagh,2026-02-08,traffic_heavy
+Punjabi Bagh,2026-02-09,crop_burning_smoke
+Punjabi Bagh,2026-02-10,traffic_heavy
+Punjabi Bagh,2026-02-11,crop_burning_smoke
+Punjabi Bagh,2026-02-12,traffic_heavy
+Punjabi Bagh,2026-02-13,crop_burning_smoke
+Punjabi Bagh,2026-02-14,crop_burning_smoke
+Punjabi Bagh,2026-02-15,crop_burning_smoke
+Punjabi Bagh,2026-02-16,traffic_heavy
+Punjabi Bagh,2026-02-17,traffic_heavy
+Punjabi Bagh,2026-02-18,crop_burning_smoke
+Punjabi Bagh,2026-02-19,crop_burning_smoke
+Punjabi Bagh,2026-02-20,crop_burning_smoke
+Punjabi Bagh,2026-02-21,crop_burning_smoke
+Punjabi Bagh,2026-02-22,crop_burning_smoke
+Punjabi Bagh,2026-02-23,industrial_haze
+Punjabi Bagh,2026-02-24,crop_burning_smoke
+Punjabi Bagh,2026-02-25,industrial_haze
+Punjabi Bagh,2026-02-26,dust
+Punjabi Bagh,2026-02-27,traffic_heavy
+Punjabi Bagh,2026-02-28,industrial_haze
+Punjabi Bagh,2026-03-01,industrial_haze
+Punjabi Bagh,2026-03-02,industrial_haze
+Punjabi Bagh,2026-03-03,industrial_haze
+Punjabi Bagh,2026-03-05,industrial_haze
+Punjabi Bagh,2026-03-06,industrial_haze
+Punjabi Bagh,2026-03-07,industrial_haze
+Punjabi Bagh,2026-03-08,industrial_haze
+Punjabi Bagh,2026-03-09,crop_burning_smoke
+Punjabi Bagh,2026-03-10,crop_burning_smoke
+Punjabi Bagh,2026-03-11,industrial_haze
+Punjabi Bagh,2026-03-12,industrial_haze
+Punjabi Bagh,2026-03-13,industrial_haze
+Punjabi Bagh,2026-03-14,industrial_haze
+Punjabi Bagh,2026-03-15,industrial_haze
+Punjabi Bagh,2026-03-16,industrial_haze
+Punjabi Bagh,2026-03-17,industrial_haze
+Punjabi Bagh,2026-03-18,industrial_haze
+Punjabi Bagh,2026-03-19,industrial_haze
+Punjabi Bagh,2026-03-20,clear
+Punjabi Bagh,2026-03-21,industrial_haze
+Punjabi Bagh,2026-03-22,industrial_haze
+Punjabi Bagh,2026-03-23,industrial_haze
+Punjabi Bagh,2026-03-24,industrial_haze
+Punjabi Bagh,2026-03-25,crop_burning_smoke
+Punjabi Bagh,2026-03-26,dust
+Punjabi Bagh,2026-03-27,dust
+Punjabi Bagh,2026-03-28,crop_burning_smoke
+Punjabi Bagh,2026-03-29,industrial_haze
+Punjabi Bagh,2026-03-30,industrial_haze
+Punjabi Bagh,2026-03-31,crop_burning_smoke
+Punjabi Bagh,2026-04-01,industrial_haze
+Punjabi Bagh,2026-04-02,industrial_haze
+Punjabi Bagh,2026-04-03,industrial_haze
+Punjabi Bagh,2026-04-04,industrial_haze
+Punjabi Bagh,2026-04-05,industrial_haze
+Punjabi Bagh,2026-04-06,industrial_haze
+Punjabi Bagh,2026-04-07,industrial_haze
+Punjabi Bagh,2026-04-08,industrial_haze
+Punjabi Bagh,2026-04-09,industrial_haze
+Punjabi Bagh,2026-04-10,industrial_haze
+Punjabi Bagh,2026-04-11,industrial_haze
+Punjabi Bagh,2026-04-12,industrial_haze
+Punjabi Bagh,2026-04-13,industrial_haze
+Punjabi Bagh,2026-04-14,industrial_haze
+Punjabi Bagh,2026-04-15,industrial_haze
+Punjabi Bagh,2026-04-16,industrial_haze
+Punjabi Bagh,2026-04-17,industrial_haze
+Punjabi Bagh,2026-04-18,industrial_haze
+Punjabi Bagh,2026-04-19,industrial_haze
+Punjabi Bagh,2026-04-20,industrial_haze
+Punjabi Bagh,2026-04-21,industrial_haze
+Punjabi Bagh,2026-04-22,industrial_haze
+Punjabi Bagh,2026-04-23,industrial_haze
+Punjabi Bagh,2026-04-24,crop_burning_smoke
+Punjabi Bagh,2026-04-25,industrial_haze
+Punjabi Bagh,2026-04-26,industrial_haze
+Punjabi Bagh,2026-04-27,industrial_haze
+Punjabi Bagh,2026-04-28,dust
+Punjabi Bagh,2026-04-29,industrial_haze
+Punjabi Bagh,2026-04-30,industrial_haze
+Punjabi Bagh,2026-05-01,industrial_haze
+Punjabi Bagh,2026-05-02,dust
+Punjabi Bagh,2026-05-03,dust
+Punjabi Bagh,2026-05-04,clear
+Punjabi Bagh,2026-05-05,dust
+Punjabi Bagh,2026-05-06,dust
+Punjabi Bagh,2026-05-07,dust
+Punjabi Bagh,2026-05-08,dust
+Punjabi Bagh,2026-05-09,dust
+Punjabi Bagh,2026-05-10,dust
+Punjabi Bagh,2026-05-11,traffic_heavy
+Punjabi Bagh,2026-05-12,dust
+Punjabi Bagh,2026-05-13,dust
+Punjabi Bagh,2026-05-14,dust
+Punjabi Bagh,2026-05-15,dust
+Punjabi Bagh,2026-05-16,dust
+Punjabi Bagh,2026-05-17,dust
+Punjabi Bagh,2026-05-18,dust
+Punjabi Bagh,2026-05-19,dust
+Punjabi Bagh,2026-05-20,dust
+Punjabi Bagh,2026-05-21,dust
+Punjabi Bagh,2026-05-22,dust
+Punjabi Bagh,2026-05-23,dust
+Punjabi Bagh,2026-05-24,dust
+Punjabi Bagh,2026-05-25,industrial_haze
+Punjabi Bagh,2026-05-26,dust
+Punjabi Bagh,2026-05-27,dust
+Punjabi Bagh,2026-05-28,dust
+Punjabi Bagh,2026-05-29,dust
+Punjabi Bagh,2026-05-30,clear
+Punjabi Bagh,2026-05-31,dust
+Punjabi Bagh,2026-06-01,clear
+Punjabi Bagh,2026-06-02,dust
+Punjabi Bagh,2026-06-03,dust
+Punjabi Bagh,2026-06-04,dust
+Punjabi Bagh,2026-06-05,industrial_haze
+Punjabi Bagh,2026-06-06,dust
+Punjabi Bagh,2026-06-07,dust
+Punjabi Bagh,2026-06-08,dust
+Punjabi Bagh,2026-06-09,industrial_haze
+Punjabi Bagh,2026-06-10,industrial_haze
+Punjabi Bagh,2026-06-11,industrial_haze
+Punjabi Bagh,2026-06-12,clear
+Punjabi Bagh,2026-06-13,dust
+Punjabi Bagh,2026-06-14,dust
+Punjabi Bagh,2026-06-15,industrial_haze
+Punjabi Bagh,2026-06-16,dust
+Punjabi Bagh,2026-06-17,industrial_haze
+Punjabi Bagh,2026-06-18,industrial_haze
+Punjabi Bagh,2026-06-19,industrial_haze
+Punjabi Bagh,2026-06-20,industrial_haze
+Punjabi Bagh,2026-06-21,industrial_haze
+Punjabi Bagh,2026-06-22,industrial_haze
+Punjabi Bagh,2026-06-23,industrial_haze
+Punjabi Bagh,2026-06-24,industrial_haze
+Punjabi Bagh,2026-06-25,industrial_haze
+Punjabi Bagh,2026-06-26,industrial_haze
+Punjabi Bagh,2026-06-27,industrial_haze
+Punjabi Bagh,2026-06-28,industrial_haze
+Punjabi Bagh,2026-06-29,industrial_haze
+Punjabi Bagh,2026-06-30,industrial_haze
+Punjabi Bagh,2026-07-01,industrial_haze
+Punjabi Bagh,2026-07-02,industrial_haze
+Punjabi Bagh,2026-07-03,industrial_haze
+Punjabi Bagh,2026-07-04,industrial_haze
+Punjabi Bagh,2026-07-05,industrial_haze
+Punjabi Bagh,2026-07-06,industrial_haze
+Punjabi Bagh,2026-07-07,industrial_haze
+Punjabi Bagh,2026-07-08,industrial_haze
+Punjabi Bagh,2026-07-09,industrial_haze
+Punjabi Bagh,2026-07-10,clear
+Punjabi Bagh,2026-07-11,industrial_haze
+Punjabi Bagh,2026-07-12,industrial_haze
+Punjabi Bagh,2026-07-13,industrial_haze
+Punjabi Bagh,2026-07-14,industrial_haze
+Punjabi Bagh,2026-07-15,industrial_haze
+Punjabi Bagh,2026-07-16,industrial_haze
+Punjabi Bagh,2026-07-17,dust
+Punjabi Bagh,2026-07-18,industrial_haze
+Punjabi Bagh,2026-07-19,industrial_haze
+Punjabi Bagh,2026-07-20,industrial_haze
+Punjabi Bagh,2026-07-21,clear
+RK Puram,2025-10-01,industrial_haze
+RK Puram,2025-10-02,traffic_heavy
+RK Puram,2025-10-03,industrial_haze
+RK Puram,2025-10-04,traffic_heavy
+RK Puram,2025-10-05,traffic_heavy
+RK Puram,2025-10-06,clear
+RK Puram,2025-10-07,clear
+RK Puram,2025-10-08,clear
+RK Puram,2025-10-09,dust
+RK Puram,2025-10-10,dust
+RK Puram,2025-10-11,traffic_heavy
+RK Puram,2025-10-12,traffic_heavy
+RK Puram,2025-10-13,industrial_haze
+RK Puram,2025-10-14,industrial_haze
+RK Puram,2025-10-15,crop_burning_smoke
+RK Puram,2025-10-16,crop_burning_smoke
+RK Puram,2025-10-17,crop_burning_smoke
+RK Puram,2025-10-18,crop_burning_smoke
+RK Puram,2025-10-19,crop_burning_smoke
+RK Puram,2025-10-20,crop_burning_smoke
+RK Puram,2025-10-21,crop_burning_smoke
+RK Puram,2025-10-22,crop_burning_smoke
+RK Puram,2025-10-23,crop_burning_smoke
+RK Puram,2025-10-24,crop_burning_smoke
+RK Puram,2025-10-25,crop_burning_smoke
+RK Puram,2025-10-26,crop_burning_smoke
+RK Puram,2025-10-27,crop_burning_smoke
+RK Puram,2025-10-28,crop_burning_smoke
+RK Puram,2025-10-29,crop_burning_smoke
+RK Puram,2025-10-30,crop_burning_smoke
+RK Puram,2025-10-31,crop_burning_smoke
+RK Puram,2025-11-01,crop_burning_smoke
+RK Puram,2025-11-02,crop_burning_smoke
+RK Puram,2025-11-03,crop_burning_smoke
+RK Puram,2025-11-04,traffic_heavy
+RK Puram,2025-11-05,crop_burning_smoke
+RK Puram,2025-11-06,crop_burning_smoke
+RK Puram,2025-11-07,crop_burning_smoke
+RK Puram,2025-11-08,crop_burning_smoke
+RK Puram,2025-11-09,crop_burning_smoke
+RK Puram,2025-11-10,crop_burning_smoke
+RK Puram,2025-11-11,crop_burning_smoke
+RK Puram,2025-11-12,crop_burning_smoke
+RK Puram,2025-11-13,crop_burning_smoke
+RK Puram,2025-11-14,crop_burning_smoke
+RK Puram,2025-11-15,crop_burning_smoke
+RK Puram,2025-11-16,crop_burning_smoke
+RK Puram,2025-11-17,crop_burning_smoke
+RK Puram,2025-11-18,crop_burning_smoke
+RK Puram,2025-11-19,crop_burning_smoke
+RK Puram,2025-11-20,crop_burning_smoke
+RK Puram,2025-11-21,crop_burning_smoke
+RK Puram,2025-11-22,crop_burning_smoke
+RK Puram,2025-11-23,crop_burning_smoke
+RK Puram,2025-11-24,crop_burning_smoke
+RK Puram,2025-11-25,crop_burning_smoke
+RK Puram,2025-11-26,crop_burning_smoke
 RK Puram,2025-12-01,crop_burning_smoke
 RK Puram,2025-12-02,crop_burning_smoke
 RK Puram,2025-12-03,crop_burning_smoke
@@ -69,6 +2658,288 @@ RK Puram,2025-12-04,crop_burning_smoke
 RK Puram,2025-12-05,crop_burning_smoke
 RK Puram,2025-12-06,crop_burning_smoke
 RK Puram,2025-12-07,crop_burning_smoke
+RK Puram,2025-12-08,crop_burning_smoke
+RK Puram,2025-12-09,crop_burning_smoke
+RK Puram,2025-12-10,crop_burning_smoke
+RK Puram,2025-12-11,crop_burning_smoke
+RK Puram,2025-12-12,crop_burning_smoke
+RK Puram,2025-12-13,crop_burning_smoke
+RK Puram,2025-12-14,crop_burning_smoke
+RK Puram,2025-12-15,crop_burning_smoke
+RK Puram,2025-12-16,crop_burning_smoke
+RK Puram,2025-12-17,crop_burning_smoke
+RK Puram,2025-12-18,crop_burning_smoke
+RK Puram,2025-12-19,crop_burning_smoke
+RK Puram,2025-12-20,crop_burning_smoke
+RK Puram,2025-12-21,crop_burning_smoke
+RK Puram,2025-12-22,crop_burning_smoke
+RK Puram,2025-12-23,crop_burning_smoke
+RK Puram,2025-12-24,crop_burning_smoke
+RK Puram,2025-12-25,crop_burning_smoke
+RK Puram,2025-12-26,crop_burning_smoke
+RK Puram,2025-12-27,crop_burning_smoke
+RK Puram,2025-12-28,crop_burning_smoke
+RK Puram,2025-12-29,crop_burning_smoke
+RK Puram,2025-12-30,crop_burning_smoke
+RK Puram,2025-12-31,crop_burning_smoke
+RK Puram,2026-01-01,crop_burning_smoke
+RK Puram,2026-01-02,crop_burning_smoke
+RK Puram,2026-01-03,crop_burning_smoke
+RK Puram,2026-01-04,crop_burning_smoke
+RK Puram,2026-01-05,crop_burning_smoke
+RK Puram,2026-01-06,crop_burning_smoke
+RK Puram,2026-01-07,crop_burning_smoke
+RK Puram,2026-01-08,crop_burning_smoke
+RK Puram,2026-01-09,crop_burning_smoke
+RK Puram,2026-01-10,crop_burning_smoke
+RK Puram,2026-01-11,crop_burning_smoke
+RK Puram,2026-01-12,crop_burning_smoke
+RK Puram,2026-01-13,crop_burning_smoke
+RK Puram,2026-01-14,crop_burning_smoke
+RK Puram,2026-01-15,crop_burning_smoke
+RK Puram,2026-01-16,crop_burning_smoke
+RK Puram,2026-01-17,crop_burning_smoke
+RK Puram,2026-01-18,crop_burning_smoke
+RK Puram,2026-01-19,crop_burning_smoke
+RK Puram,2026-01-20,crop_burning_smoke
+RK Puram,2026-01-21,crop_burning_smoke
+RK Puram,2026-01-22,crop_burning_smoke
+RK Puram,2026-01-23,crop_burning_smoke
+RK Puram,2026-01-24,traffic_heavy
+RK Puram,2026-01-25,crop_burning_smoke
+RK Puram,2026-01-26,crop_burning_smoke
+RK Puram,2026-01-27,crop_burning_smoke
+RK Puram,2026-01-28,crop_burning_smoke
+RK Puram,2026-01-29,crop_burning_smoke
+RK Puram,2026-01-30,crop_burning_smoke
+RK Puram,2026-01-31,crop_burning_smoke
+RK Puram,2026-02-01,crop_burning_smoke
+RK Puram,2026-02-02,crop_burning_smoke
+RK Puram,2026-02-03,crop_burning_smoke
+RK Puram,2026-02-04,crop_burning_smoke
+RK Puram,2026-02-05,crop_burning_smoke
+RK Puram,2026-02-06,crop_burning_smoke
+RK Puram,2026-02-07,crop_burning_smoke
+RK Puram,2026-02-08,crop_burning_smoke
+RK Puram,2026-02-09,crop_burning_smoke
+RK Puram,2026-02-10,crop_burning_smoke
+RK Puram,2026-02-11,crop_burning_smoke
+RK Puram,2026-02-12,industrial_haze
+RK Puram,2026-02-13,traffic_heavy
+RK Puram,2026-02-14,crop_burning_smoke
+RK Puram,2026-02-15,crop_burning_smoke
+RK Puram,2026-02-16,traffic_heavy
+RK Puram,2026-02-17,traffic_heavy
+RK Puram,2026-02-18,crop_burning_smoke
+RK Puram,2026-02-19,crop_burning_smoke
+RK Puram,2026-02-20,crop_burning_smoke
+RK Puram,2026-02-21,crop_burning_smoke
+RK Puram,2026-02-22,crop_burning_smoke
+RK Puram,2026-02-23,crop_burning_smoke
+RK Puram,2026-02-24,crop_burning_smoke
+RK Puram,2026-02-25,traffic_heavy
+RK Puram,2026-02-26,traffic_heavy
+RK Puram,2026-02-27,traffic_heavy
+RK Puram,2026-02-28,traffic_heavy
+RK Puram,2026-03-01,traffic_heavy
+RK Puram,2026-03-02,industrial_haze
+RK Puram,2026-03-03,industrial_haze
+RK Puram,2026-03-05,industrial_haze
+RK Puram,2026-03-06,industrial_haze
+RK Puram,2026-03-07,industrial_haze
+RK Puram,2026-03-08,industrial_haze
+RK Puram,2026-03-09,industrial_haze
+RK Puram,2026-03-10,industrial_haze
+RK Puram,2026-03-11,industrial_haze
+RK Puram,2026-03-12,industrial_haze
+RK Puram,2026-03-13,industrial_haze
+RK Puram,2026-03-14,industrial_haze
+RK Puram,2026-03-15,dust
+RK Puram,2026-03-16,traffic_heavy
+RK Puram,2026-03-17,dust
+RK Puram,2026-03-18,traffic_heavy
+RK Puram,2026-03-19,traffic_heavy
+RK Puram,2026-03-20,clear
+RK Puram,2026-03-21,traffic_heavy
+RK Puram,2026-03-22,traffic_heavy
+RK Puram,2026-03-23,traffic_heavy
+RK Puram,2026-03-24,industrial_haze
+RK Puram,2026-03-25,crop_burning_smoke
+RK Puram,2026-03-26,industrial_haze
+RK Puram,2026-03-27,industrial_haze
+RK Puram,2026-03-28,traffic_heavy
+RK Puram,2026-03-29,industrial_haze
+RK Puram,2026-03-30,traffic_heavy
+RK Puram,2026-03-31,industrial_haze
+RK Puram,2026-04-01,traffic_heavy
+RK Puram,2026-04-02,industrial_haze
+RK Puram,2026-04-03,dust
+RK Puram,2026-04-04,traffic_heavy
+RK Puram,2026-04-05,industrial_haze
+RK Puram,2026-04-06,traffic_heavy
+RK Puram,2026-04-07,traffic_heavy
+RK Puram,2026-04-08,clear
+RK Puram,2026-04-09,industrial_haze
+RK Puram,2026-04-10,industrial_haze
+RK Puram,2026-04-11,industrial_haze
+RK Puram,2026-04-12,industrial_haze
+RK Puram,2026-04-13,industrial_haze
+RK Puram,2026-04-14,industrial_haze
+RK Puram,2026-04-15,industrial_haze
+RK Puram,2026-04-16,industrial_haze
+RK Puram,2026-04-17,industrial_haze
+RK Puram,2026-04-18,industrial_haze
+RK Puram,2026-04-19,industrial_haze
+RK Puram,2026-04-20,industrial_haze
+RK Puram,2026-04-21,industrial_haze
+RK Puram,2026-04-22,industrial_haze
+RK Puram,2026-04-23,industrial_haze
+RK Puram,2026-04-24,industrial_haze
+RK Puram,2026-04-25,industrial_haze
+RK Puram,2026-04-26,industrial_haze
+RK Puram,2026-04-27,industrial_haze
+RK Puram,2026-04-28,industrial_haze
+RK Puram,2026-04-29,industrial_haze
+RK Puram,2026-04-30,dust
+RK Puram,2026-05-01,industrial_haze
+RK Puram,2026-05-02,industrial_haze
+RK Puram,2026-05-03,dust
+RK Puram,2026-05-04,clear
+RK Puram,2026-05-05,clear
+RK Puram,2026-05-06,industrial_haze
+RK Puram,2026-05-07,dust
+RK Puram,2026-05-08,clear
+RK Puram,2026-05-09,industrial_haze
+RK Puram,2026-05-10,dust
+RK Puram,2026-05-11,dust
+RK Puram,2026-05-12,industrial_haze
+RK Puram,2026-05-13,industrial_haze
+RK Puram,2026-05-14,dust
+RK Puram,2026-05-15,industrial_haze
+RK Puram,2026-05-16,industrial_haze
+RK Puram,2026-05-17,dust
+RK Puram,2026-05-18,dust
+RK Puram,2026-05-19,dust
+RK Puram,2026-05-20,dust
+RK Puram,2026-05-21,dust
+RK Puram,2026-05-22,dust
+RK Puram,2026-05-23,dust
+RK Puram,2026-05-24,traffic_heavy
+RK Puram,2026-05-25,dust
+RK Puram,2026-05-26,dust
+RK Puram,2026-05-27,dust
+RK Puram,2026-05-28,dust
+RK Puram,2026-05-29,clear
+RK Puram,2026-05-30,clear
+RK Puram,2026-05-31,clear
+RK Puram,2026-06-01,clear
+RK Puram,2026-06-02,clear
+RK Puram,2026-06-03,dust
+RK Puram,2026-06-04,dust
+RK Puram,2026-06-05,dust
+RK Puram,2026-06-06,dust
+RK Puram,2026-06-07,dust
+RK Puram,2026-06-08,dust
+RK Puram,2026-06-09,dust
+RK Puram,2026-06-10,industrial_haze
+RK Puram,2026-06-11,industrial_haze
+RK Puram,2026-06-12,clear
+RK Puram,2026-06-13,traffic_heavy
+RK Puram,2026-06-14,traffic_heavy
+RK Puram,2026-06-15,dust
+RK Puram,2026-06-16,traffic_heavy
+RK Puram,2026-06-17,traffic_heavy
+RK Puram,2026-06-18,dust
+RK Puram,2026-06-19,dust
+RK Puram,2026-06-20,industrial_haze
+RK Puram,2026-06-21,industrial_haze
+RK Puram,2026-06-22,industrial_haze
+RK Puram,2026-06-23,dust
+RK Puram,2026-06-24,industrial_haze
+RK Puram,2026-06-25,industrial_haze
+RK Puram,2026-06-26,industrial_haze
+RK Puram,2026-06-27,dust
+RK Puram,2026-06-28,industrial_haze
+RK Puram,2026-06-29,industrial_haze
+RK Puram,2026-06-30,industrial_haze
+RK Puram,2026-07-01,industrial_haze
+RK Puram,2026-07-02,clear
+RK Puram,2026-07-03,industrial_haze
+RK Puram,2026-07-04,industrial_haze
+RK Puram,2026-07-05,industrial_haze
+RK Puram,2026-07-06,industrial_haze
+RK Puram,2026-07-07,clear
+RK Puram,2026-07-08,clear
+RK Puram,2026-07-09,clear
+RK Puram,2026-07-10,clear
+RK Puram,2026-07-11,industrial_haze
+RK Puram,2026-07-12,industrial_haze
+RK Puram,2026-07-13,industrial_haze
+RK Puram,2026-07-14,dust
+RK Puram,2026-07-15,dust
+RK Puram,2026-07-16,industrial_haze
+RK Puram,2026-07-17,industrial_haze
+RK Puram,2026-07-18,industrial_haze
+RK Puram,2026-07-19,dust
+RK Puram,2026-07-20,industrial_haze
+RK Puram,2026-07-21,clear
+Rohini,2025-10-01,dust
+Rohini,2025-10-02,dust
+Rohini,2025-10-03,dust
+Rohini,2025-10-04,dust
+Rohini,2025-10-05,dust
+Rohini,2025-10-06,clear
+Rohini,2025-10-07,clear
+Rohini,2025-10-08,clear
+Rohini,2025-10-09,dust
+Rohini,2025-10-10,dust
+Rohini,2025-10-11,dust
+Rohini,2025-10-12,dust
+Rohini,2025-10-13,dust
+Rohini,2025-10-14,dust
+Rohini,2025-10-15,dust
+Rohini,2025-10-16,dust
+Rohini,2025-10-17,dust
+Rohini,2025-10-18,crop_burning_smoke
+Rohini,2025-10-19,dust
+Rohini,2025-10-20,crop_burning_smoke
+Rohini,2025-10-21,crop_burning_smoke
+Rohini,2025-10-22,crop_burning_smoke
+Rohini,2025-10-23,crop_burning_smoke
+Rohini,2025-10-24,dust
+Rohini,2025-10-25,dust
+Rohini,2025-10-26,crop_burning_smoke
+Rohini,2025-10-27,crop_burning_smoke
+Rohini,2025-10-28,crop_burning_smoke
+Rohini,2025-10-29,crop_burning_smoke
+Rohini,2025-10-30,crop_burning_smoke
+Rohini,2025-10-31,dust
+Rohini,2025-11-01,crop_burning_smoke
+Rohini,2025-11-02,crop_burning_smoke
+Rohini,2025-11-03,crop_burning_smoke
+Rohini,2025-11-04,dust
+Rohini,2025-11-05,crop_burning_smoke
+Rohini,2025-11-06,crop_burning_smoke
+Rohini,2025-11-07,crop_burning_smoke
+Rohini,2025-11-08,crop_burning_smoke
+Rohini,2025-11-09,crop_burning_smoke
+Rohini,2025-11-10,crop_burning_smoke
+Rohini,2025-11-11,crop_burning_smoke
+Rohini,2025-11-12,crop_burning_smoke
+Rohini,2025-11-13,crop_burning_smoke
+Rohini,2025-11-14,crop_burning_smoke
+Rohini,2025-11-15,crop_burning_smoke
+Rohini,2025-11-16,crop_burning_smoke
+Rohini,2025-11-17,crop_burning_smoke
+Rohini,2025-11-18,crop_burning_smoke
+Rohini,2025-11-19,crop_burning_smoke
+Rohini,2025-11-20,crop_burning_smoke
+Rohini,2025-11-21,crop_burning_smoke
+Rohini,2025-11-22,crop_burning_smoke
+Rohini,2025-11-23,crop_burning_smoke
+Rohini,2025-11-24,crop_burning_smoke
+Rohini,2025-11-25,crop_burning_smoke
+Rohini,2025-11-26,crop_burning_smoke
 Rohini,2025-12-01,crop_burning_smoke
 Rohini,2025-12-02,crop_burning_smoke
 Rohini,2025-12-03,crop_burning_smoke
@@ -76,12 +2947,577 @@ Rohini,2025-12-04,crop_burning_smoke
 Rohini,2025-12-05,crop_burning_smoke
 Rohini,2025-12-06,crop_burning_smoke
 Rohini,2025-12-07,crop_burning_smoke
+Rohini,2025-12-08,crop_burning_smoke
+Rohini,2025-12-09,crop_burning_smoke
+Rohini,2025-12-10,crop_burning_smoke
+Rohini,2025-12-11,crop_burning_smoke
+Rohini,2025-12-12,crop_burning_smoke
+Rohini,2025-12-13,crop_burning_smoke
+Rohini,2025-12-14,crop_burning_smoke
+Rohini,2025-12-15,crop_burning_smoke
+Rohini,2025-12-16,crop_burning_smoke
+Rohini,2025-12-17,crop_burning_smoke
+Rohini,2025-12-18,crop_burning_smoke
+Rohini,2025-12-19,crop_burning_smoke
+Rohini,2025-12-20,crop_burning_smoke
+Rohini,2025-12-21,crop_burning_smoke
+Rohini,2025-12-22,crop_burning_smoke
+Rohini,2025-12-23,crop_burning_smoke
+Rohini,2025-12-24,crop_burning_smoke
+Rohini,2025-12-25,crop_burning_smoke
+Rohini,2025-12-26,crop_burning_smoke
+Rohini,2025-12-27,crop_burning_smoke
+Rohini,2025-12-28,crop_burning_smoke
+Rohini,2025-12-29,crop_burning_smoke
+Rohini,2025-12-30,crop_burning_smoke
+Rohini,2025-12-31,crop_burning_smoke
+Rohini,2026-01-01,crop_burning_smoke
+Rohini,2026-01-02,crop_burning_smoke
+Rohini,2026-01-03,crop_burning_smoke
+Rohini,2026-01-04,crop_burning_smoke
+Rohini,2026-01-05,crop_burning_smoke
+Rohini,2026-01-06,crop_burning_smoke
+Rohini,2026-01-07,crop_burning_smoke
+Rohini,2026-01-08,crop_burning_smoke
+Rohini,2026-01-09,crop_burning_smoke
+Rohini,2026-01-10,crop_burning_smoke
+Rohini,2026-01-11,crop_burning_smoke
+Rohini,2026-01-12,crop_burning_smoke
+Rohini,2026-01-13,crop_burning_smoke
+Rohini,2026-01-14,crop_burning_smoke
+Rohini,2026-01-15,crop_burning_smoke
+Rohini,2026-01-16,crop_burning_smoke
+Rohini,2026-01-17,crop_burning_smoke
+Rohini,2026-01-18,crop_burning_smoke
+Rohini,2026-01-19,crop_burning_smoke
+Rohini,2026-01-20,crop_burning_smoke
+Rohini,2026-01-21,crop_burning_smoke
+Rohini,2026-01-22,crop_burning_smoke
+Rohini,2026-01-23,crop_burning_smoke
+Rohini,2026-01-24,dust
+Rohini,2026-01-25,dust
+Rohini,2026-01-26,crop_burning_smoke
+Rohini,2026-01-27,crop_burning_smoke
+Rohini,2026-01-28,crop_burning_smoke
+Rohini,2026-01-29,crop_burning_smoke
+Rohini,2026-01-30,crop_burning_smoke
+Rohini,2026-01-31,crop_burning_smoke
+Rohini,2026-02-01,crop_burning_smoke
+Rohini,2026-02-02,crop_burning_smoke
+Rohini,2026-02-03,crop_burning_smoke
+Rohini,2026-02-04,crop_burning_smoke
+Rohini,2026-02-05,crop_burning_smoke
+Rohini,2026-02-06,crop_burning_smoke
+Rohini,2026-02-07,crop_burning_smoke
+Rohini,2026-02-08,crop_burning_smoke
+Rohini,2026-02-09,crop_burning_smoke
+Rohini,2026-02-10,traffic_heavy
+Rohini,2026-02-11,crop_burning_smoke
+Rohini,2026-02-12,traffic_heavy
+Rohini,2026-02-13,traffic_heavy
+Rohini,2026-02-14,dust
+Rohini,2026-02-15,crop_burning_smoke
+Rohini,2026-02-16,traffic_heavy
+Rohini,2026-02-17,traffic_heavy
+Rohini,2026-02-18,traffic_heavy
+Rohini,2026-02-19,crop_burning_smoke
+Rohini,2026-02-20,dust
+Rohini,2026-02-21,crop_burning_smoke
+Rohini,2026-02-22,traffic_heavy
+Rohini,2026-02-23,traffic_heavy
+Rohini,2026-02-24,traffic_heavy
+Rohini,2026-02-25,traffic_heavy
+Rohini,2026-02-26,traffic_heavy
+Rohini,2026-02-27,dust
+Rohini,2026-02-28,traffic_heavy
+Rohini,2026-03-01,dust
+Rohini,2026-03-02,dust
+Rohini,2026-03-03,dust
+Rohini,2026-03-05,dust
+Rohini,2026-03-06,dust
+Rohini,2026-03-07,dust
+Rohini,2026-03-08,dust
+Rohini,2026-03-09,dust
+Rohini,2026-03-10,traffic_heavy
+Rohini,2026-03-11,dust
+Rohini,2026-03-12,dust
+Rohini,2026-03-13,dust
+Rohini,2026-03-14,dust
+Rohini,2026-03-15,dust
+Rohini,2026-03-16,dust
+Rohini,2026-03-17,dust
+Rohini,2026-03-18,dust
+Rohini,2026-03-19,dust
+Rohini,2026-03-20,clear
+Rohini,2026-03-21,dust
+Rohini,2026-03-22,industrial_haze
+Rohini,2026-03-23,dust
+Rohini,2026-03-24,dust
+Rohini,2026-03-25,crop_burning_smoke
+Rohini,2026-03-26,dust
+Rohini,2026-03-27,dust
+Rohini,2026-03-28,industrial_haze
+Rohini,2026-03-29,dust
+Rohini,2026-03-30,dust
+Rohini,2026-03-31,industrial_haze
+Rohini,2026-04-01,dust
+Rohini,2026-04-02,dust
+Rohini,2026-04-03,dust
+Rohini,2026-04-04,dust
+Rohini,2026-04-05,dust
+Rohini,2026-04-06,dust
+Rohini,2026-04-07,dust
+Rohini,2026-04-08,dust
+Rohini,2026-04-09,dust
+Rohini,2026-04-10,dust
+Rohini,2026-04-11,dust
+Rohini,2026-04-12,dust
+Rohini,2026-04-13,dust
+Rohini,2026-04-14,dust
+Rohini,2026-04-15,industrial_haze
+Rohini,2026-04-16,traffic_heavy
+Rohini,2026-04-17,traffic_heavy
+Rohini,2026-04-18,traffic_heavy
+Rohini,2026-04-19,traffic_heavy
+Rohini,2026-04-20,dust
+Rohini,2026-04-21,dust
+Rohini,2026-04-22,industrial_haze
+Rohini,2026-04-23,traffic_heavy
+Rohini,2026-04-24,traffic_heavy
+Rohini,2026-04-25,dust
+Rohini,2026-04-26,dust
+Rohini,2026-04-27,crop_burning_smoke
+Rohini,2026-04-28,dust
+Rohini,2026-04-29,dust
+Rohini,2026-04-30,traffic_heavy
+Rohini,2026-05-01,dust
+Rohini,2026-05-02,dust
+Rohini,2026-05-03,dust
+Rohini,2026-05-04,dust
+Rohini,2026-05-05,dust
+Rohini,2026-05-06,dust
+Rohini,2026-05-07,dust
+Rohini,2026-05-08,dust
+Rohini,2026-05-09,dust
+Rohini,2026-05-10,dust
+Rohini,2026-05-11,dust
+Rohini,2026-05-12,dust
+Rohini,2026-05-13,dust
+Rohini,2026-05-14,dust
+Rohini,2026-05-15,dust
+Rohini,2026-05-16,dust
+Rohini,2026-05-17,dust
+Rohini,2026-05-18,dust
+Rohini,2026-05-19,dust
+Rohini,2026-05-20,dust
+Rohini,2026-05-21,dust
+Rohini,2026-05-22,dust
+Rohini,2026-05-23,dust
+Rohini,2026-05-24,dust
+Rohini,2026-05-25,dust
+Rohini,2026-05-26,dust
+Rohini,2026-05-27,industrial_haze
+Rohini,2026-05-28,dust
+Rohini,2026-05-29,dust
+Rohini,2026-05-30,dust
+Rohini,2026-05-31,clear
+Rohini,2026-06-01,dust
+Rohini,2026-06-02,dust
+Rohini,2026-06-03,dust
+Rohini,2026-06-04,dust
+Rohini,2026-06-05,dust
+Rohini,2026-06-06,dust
+Rohini,2026-06-07,dust
+Rohini,2026-06-08,dust
+Rohini,2026-06-09,dust
+Rohini,2026-06-10,dust
+Rohini,2026-06-11,dust
+Rohini,2026-06-12,dust
+Rohini,2026-06-13,dust
+Rohini,2026-06-14,dust
+Rohini,2026-06-15,dust
+Rohini,2026-06-16,dust
+Rohini,2026-06-17,dust
+Rohini,2026-06-18,dust
+Rohini,2026-06-19,dust
+Rohini,2026-06-20,dust
+Rohini,2026-06-21,dust
+Rohini,2026-06-22,dust
+Rohini,2026-06-23,dust
+Rohini,2026-06-24,dust
+Rohini,2026-06-25,dust
+Rohini,2026-06-26,dust
+Rohini,2026-06-27,dust
+Rohini,2026-06-28,dust
+Rohini,2026-06-29,dust
+Rohini,2026-06-30,dust
+Rohini,2026-07-01,dust
+Rohini,2026-07-02,dust
+Rohini,2026-07-03,dust
+Rohini,2026-07-04,traffic_heavy
+Rohini,2026-07-05,traffic_heavy
+Rohini,2026-07-06,dust
+Rohini,2026-07-07,dust
+Rohini,2026-07-08,clear
+Rohini,2026-07-09,clear
+Rohini,2026-07-10,dust
+Rohini,2026-07-11,dust
+Rohini,2026-07-12,dust
+Rohini,2026-07-13,dust
+Rohini,2026-07-14,dust
+Rohini,2026-07-15,dust
+Rohini,2026-07-16,dust
+Rohini,2026-07-17,dust
+Rohini,2026-07-18,dust
+Rohini,2026-07-19,dust
+Rohini,2026-07-20,dust
+Rohini,2026-07-21,clear
+Vivek Vihar,2025-10-01,dust
+Vivek Vihar,2025-10-02,dust
+Vivek Vihar,2025-10-03,dust
+Vivek Vihar,2025-10-04,dust
+Vivek Vihar,2025-10-05,dust
+Vivek Vihar,2025-10-06,clear
+Vivek Vihar,2025-10-07,industrial_haze
+Vivek Vihar,2025-10-08,clear
+Vivek Vihar,2025-10-09,dust
+Vivek Vihar,2025-10-10,dust
+Vivek Vihar,2025-10-11,dust
+Vivek Vihar,2025-10-12,dust
+Vivek Vihar,2025-10-13,dust
+Vivek Vihar,2025-10-14,dust
+Vivek Vihar,2025-10-15,crop_burning_smoke
+Vivek Vihar,2025-10-16,crop_burning_smoke
+Vivek Vihar,2025-10-17,traffic_heavy
+Vivek Vihar,2025-10-18,crop_burning_smoke
+Vivek Vihar,2025-10-19,crop_burning_smoke
+Vivek Vihar,2025-10-20,crop_burning_smoke
+Vivek Vihar,2025-10-21,industrial_haze
+Vivek Vihar,2025-10-22,dust
+Vivek Vihar,2025-10-23,dust
+Vivek Vihar,2025-10-24,dust
+Vivek Vihar,2025-10-25,crop_burning_smoke
+Vivek Vihar,2025-10-26,crop_burning_smoke
+Vivek Vihar,2025-10-27,crop_burning_smoke
+Vivek Vihar,2025-10-28,crop_burning_smoke
+Vivek Vihar,2025-10-29,crop_burning_smoke
+Vivek Vihar,2025-10-30,crop_burning_smoke
+Vivek Vihar,2025-10-31,crop_burning_smoke
+Vivek Vihar,2025-11-01,crop_burning_smoke
+Vivek Vihar,2025-11-02,crop_burning_smoke
+Vivek Vihar,2025-11-03,crop_burning_smoke
+Vivek Vihar,2025-11-04,crop_burning_smoke
+Vivek Vihar,2025-11-05,crop_burning_smoke
+Vivek Vihar,2025-11-06,crop_burning_smoke
+Vivek Vihar,2025-11-07,crop_burning_smoke
+Vivek Vihar,2025-11-08,crop_burning_smoke
+Vivek Vihar,2025-11-09,crop_burning_smoke
+Vivek Vihar,2025-11-10,crop_burning_smoke
+Vivek Vihar,2025-11-11,crop_burning_smoke
+Vivek Vihar,2025-11-12,crop_burning_smoke
+Vivek Vihar,2025-11-13,crop_burning_smoke
+Vivek Vihar,2025-11-14,crop_burning_smoke
+Vivek Vihar,2025-11-15,crop_burning_smoke
+Vivek Vihar,2025-11-16,crop_burning_smoke
+Vivek Vihar,2025-11-17,crop_burning_smoke
+Vivek Vihar,2025-11-18,crop_burning_smoke
+Vivek Vihar,2025-11-19,crop_burning_smoke
+Vivek Vihar,2025-11-20,crop_burning_smoke
+Vivek Vihar,2025-11-21,crop_burning_smoke
+Vivek Vihar,2025-11-22,crop_burning_smoke
+Vivek Vihar,2025-11-23,crop_burning_smoke
+Vivek Vihar,2025-11-24,crop_burning_smoke
+Vivek Vihar,2025-11-25,crop_burning_smoke
+Vivek Vihar,2025-11-26,crop_burning_smoke
 Vivek Vihar,2025-12-01,crop_burning_smoke
 Vivek Vihar,2025-12-02,crop_burning_smoke
 Vivek Vihar,2025-12-03,crop_burning_smoke
 Vivek Vihar,2025-12-04,crop_burning_smoke
 Vivek Vihar,2025-12-05,crop_burning_smoke
 Vivek Vihar,2025-12-06,traffic_heavy
+Vivek Vihar,2025-12-07,crop_burning_smoke
+Vivek Vihar,2025-12-08,crop_burning_smoke
+Vivek Vihar,2025-12-09,crop_burning_smoke
+Vivek Vihar,2025-12-10,crop_burning_smoke
+Vivek Vihar,2025-12-11,crop_burning_smoke
+Vivek Vihar,2025-12-12,crop_burning_smoke
+Vivek Vihar,2025-12-13,crop_burning_smoke
+Vivek Vihar,2025-12-14,crop_burning_smoke
+Vivek Vihar,2025-12-15,crop_burning_smoke
+Vivek Vihar,2025-12-16,crop_burning_smoke
+Vivek Vihar,2025-12-17,crop_burning_smoke
+Vivek Vihar,2025-12-18,crop_burning_smoke
+Vivek Vihar,2025-12-19,crop_burning_smoke
+Vivek Vihar,2025-12-20,crop_burning_smoke
+Vivek Vihar,2025-12-21,crop_burning_smoke
+Vivek Vihar,2025-12-22,crop_burning_smoke
+Vivek Vihar,2025-12-23,crop_burning_smoke
+Vivek Vihar,2025-12-24,crop_burning_smoke
+Vivek Vihar,2025-12-25,crop_burning_smoke
+Vivek Vihar,2025-12-26,crop_burning_smoke
+Vivek Vihar,2025-12-27,crop_burning_smoke
+Vivek Vihar,2025-12-28,crop_burning_smoke
+Vivek Vihar,2025-12-29,crop_burning_smoke
+Vivek Vihar,2025-12-30,crop_burning_smoke
+Vivek Vihar,2025-12-31,crop_burning_smoke
+Vivek Vihar,2026-01-01,crop_burning_smoke
+Vivek Vihar,2026-01-02,crop_burning_smoke
+Vivek Vihar,2026-01-03,crop_burning_smoke
+Vivek Vihar,2026-01-04,crop_burning_smoke
+Vivek Vihar,2026-01-05,crop_burning_smoke
+Vivek Vihar,2026-01-06,crop_burning_smoke
+Vivek Vihar,2026-01-07,crop_burning_smoke
+Vivek Vihar,2026-01-08,crop_burning_smoke
+Vivek Vihar,2026-01-09,crop_burning_smoke
+Vivek Vihar,2026-01-10,crop_burning_smoke
+Vivek Vihar,2026-01-11,crop_burning_smoke
+Vivek Vihar,2026-01-12,crop_burning_smoke
+Vivek Vihar,2026-01-13,crop_burning_smoke
+Vivek Vihar,2026-01-14,crop_burning_smoke
+Vivek Vihar,2026-01-15,crop_burning_smoke
+Vivek Vihar,2026-01-16,crop_burning_smoke
+Vivek Vihar,2026-01-17,crop_burning_smoke
+Vivek Vihar,2026-01-18,crop_burning_smoke
+Vivek Vihar,2026-01-19,crop_burning_smoke
+Vivek Vihar,2026-01-20,crop_burning_smoke
+Vivek Vihar,2026-01-21,crop_burning_smoke
+Vivek Vihar,2026-01-22,crop_burning_smoke
+Vivek Vihar,2026-01-23,crop_burning_smoke
+Vivek Vihar,2026-01-24,traffic_heavy
+Vivek Vihar,2026-01-25,crop_burning_smoke
+Vivek Vihar,2026-01-26,crop_burning_smoke
+Vivek Vihar,2026-01-27,crop_burning_smoke
+Vivek Vihar,2026-01-28,crop_burning_smoke
+Vivek Vihar,2026-01-29,crop_burning_smoke
+Vivek Vihar,2026-01-30,crop_burning_smoke
+Vivek Vihar,2026-01-31,crop_burning_smoke
+Vivek Vihar,2026-02-01,crop_burning_smoke
+Vivek Vihar,2026-02-02,crop_burning_smoke
+Vivek Vihar,2026-02-03,crop_burning_smoke
+Vivek Vihar,2026-02-04,crop_burning_smoke
+Vivek Vihar,2026-02-05,crop_burning_smoke
+Vivek Vihar,2026-02-06,crop_burning_smoke
+Vivek Vihar,2026-02-07,crop_burning_smoke
+Vivek Vihar,2026-02-08,traffic_heavy
+Vivek Vihar,2026-02-09,traffic_heavy
+Vivek Vihar,2026-02-10,traffic_heavy
+Vivek Vihar,2026-02-11,crop_burning_smoke
+Vivek Vihar,2026-02-12,traffic_heavy
+Vivek Vihar,2026-02-13,crop_burning_smoke
+Vivek Vihar,2026-02-14,crop_burning_smoke
+Vivek Vihar,2026-02-15,crop_burning_smoke
+Vivek Vihar,2026-02-16,industrial_haze
+Vivek Vihar,2026-02-17,traffic_heavy
+Vivek Vihar,2026-02-18,traffic_heavy
+Vivek Vihar,2026-02-19,crop_burning_smoke
+Vivek Vihar,2026-02-20,crop_burning_smoke
+Vivek Vihar,2026-02-21,crop_burning_smoke
+Vivek Vihar,2026-02-22,crop_burning_smoke
+Vivek Vihar,2026-02-23,crop_burning_smoke
+Vivek Vihar,2026-02-24,crop_burning_smoke
+Vivek Vihar,2026-02-25,crop_burning_smoke
+Vivek Vihar,2026-02-26,crop_burning_smoke
+Vivek Vihar,2026-02-27,traffic_heavy
+Vivek Vihar,2026-02-28,traffic_heavy
+Vivek Vihar,2026-03-01,traffic_heavy
+Vivek Vihar,2026-03-02,traffic_heavy
+Vivek Vihar,2026-03-03,traffic_heavy
+Vivek Vihar,2026-03-04,traffic_heavy
+Vivek Vihar,2026-03-05,traffic_heavy
+Vivek Vihar,2026-03-06,traffic_heavy
+Vivek Vihar,2026-03-07,crop_burning_smoke
+Vivek Vihar,2026-03-08,crop_burning_smoke
+Vivek Vihar,2026-03-09,crop_burning_smoke
+Vivek Vihar,2026-03-10,crop_burning_smoke
+Vivek Vihar,2026-03-11,traffic_heavy
+Vivek Vihar,2026-03-12,traffic_heavy
+Vivek Vihar,2026-03-13,traffic_heavy
+Vivek Vihar,2026-03-14,traffic_heavy
+Vivek Vihar,2026-03-15,traffic_heavy
+Vivek Vihar,2026-03-16,traffic_heavy
+Vivek Vihar,2026-03-17,crop_burning_smoke
+Vivek Vihar,2026-03-18,crop_burning_smoke
+Vivek Vihar,2026-03-19,traffic_heavy
+Vivek Vihar,2026-03-20,dust
+Vivek Vihar,2026-03-21,dust
+Vivek Vihar,2026-03-22,traffic_heavy
+Vivek Vihar,2026-03-23,crop_burning_smoke
+Vivek Vihar,2026-03-24,dust
+Vivek Vihar,2026-03-25,traffic_heavy
+Vivek Vihar,2026-03-26,traffic_heavy
+Vivek Vihar,2026-03-27,traffic_heavy
+Vivek Vihar,2026-03-28,dust
+Vivek Vihar,2026-03-29,dust
+Vivek Vihar,2026-03-30,dust
+Vivek Vihar,2026-03-31,traffic_heavy
+Vivek Vihar,2026-04-01,traffic_heavy
+Vivek Vihar,2026-04-02,traffic_heavy
+Vivek Vihar,2026-04-03,traffic_heavy
+Vivek Vihar,2026-04-04,traffic_heavy
+Vivek Vihar,2026-04-05,traffic_heavy
+Vivek Vihar,2026-04-06,traffic_heavy
+Vivek Vihar,2026-04-07,traffic_heavy
+Vivek Vihar,2026-04-08,clear
+Vivek Vihar,2026-04-09,traffic_heavy
+Vivek Vihar,2026-04-10,dust
+Vivek Vihar,2026-04-11,traffic_heavy
+Vivek Vihar,2026-04-12,traffic_heavy
+Vivek Vihar,2026-04-13,traffic_heavy
+Vivek Vihar,2026-04-14,traffic_heavy
+Vivek Vihar,2026-04-15,traffic_heavy
+Vivek Vihar,2026-04-16,traffic_heavy
+Vivek Vihar,2026-04-17,industrial_haze
+Vivek Vihar,2026-04-18,traffic_heavy
+Vivek Vihar,2026-04-19,dust
+Vivek Vihar,2026-04-20,traffic_heavy
+Vivek Vihar,2026-04-21,traffic_heavy
+Vivek Vihar,2026-04-22,industrial_haze
+Vivek Vihar,2026-04-23,traffic_heavy
+Vivek Vihar,2026-04-24,industrial_haze
+Vivek Vihar,2026-04-25,industrial_haze
+Vivek Vihar,2026-04-26,traffic_heavy
+Vivek Vihar,2026-04-27,traffic_heavy
+Vivek Vihar,2026-04-28,dust
+Vivek Vihar,2026-04-29,industrial_haze
+Vivek Vihar,2026-04-30,industrial_haze
+Vivek Vihar,2026-05-01,traffic_heavy
+Vivek Vihar,2026-05-02,dust
+Vivek Vihar,2026-05-03,dust
+Vivek Vihar,2026-05-04,clear
+Vivek Vihar,2026-05-05,clear
+Vivek Vihar,2026-05-06,traffic_heavy
+Vivek Vihar,2026-05-07,clear
+Vivek Vihar,2026-05-08,traffic_heavy
+Vivek Vihar,2026-05-09,traffic_heavy
+Vivek Vihar,2026-05-10,industrial_haze
+Vivek Vihar,2026-05-11,industrial_haze
+Vivek Vihar,2026-05-12,dust
+Vivek Vihar,2026-05-13,dust
+Vivek Vihar,2026-05-14,dust
+Vivek Vihar,2026-05-15,dust
+Vivek Vihar,2026-05-16,dust
+Vivek Vihar,2026-05-17,dust
+Vivek Vihar,2026-05-18,dust
+Vivek Vihar,2026-05-19,dust
+Vivek Vihar,2026-05-20,dust
+Vivek Vihar,2026-05-21,dust
+Vivek Vihar,2026-05-22,dust
+Vivek Vihar,2026-05-23,dust
+Vivek Vihar,2026-05-24,dust
+Vivek Vihar,2026-05-25,dust
+Vivek Vihar,2026-05-26,dust
+Vivek Vihar,2026-05-27,dust
+Vivek Vihar,2026-05-28,dust
+Vivek Vihar,2026-05-29,dust
+Vivek Vihar,2026-05-30,dust
+Vivek Vihar,2026-05-31,clear
+Vivek Vihar,2026-06-01,dust
+Vivek Vihar,2026-06-02,dust
+Vivek Vihar,2026-06-03,dust
+Vivek Vihar,2026-06-04,dust
+Vivek Vihar,2026-06-05,dust
+Vivek Vihar,2026-06-06,dust
+Vivek Vihar,2026-06-07,dust
+Vivek Vihar,2026-06-08,dust
+Vivek Vihar,2026-06-09,dust
+Vivek Vihar,2026-06-10,dust
+Vivek Vihar,2026-06-11,dust
+Vivek Vihar,2026-06-12,clear
+Vivek Vihar,2026-06-13,dust
+Vivek Vihar,2026-06-14,dust
+Vivek Vihar,2026-06-15,dust
+Vivek Vihar,2026-06-16,dust
+Vivek Vihar,2026-06-17,dust
+Vivek Vihar,2026-06-18,dust
+Vivek Vihar,2026-06-19,dust
+Vivek Vihar,2026-06-20,dust
+Vivek Vihar,2026-06-21,dust
+Vivek Vihar,2026-06-22,dust
+Vivek Vihar,2026-06-23,dust
+Vivek Vihar,2026-06-24,dust
+Vivek Vihar,2026-06-25,dust
+Vivek Vihar,2026-06-26,dust
+Vivek Vihar,2026-06-27,dust
+Vivek Vihar,2026-06-28,dust
+Vivek Vihar,2026-06-29,dust
+Vivek Vihar,2026-06-30,dust
+Vivek Vihar,2026-07-01,dust
+Vivek Vihar,2026-07-02,dust
+Vivek Vihar,2026-07-03,dust
+Vivek Vihar,2026-07-04,dust
+Vivek Vihar,2026-07-05,traffic_heavy
+Vivek Vihar,2026-07-06,dust
+Vivek Vihar,2026-07-07,dust
+Vivek Vihar,2026-07-08,clear
+Vivek Vihar,2026-07-09,clear
+Vivek Vihar,2026-07-10,clear
+Vivek Vihar,2026-07-11,dust
+Vivek Vihar,2026-07-12,dust
+Vivek Vihar,2026-07-13,dust
+Vivek Vihar,2026-07-14,dust
+Vivek Vihar,2026-07-15,dust
+Vivek Vihar,2026-07-16,dust
+Vivek Vihar,2026-07-17,dust
+Vivek Vihar,2026-07-18,dust
+Vivek Vihar,2026-07-19,dust
+Vivek Vihar,2026-07-20,dust
+Vivek Vihar,2026-07-21,dust
+Wazirpur,2025-10-01,dust
+Wazirpur,2025-10-02,dust
+Wazirpur,2025-10-03,traffic_heavy
+Wazirpur,2025-10-04,traffic_heavy
+Wazirpur,2025-10-05,dust
+Wazirpur,2025-10-06,clear
+Wazirpur,2025-10-07,traffic_heavy
+Wazirpur,2025-10-08,traffic_heavy
+Wazirpur,2025-10-09,dust
+Wazirpur,2025-10-10,dust
+Wazirpur,2025-10-11,dust
+Wazirpur,2025-10-13,traffic_heavy
+Wazirpur,2025-10-14,traffic_heavy
+Wazirpur,2025-10-15,traffic_heavy
+Wazirpur,2025-10-16,traffic_heavy
+Wazirpur,2025-10-17,traffic_heavy
+Wazirpur,2025-10-18,dust
+Wazirpur,2025-10-19,traffic_heavy
+Wazirpur,2025-10-20,crop_burning_smoke
+Wazirpur,2025-10-21,crop_burning_smoke
+Wazirpur,2025-10-22,crop_burning_smoke
+Wazirpur,2025-10-23,traffic_heavy
+Wazirpur,2025-10-24,traffic_heavy
+Wazirpur,2025-10-25,traffic_heavy
+Wazirpur,2025-10-26,traffic_heavy
+Wazirpur,2025-10-27,crop_burning_smoke
+Wazirpur,2025-10-28,crop_burning_smoke
+Wazirpur,2025-10-29,crop_burning_smoke
+Wazirpur,2025-10-30,crop_burning_smoke
+Wazirpur,2025-10-31,traffic_heavy
+Wazirpur,2025-11-01,crop_burning_smoke
+Wazirpur,2025-11-02,crop_burning_smoke
+Wazirpur,2025-11-03,crop_burning_smoke
+Wazirpur,2025-11-04,dust
+Wazirpur,2025-11-05,crop_burning_smoke
+Wazirpur,2025-11-06,crop_burning_smoke
+Wazirpur,2025-11-07,traffic_heavy
+Wazirpur,2025-11-08,crop_burning_smoke
+Wazirpur,2025-11-09,traffic_heavy
+Wazirpur,2025-11-10,crop_burning_smoke
+Wazirpur,2025-11-11,crop_burning_smoke
+Wazirpur,2025-11-12,crop_burning_smoke
+Wazirpur,2025-11-13,traffic_heavy
+Wazirpur,2025-11-14,traffic_heavy
+Wazirpur,2025-11-15,traffic_heavy
+Wazirpur,2025-11-16,crop_burning_smoke
+Wazirpur,2025-11-17,crop_burning_smoke
+Wazirpur,2025-11-18,traffic_heavy
+Wazirpur,2025-11-19,crop_burning_smoke
+Wazirpur,2025-11-20,crop_burning_smoke
+Wazirpur,2025-11-21,crop_burning_smoke
+Wazirpur,2025-11-22,crop_burning_smoke
+Wazirpur,2025-11-23,crop_burning_smoke
+Wazirpur,2025-11-24,traffic_heavy
+Wazirpur,2025-11-25,traffic_heavy
+Wazirpur,2025-11-26,crop_burning_smoke
 Wazirpur,2025-12-01,traffic_heavy
 Wazirpur,2025-12-02,crop_burning_smoke
 Wazirpur,2025-12-03,traffic_heavy
@@ -89,3 +3525,227 @@ Wazirpur,2025-12-04,traffic_heavy
 Wazirpur,2025-12-05,traffic_heavy
 Wazirpur,2025-12-06,traffic_heavy
 Wazirpur,2025-12-07,crop_burning_smoke
+Wazirpur,2025-12-08,traffic_heavy
+Wazirpur,2025-12-09,traffic_heavy
+Wazirpur,2025-12-10,traffic_heavy
+Wazirpur,2025-12-11,traffic_heavy
+Wazirpur,2025-12-12,crop_burning_smoke
+Wazirpur,2025-12-13,crop_burning_smoke
+Wazirpur,2025-12-14,crop_burning_smoke
+Wazirpur,2025-12-15,crop_burning_smoke
+Wazirpur,2025-12-16,crop_burning_smoke
+Wazirpur,2025-12-17,crop_burning_smoke
+Wazirpur,2025-12-18,crop_burning_smoke
+Wazirpur,2025-12-19,crop_burning_smoke
+Wazirpur,2025-12-20,crop_burning_smoke
+Wazirpur,2025-12-21,crop_burning_smoke
+Wazirpur,2025-12-22,crop_burning_smoke
+Wazirpur,2025-12-23,crop_burning_smoke
+Wazirpur,2025-12-24,traffic_heavy
+Wazirpur,2025-12-25,crop_burning_smoke
+Wazirpur,2025-12-26,crop_burning_smoke
+Wazirpur,2025-12-27,crop_burning_smoke
+Wazirpur,2025-12-28,crop_burning_smoke
+Wazirpur,2025-12-29,crop_burning_smoke
+Wazirpur,2025-12-30,crop_burning_smoke
+Wazirpur,2025-12-31,crop_burning_smoke
+Wazirpur,2026-01-01,crop_burning_smoke
+Wazirpur,2026-01-02,crop_burning_smoke
+Wazirpur,2026-01-03,crop_burning_smoke
+Wazirpur,2026-01-04,crop_burning_smoke
+Wazirpur,2026-01-05,crop_burning_smoke
+Wazirpur,2026-01-06,crop_burning_smoke
+Wazirpur,2026-01-07,crop_burning_smoke
+Wazirpur,2026-01-08,crop_burning_smoke
+Wazirpur,2026-01-09,crop_burning_smoke
+Wazirpur,2026-01-10,crop_burning_smoke
+Wazirpur,2026-01-11,crop_burning_smoke
+Wazirpur,2026-01-12,crop_burning_smoke
+Wazirpur,2026-01-13,crop_burning_smoke
+Wazirpur,2026-01-14,crop_burning_smoke
+Wazirpur,2026-01-15,crop_burning_smoke
+Wazirpur,2026-01-16,crop_burning_smoke
+Wazirpur,2026-01-17,crop_burning_smoke
+Wazirpur,2026-01-18,crop_burning_smoke
+Wazirpur,2026-01-19,crop_burning_smoke
+Wazirpur,2026-01-20,traffic_heavy
+Wazirpur,2026-01-21,crop_burning_smoke
+Wazirpur,2026-01-22,crop_burning_smoke
+Wazirpur,2026-01-23,crop_burning_smoke
+Wazirpur,2026-01-24,traffic_heavy
+Wazirpur,2026-01-25,traffic_heavy
+Wazirpur,2026-01-26,crop_burning_smoke
+Wazirpur,2026-01-27,crop_burning_smoke
+Wazirpur,2026-01-28,crop_burning_smoke
+Wazirpur,2026-01-29,crop_burning_smoke
+Wazirpur,2026-01-30,crop_burning_smoke
+Wazirpur,2026-01-31,crop_burning_smoke
+Wazirpur,2026-02-01,traffic_heavy
+Wazirpur,2026-02-02,crop_burning_smoke
+Wazirpur,2026-02-03,crop_burning_smoke
+Wazirpur,2026-02-04,crop_burning_smoke
+Wazirpur,2026-02-05,traffic_heavy
+Wazirpur,2026-02-06,dust
+Wazirpur,2026-02-07,dust
+Wazirpur,2026-02-08,dust
+Wazirpur,2026-02-09,traffic_heavy
+Wazirpur,2026-02-10,traffic_heavy
+Wazirpur,2026-02-11,traffic_heavy
+Wazirpur,2026-02-12,traffic_heavy
+Wazirpur,2026-02-13,traffic_heavy
+Wazirpur,2026-02-14,traffic_heavy
+Wazirpur,2026-02-16,traffic_heavy
+Wazirpur,2026-02-17,traffic_heavy
+Wazirpur,2026-02-18,traffic_heavy
+Wazirpur,2026-02-19,traffic_heavy
+Wazirpur,2026-02-20,traffic_heavy
+Wazirpur,2026-02-21,traffic_heavy
+Wazirpur,2026-02-22,crop_burning_smoke
+Wazirpur,2026-02-23,traffic_heavy
+Wazirpur,2026-02-24,traffic_heavy
+Wazirpur,2026-02-25,traffic_heavy
+Wazirpur,2026-02-26,traffic_heavy
+Wazirpur,2026-02-27,traffic_heavy
+Wazirpur,2026-02-28,traffic_heavy
+Wazirpur,2026-03-01,traffic_heavy
+Wazirpur,2026-03-02,traffic_heavy
+Wazirpur,2026-03-03,traffic_heavy
+Wazirpur,2026-03-05,traffic_heavy
+Wazirpur,2026-03-06,traffic_heavy
+Wazirpur,2026-03-07,traffic_heavy
+Wazirpur,2026-03-08,traffic_heavy
+Wazirpur,2026-03-09,traffic_heavy
+Wazirpur,2026-03-10,traffic_heavy
+Wazirpur,2026-03-11,traffic_heavy
+Wazirpur,2026-03-12,traffic_heavy
+Wazirpur,2026-03-13,traffic_heavy
+Wazirpur,2026-03-14,traffic_heavy
+Wazirpur,2026-03-15,traffic_heavy
+Wazirpur,2026-03-16,traffic_heavy
+Wazirpur,2026-03-17,traffic_heavy
+Wazirpur,2026-03-18,dust
+Wazirpur,2026-03-19,traffic_heavy
+Wazirpur,2026-03-20,clear
+Wazirpur,2026-03-21,traffic_heavy
+Wazirpur,2026-03-22,traffic_heavy
+Wazirpur,2026-03-23,dust
+Wazirpur,2026-03-24,dust
+Wazirpur,2026-03-25,industrial_haze
+Wazirpur,2026-03-26,traffic_heavy
+Wazirpur,2026-03-27,dust
+Wazirpur,2026-03-28,traffic_heavy
+Wazirpur,2026-03-29,traffic_heavy
+Wazirpur,2026-03-30,traffic_heavy
+Wazirpur,2026-03-31,traffic_heavy
+Wazirpur,2026-04-01,traffic_heavy
+Wazirpur,2026-04-02,traffic_heavy
+Wazirpur,2026-04-03,traffic_heavy
+Wazirpur,2026-04-04,traffic_heavy
+Wazirpur,2026-04-05,traffic_heavy
+Wazirpur,2026-04-06,traffic_heavy
+Wazirpur,2026-04-07,traffic_heavy
+Wazirpur,2026-04-08,dust
+Wazirpur,2026-04-09,traffic_heavy
+Wazirpur,2026-04-10,dust
+Wazirpur,2026-04-11,dust
+Wazirpur,2026-04-12,dust
+Wazirpur,2026-04-13,traffic_heavy
+Wazirpur,2026-04-14,traffic_heavy
+Wazirpur,2026-04-15,traffic_heavy
+Wazirpur,2026-04-16,traffic_heavy
+Wazirpur,2026-04-17,traffic_heavy
+Wazirpur,2026-04-18,traffic_heavy
+Wazirpur,2026-04-19,traffic_heavy
+Wazirpur,2026-04-20,dust
+Wazirpur,2026-04-21,traffic_heavy
+Wazirpur,2026-04-22,traffic_heavy
+Wazirpur,2026-04-23,traffic_heavy
+Wazirpur,2026-04-24,traffic_heavy
+Wazirpur,2026-04-25,traffic_heavy
+Wazirpur,2026-04-26,traffic_heavy
+Wazirpur,2026-04-27,traffic_heavy
+Wazirpur,2026-04-28,dust
+Wazirpur,2026-04-29,dust
+Wazirpur,2026-04-30,traffic_heavy
+Wazirpur,2026-05-01,traffic_heavy
+Wazirpur,2026-05-02,dust
+Wazirpur,2026-05-03,dust
+Wazirpur,2026-05-04,dust
+Wazirpur,2026-05-05,dust
+Wazirpur,2026-05-06,dust
+Wazirpur,2026-05-07,dust
+Wazirpur,2026-05-08,dust
+Wazirpur,2026-05-09,dust
+Wazirpur,2026-05-10,dust
+Wazirpur,2026-05-11,dust
+Wazirpur,2026-05-12,dust
+Wazirpur,2026-05-13,traffic_heavy
+Wazirpur,2026-05-14,traffic_heavy
+Wazirpur,2026-05-15,dust
+Wazirpur,2026-05-16,dust
+Wazirpur,2026-05-17,dust
+Wazirpur,2026-05-18,dust
+Wazirpur,2026-05-19,traffic_heavy
+Wazirpur,2026-05-20,dust
+Wazirpur,2026-05-21,traffic_heavy
+Wazirpur,2026-05-22,dust
+Wazirpur,2026-05-23,traffic_heavy
+Wazirpur,2026-05-24,traffic_heavy
+Wazirpur,2026-05-25,traffic_heavy
+Wazirpur,2026-05-26,traffic_heavy
+Wazirpur,2026-05-27,traffic_heavy
+Wazirpur,2026-05-28,traffic_heavy
+Wazirpur,2026-05-29,dust
+Wazirpur,2026-05-30,dust
+Wazirpur,2026-05-31,dust
+Wazirpur,2026-06-01,traffic_heavy
+Wazirpur,2026-06-02,traffic_heavy
+Wazirpur,2026-06-03,dust
+Wazirpur,2026-06-04,traffic_heavy
+Wazirpur,2026-06-05,dust
+Wazirpur,2026-06-06,dust
+Wazirpur,2026-06-07,dust
+Wazirpur,2026-06-08,dust
+Wazirpur,2026-06-09,dust
+Wazirpur,2026-06-10,dust
+Wazirpur,2026-06-11,dust
+Wazirpur,2026-06-12,traffic_heavy
+Wazirpur,2026-06-13,dust
+Wazirpur,2026-06-14,dust
+Wazirpur,2026-06-15,dust
+Wazirpur,2026-06-16,traffic_heavy
+Wazirpur,2026-06-17,traffic_heavy
+Wazirpur,2026-06-18,dust
+Wazirpur,2026-06-19,dust
+Wazirpur,2026-06-20,dust
+Wazirpur,2026-06-21,dust
+Wazirpur,2026-06-22,dust
+Wazirpur,2026-06-23,traffic_heavy
+Wazirpur,2026-06-24,traffic_heavy
+Wazirpur,2026-06-25,traffic_heavy
+Wazirpur,2026-06-26,dust
+Wazirpur,2026-06-27,dust
+Wazirpur,2026-06-28,dust
+Wazirpur,2026-06-29,dust
+Wazirpur,2026-06-30,dust
+Wazirpur,2026-07-01,dust
+Wazirpur,2026-07-02,traffic_heavy
+Wazirpur,2026-07-03,dust
+Wazirpur,2026-07-04,traffic_heavy
+Wazirpur,2026-07-05,traffic_heavy
+Wazirpur,2026-07-06,dust
+Wazirpur,2026-07-07,dust
+Wazirpur,2026-07-08,clear
+Wazirpur,2026-07-09,dust
+Wazirpur,2026-07-10,traffic_heavy
+Wazirpur,2026-07-11,dust
+Wazirpur,2026-07-12,dust
+Wazirpur,2026-07-13,dust
+Wazirpur,2026-07-14,dust
+Wazirpur,2026-07-15,dust
+Wazirpur,2026-07-16,dust
+Wazirpur,2026-07-17,dust
+Wazirpur,2026-07-18,dust
+Wazirpur,2026-07-19,dust
+Wazirpur,2026-07-20,dust
+Wazirpur,2026-07-21,crop_burning_smoke

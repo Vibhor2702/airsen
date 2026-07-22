@@ -20,7 +20,8 @@ import pandas as pd
 import rasterio
 from rasterio.transform import from_bounds
 
-DATA_DIR   = Path(r"G:\My Drive\AirSentinel_Satellite_Images")
+DATA_DIR   = Path(r"G:\My Drive\AirSentinel_Satellite_Images")   # original S2 files (Drive)
+AUG_DIR    = Path(r"C:\airsentinel_local\augmented")              # augmented files (local, fast I/O)
 LABELS_CSV = DATA_DIR / "labels.csv"
 OUT_CSV    = DATA_DIR / "labels_augmented.csv"
 
@@ -81,18 +82,17 @@ def main():
         has_no2 = no2_src_path is not None and no2_src_path.exists()
 
         for aug_name, fn in TRANSFORMS.items():
-            # Build output paths
-            s2_stem = s2_src.stem                          # e.g. Anand_Vihar_2025-10-01_S2
+            # Build output paths — aug files go to AUG_DIR (local, fast I/O), not Drive
+            s2_stem      = s2_src.stem                          # e.g. Anand_Vihar_2025-10-01_S2
+            zone_folder  = s2_src.parent.name                  # zone subfolder name
             s2_aug_name  = f"{s2_stem}_aug-{aug_name}.tif"
-            s2_aug_path  = s2_src.parent / s2_aug_name
-            s2_aug_rel   = s2_aug_path.relative_to(DATA_DIR).as_posix()
+            s2_aug_path  = AUG_DIR / zone_folder / s2_aug_name  # local path
 
-            no2_aug_rel = None
+            no2_aug_path = None
             if no2_src_path is not None:
                 no2_stem     = no2_src_path.stem
                 no2_aug_name = f"{no2_stem}_aug-{aug_name}.tif"
-                no2_aug_path = s2_src.parent / no2_aug_name  # same zone folder
-                no2_aug_rel  = no2_aug_path.relative_to(DATA_DIR).as_posix()
+                no2_aug_path = AUG_DIR / zone_folder / no2_aug_name  # local path
 
             # Write S2 aug file
             try:
@@ -106,18 +106,17 @@ def main():
                 continue
 
             # Write NO2 aug file (best-effort, don't block the row)
-            if has_no2 and no2_aug_rel is not None:
-                no2_aug_path_obj = DATA_DIR / no2_aug_rel
-                if not no2_aug_path_obj.exists():
+            if has_no2 and no2_aug_path is not None:
+                if not no2_aug_path.exists():
                     try:
-                        augment_tif(no2_src_path, no2_aug_path_obj, fn)
+                        augment_tif(no2_src_path, no2_aug_path, fn)
                     except Exception as e:
                         no2_errors += 1
 
-            # Build aug row
+            # Build aug row — store absolute paths so loaders don't need DATA_DIR for aug files
             aug_row = row.to_dict()
-            aug_row["s2_file"]     = s2_aug_rel
-            aug_row["no2_file"]    = no2_aug_rel if no2_aug_rel else row.get("no2_file", "")
+            aug_row["s2_file"]     = s2_aug_path.as_posix()
+            aug_row["no2_file"]    = no2_aug_path.as_posix() if no2_aug_path else row.get("no2_file", "")
             aug_row["label_source"] = aug_row["label_source"].rstrip() + " -- augmented"
             aug_rows.append(aug_row)
 

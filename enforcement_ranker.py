@@ -35,10 +35,9 @@ import torch
 import torch.nn as nn
 
 # ---------------------------------------------------------------------------
-# ONE-LINE CONFIG CHANGE: swap this path to use a better checkpoint.
-# Everything else — ranking logic, output schema, fuse.py wiring — stays unchanged.
+# Final checkpoint — Prithvi LoRA r=8, epoch 2, 71.1% val acc, 700-image dataset.
 # ---------------------------------------------------------------------------
-PRITHVI_CKPT = Path("prithvi_airsen_augmented.pt")
+PRITHVI_CKPT = Path("prithvi_lora_best.pt")
 
 DATA_DIR       = Path(r"G:\My Drive\AirSentinel_Satellite_Images")
 LABELS_CSV     = DATA_DIR / "labels.csv"
@@ -49,7 +48,7 @@ OUT_ATTRIBUTION = Path("P2/airsentinel-master/satellite_attribution/outputs/attr
 IMG_SIZE = 224
 DEVICE   = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-MODEL_VERSION = "247-image placeholder -- not final"
+MODEL_VERSION = "700-image LoRA r=8 -- final"
 
 # Classes must match train_prithvi.py order (stored in checkpoint, verified at load time)
 CLASSES    = ["dust", "crop_burning_smoke", "industrial_haze", "traffic_heavy", "clear"]
@@ -79,11 +78,23 @@ SOURCE_WEIGHTS = {
 
 
 # ---------------------------------------------------------------------------
-# Model definition — mirrors train_prithvi.py's PrithviClassifier exactly.
+# Model definition — Prithvi + LoRA adapters, matches train_prithvi_lora.py exactly.
+# replace_qkv splits fused QKV -> q_linear/k_linear/v_linear before LoRA wrapping.
 # Head: LayerNorm(768) -> Dropout(0.1) -> Linear(768, 5)
 # ---------------------------------------------------------------------------
 
-class PrithviClassifier(nn.Module):
+PEFT_CONFIG = {
+    "method": "LORA",
+    "replace_qkv": "qkv",
+    "peft_config_kwargs": {
+        "r": 8, "lora_alpha": 16,
+        "target_modules": ["q_linear", "k_linear", "v_linear", "proj"],
+        "lora_dropout": 0.05, "bias": "none",
+    },
+}
+
+
+class PrithviLoraClassifier(nn.Module):
     def __init__(self, backbone: nn.Module, embed_dim: int, num_classes: int):
         super().__init__()
         self.backbone = backbone
@@ -104,19 +115,21 @@ class PrithviClassifier(nn.Module):
         return self.head(feat)
 
 
-def load_model(ckpt_path: Path) -> tuple[PrithviClassifier, list[str]]:
+def load_model(ckpt_path: Path) -> tuple[PrithviLoraClassifier, list[str]]:
     """
-    Loads the fine-tuned PrithviClassifier from checkpoint.
-    Validates that the checkpoint's class list matches CLASSES (fail loudly if not).
+    Loads the final LoRA checkpoint into PrithviLoraClassifier.
+    Uses pretrained=False — all weights come from the checkpoint.
+    Validates class list matches CLASSES (fail loudly if not).
     """
     from terratorch.registry import BACKBONE_REGISTRY
+    from terratorch.models.peft_utils import get_peft_backbone
 
-    print(f"Loading backbone (Prithvi-EO-2.0-100M-TL) ...")
-    backbone = BACKBONE_REGISTRY.build("prithvi_eo_v2_100_tl", pretrained=True)
+    print(f"Loading backbone (Prithvi-EO-2.0-100M-TL, pretrained=False — weights from checkpoint) ...")
+    backbone = BACKBONE_REGISTRY.build("prithvi_eo_v2_100_tl", pretrained=False)
+    backbone = get_peft_backbone(PEFT_CONFIG, backbone)
 
     ckpt = torch.load(ckpt_path, map_location="cpu", weights_only=False)
 
-    # Validate class ordering — this matters for correct logit->class mapping
     ckpt_classes = ckpt.get("classes", CLASSES)
     if ckpt_classes != CLASSES:
         raise RuntimeError(
@@ -124,7 +137,7 @@ def load_model(ckpt_path: Path) -> tuple[PrithviClassifier, list[str]]:
             "Update CLASSES in this file to match the checkpoint."
         )
 
-    model = PrithviClassifier(backbone, EMBED_DIM, NUM_CLASSES)
+    model = PrithviLoraClassifier(backbone, EMBED_DIM, NUM_CLASSES)
     missing, unexpected = model.load_state_dict(ckpt["model_state_dict"], strict=True)
     print(f"Loaded checkpoint: {ckpt_path}  (missing={len(missing)}, unexpected={len(unexpected)})")
     model.eval()
@@ -143,7 +156,7 @@ def load_s2_image(tif_path: Path) -> np.ndarray:
 
 
 @torch.no_grad()
-def predict_zone(model: PrithviClassifier, img_np: np.ndarray) -> tuple[str, float, dict]:
+def predict_zone(model: PrithviLoraClassifier, img_np: np.ndarray) -> tuple[str, float, dict]:
     """
     Returns (predicted_class, confidence, {class: prob}) for one S2 image.
     confidence is the softmax probability of the top class.
@@ -261,7 +274,8 @@ def main() -> None:
     for _, row in date_rows.iterrows():
         zone    = row["zone"]
         s2_file = row["s2_file"]
-        tif_path = DATA_DIR / s2_file
+        p = Path(s2_file)
+        tif_path = p if p.is_absolute() else DATA_DIR / p
 
         if not tif_path.exists():
             print(f"  [SKIP] {zone}: {tif_path.name} not found")

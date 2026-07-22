@@ -64,14 +64,18 @@ def scrape_all(start: datetime, end: datetime, delay: float) -> pd.DataFrame:
     for zone, station in ZONES.items():
         for param in ALL_PARAMS:
             i += 1
-            try:
-                df = scraper.fetch_series(station, param, start, end, duration=1)
-            except Exception as e:  # noqa: BLE001 - keep going on isolated failures
-                print(f"[{i:3d}/{total}] FAILED  {zone:12s} {param.column:10s}: {e}")
-                continue
             audit = RAW / f"{zone.replace(' ', '_')}__{param.column.replace('.', '')}__{window_tag}.csv"
-            df.to_csv(audit, index=False)
-            print(f"[{i:3d}/{total}] live    {zone:12s} {param.column:10s} ({len(df)} rows)")
+            if audit.exists():
+                df = pd.read_csv(audit, parse_dates=["timestamp"])
+                print(f"[{i:3d}/{total}] cached  {zone:12s} {param.column:10s} ({len(df)} rows)")
+            else:
+                try:
+                    df = scraper.fetch_series(station, param, start, end, duration=1)
+                except Exception as e:  # noqa: BLE001 - keep going on isolated failures
+                    print(f"[{i:3d}/{total}] FAILED  {zone:12s} {param.column:10s}: {e}")
+                    continue
+                df.to_csv(audit, index=False)
+                print(f"[{i:3d}/{total}] live    {zone:12s} {param.column:10s} ({len(df)} rows)")
             if not df.empty:
                 frames.append(df)
     if not frames:

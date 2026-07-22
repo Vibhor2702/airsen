@@ -71,7 +71,7 @@ NUM_CLASSES = len(CLASSES)
 CLASS_TO_IDX = {c: i for i, c in enumerate(CLASSES)}
 
 IMG_SIZE       = 224
-BATCH_SIZE     = 4
+BATCH_SIZE     = 64    # raised: frozen backbone + cache mode uses negligible VRAM; confirm at runtime
 NUM_EPOCHS     = 15     # more epochs now that backbone is frozen (faster per epoch)
 LR             = 3e-4   # higher LR ok for head-only training
 RANDOM_SEED    = 42
@@ -315,7 +315,9 @@ class AirSentinelFusedDataset(Dataset):
             return feat, label_t, no2_t, avail_t
 
         # Full pipeline: load raw image
-        image = load_s2_image(self.data_dir / row["s2_file"])
+        p = Path(row["s2_file"])
+        tif_path = p if p.is_absolute() else self.data_dir / p
+        image = load_s2_image(tif_path)
         return (
             torch.tensor(image, dtype=torch.float32),
             label_t,
@@ -665,9 +667,11 @@ if __name__ == "__main__":
         feature_cache=feature_cache, use_cache=use_cache)
 
     train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True,
-                              num_workers=0, pin_memory=(DEVICE.type == "cuda"))
+                              num_workers=4, pin_memory=(DEVICE.type == "cuda"),
+                              persistent_workers=True)
     val_loader   = DataLoader(val_ds,   batch_size=BATCH_SIZE, shuffle=False,
-                              num_workers=0, pin_memory=(DEVICE.type == "cuda"))
+                              num_workers=4, pin_memory=(DEVICE.type == "cuda"),
+                              persistent_workers=True)
 
     print(f"Train: {len(train_ds)} rows | Val: {len(val_ds)} rows")
 
