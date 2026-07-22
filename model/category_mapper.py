@@ -23,10 +23,11 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).parent
-CATEGORY_CSV = ROOT / "vehicle_registrations_by_rto_category.csv"
-FUEL_CSV     = ROOT / "vehicle_registrations_by_rto.csv"
-OUT_PATH     = ROOT / "P2/airsentinel-master/vehicle_emissions/data/raw/vehicle_registrations_by_rto.csv"
+ROOT      = Path(__file__).parent          # = /model/
+REPO_ROOT = ROOT.parent                   # = repo root
+CATEGORY_CSV = REPO_ROOT / "data-pipeline" / "vehicle_registrations_by_rto_category.csv"
+FUEL_CSV     = REPO_ROOT / "data-pipeline" / "vehicle_registrations_by_rto.csv"
+OUT_PATH     = REPO_ROOT / "vehicle-emissions" / "data" / "raw" / "vehicle_registrations_by_rto.csv"
 
 # ---------------------------------------------------------------------------
 # Category mapping — VAHAN class name -> emission formula category

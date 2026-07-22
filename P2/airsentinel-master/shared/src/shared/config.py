@@ -4,20 +4,16 @@ from __future__ import annotations
 
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[2]   # = P2/airsentinel-master/shared/
+REPO_ROOT = ROOT.parent.parent.parent         # = repo root (AirSen/)
 OUTPUTS_DIR = ROOT / "outputs"
 OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Sibling module output locations — read-only from here, each module owns writing its own.
-# "forecasting" is the folder name (renamed from "airsentinel" to match Person 1's role);
-# the Python package inside it is still importable as `airsentinel` (see its pyproject.toml)
-# — "AirSentinel" is the overall project brand, "forecasting" is just this module's folder.
 AIRSENTINEL_FORECASTS_CSV = ROOT.parent / "forecasting" / "outputs" / "forecasts.csv"
 AIRSENTINEL_PANEL_CSV = ROOT.parent / "forecasting" / "data" / "processed" / "airsentinel_daily_panel.csv"
-VEHICLE_EMISSION_INDEX_CSV = ROOT.parent / "vehicle_emissions" / "outputs" / "vehicle_emission_index.csv"
-# Not produced by any module yet — the satellite/Prithvi track's attribution output. Once
-# your teammate has real predictions, point this at the real file (or override via env var)
-# and fuse.py will pick it up automatically; until then, fuse.py reports it as pending.
+# vehicle_emissions moved to /vehicle-emissions/ at repo root (Phase 3 reorg)
+VEHICLE_EMISSION_INDEX_CSV = REPO_ROOT / "vehicle-emissions" / "outputs" / "vehicle_emission_index.csv"
 SATELLITE_ATTRIBUTION_CSV = ROOT.parent / "satellite_attribution" / "outputs" / "attribution.csv"
 
 # GRAP (Graded Response Action Plan) AQI stage thresholds — official CAQM classification,

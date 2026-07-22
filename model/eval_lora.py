@@ -11,7 +11,7 @@ from rasterio.enums import Resampling
 
 DATA_DIR     = Path(r"G:\My Drive\AirSentinel_Satellite_Images")
 LABELS_CSV   = DATA_DIR / "labels_augmented.csv"
-CKPT         = Path("prithvi_lora_best.pt")
+CKPT         = Path(__file__).parent.parent / "prithvi_lora_best.pt"
 CLASSES      = ["dust", "crop_burning_smoke", "industrial_haze", "traffic_heavy", "clear"]
 CLASS_TO_IDX = {c: i for i, c in enumerate(CLASSES)}
 IMG_SIZE     = 224

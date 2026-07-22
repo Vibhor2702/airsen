@@ -12,17 +12,16 @@
 # All ranking logic, output schema, and downstream integrations stay the same.
 #
 # Output files:
-#   enforcement_ranking.csv            — full ranked output for this script
+#   enforcement/enforcement_ranking.csv            — full ranked output for this script
 #   P2/airsentinel-master/satellite_attribution/outputs/attribution.csv
-#                                      — satellite-only schema picked up by fuse.py
+#                                                  — satellite-only schema picked up by fuse.py
 #
 # Labels are CAAQMS heuristic (rule-based, not ground truth). Attribution confidence is
 # from the model's softmax output, not a calibrated probability. Report accordingly.
 #
-# Usage:
-#   .venv/Scripts/python.exe enforcement_ranker.py
-#   .venv/Scripts/python.exe enforcement_ranker.py --date 2026-07-16
-#   .venv/Scripts/python.exe enforcement_ranker.py --labels-csv G:\...\labels.csv
+# Usage (run from any directory — paths are __file__-relative):
+#   .venv/Scripts/python.exe enforcement/enforcement_ranker.py
+#   .venv/Scripts/python.exe enforcement/enforcement_ranker.py --date 2026-07-16
 
 import argparse
 import sys
@@ -36,14 +35,17 @@ import torch.nn as nn
 
 # ---------------------------------------------------------------------------
 # Final checkpoint — Prithvi LoRA r=8, epoch 2, 71.1% val acc, 700-image dataset.
+# All paths are __file__-relative so the script runs correctly from any working dir.
 # ---------------------------------------------------------------------------
-PRITHVI_CKPT = Path("prithvi_lora_best.pt")
+_HERE      = Path(__file__).parent          # = /enforcement/
+_REPO_ROOT = _HERE.parent                   # = repo root
 
-DATA_DIR       = Path(r"G:\My Drive\AirSentinel_Satellite_Images")
-LABELS_CSV     = DATA_DIR / "labels.csv"
-VEHICLE_INDEX  = Path("P2/airsentinel-master/vehicle_emissions/outputs/vehicle_emission_index.csv")
-OUT_RANKING    = Path("enforcement_ranking.csv")
-OUT_ATTRIBUTION = Path("P2/airsentinel-master/satellite_attribution/outputs/attribution.csv")
+PRITHVI_CKPT    = _REPO_ROOT / "prithvi_lora_best.pt"
+DATA_DIR        = Path(r"G:\My Drive\AirSentinel_Satellite_Images")
+LABELS_CSV      = DATA_DIR / "labels.csv"
+VEHICLE_INDEX   = _REPO_ROOT / "vehicle-emissions" / "outputs" / "vehicle_emission_index.csv"
+OUT_RANKING     = _HERE / "enforcement_ranking.csv"
+OUT_ATTRIBUTION = _REPO_ROOT / "P2" / "airsentinel-master" / "satellite_attribution" / "outputs" / "attribution.csv"
 
 IMG_SIZE = 224
 DEVICE   = torch.device("cuda" if torch.cuda.is_available() else "cpu")
