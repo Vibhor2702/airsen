@@ -13,8 +13,8 @@
 #
 # Output files:
 #   enforcement/enforcement_ranking.csv            — full ranked output for this script
-#   P2/airsentinel-master/satellite_attribution/outputs/attribution.csv
-#                                                  — satellite-only schema picked up by fuse.py
+#   forecasting/satellite_attribution/outputs/attribution.csv
+#                                    — satellite-only schema picked up by fuse.py
 #
 # Labels are CAAQMS heuristic (rule-based, not ground truth). Attribution confidence is
 # from the model's softmax output, not a calibrated probability. Report accordingly.
@@ -45,7 +45,7 @@ DATA_DIR        = Path(r"G:\My Drive\AirSentinel_Satellite_Images")
 LABELS_CSV      = DATA_DIR / "labels.csv"
 VEHICLE_INDEX   = _REPO_ROOT / "vehicle-emissions" / "outputs" / "vehicle_emission_index.csv"
 OUT_RANKING     = _HERE / "enforcement_ranking.csv"
-OUT_ATTRIBUTION = _REPO_ROOT / "P2" / "airsentinel-master" / "satellite_attribution" / "outputs" / "attribution.csv"
+OUT_ATTRIBUTION = _REPO_ROOT / "team-pipeline" / "satellite_attribution" / "outputs" / "attribution.csv"
 
 IMG_SIZE = 224
 DEVICE   = torch.device("cuda" if torch.cuda.is_available() else "cpu")

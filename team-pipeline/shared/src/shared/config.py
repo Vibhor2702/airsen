@@ -4,15 +4,15 @@ from __future__ import annotations
 
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]   # = P2/airsentinel-master/shared/
-REPO_ROOT = ROOT.parent.parent.parent         # = repo root (AirSen/)
+ROOT = Path(__file__).resolve().parents[2]   # = team-pipeline/shared/
+REPO_ROOT = ROOT.parent.parent               # = repo root (AirSen/)
 OUTPUTS_DIR = ROOT / "outputs"
 OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Sibling module output locations — read-only from here, each module owns writing its own.
 AIRSENTINEL_FORECASTS_CSV = ROOT.parent / "forecasting" / "outputs" / "forecasts.csv"
 AIRSENTINEL_PANEL_CSV = ROOT.parent / "forecasting" / "data" / "processed" / "airsentinel_daily_panel.csv"
-# vehicle_emissions moved to /vehicle-emissions/ at repo root (Phase 3 reorg)
+# vehicle_emissions is at /vehicle-emissions/ at repo root
 VEHICLE_EMISSION_INDEX_CSV = REPO_ROOT / "vehicle-emissions" / "outputs" / "vehicle_emission_index.csv"
 SATELLITE_ATTRIBUTION_CSV = ROOT.parent / "satellite_attribution" / "outputs" / "attribution.csv"
 

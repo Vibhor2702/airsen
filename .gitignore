@@ -29,3 +29,7 @@ Thumbs.db
 # Env files
 .env
 *.env
+
+# Internal session logs — not for submission
+docs/SESSION_LOG.md
+docs/SUBMISSION_SUMMARY.md

@@ -14,8 +14,8 @@ Full write-up and results: [docs/SUBMISSION_SUMMARY.md](docs/SUBMISSION_SUMMARY.
 /vehicle-emissions/   Vehicle emissions pipeline (VAHAN → emission index) + methodology doc
 /enforcement/         Enforcement zone ranker — combines satellite attribution + vehicle index
 /dashboard/           dashboard.html — the final fused output (open this in a browser)
-/docs/                SESSION_LOG.md, SUBMISSION_SUMMARY.md, LORA_EVAL_REPORT.md
-/P2/                  Forecasting pipeline (teammate), fusion layer (fuse.py), dashboard source
+/docs/                LORA_EVAL_REPORT.md and other reference docs
+/team-pipeline/       Teammate's forecasting pipeline, fusion layer (fuse.py), dashboard source
 ```
 
 ---
