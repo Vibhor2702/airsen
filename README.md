@@ -63,10 +63,44 @@ PYTHONPATH=src python -m shared.pipeline
 
 ---
 
-## Honesty Badges
+## Architecture
 
-Every output row carries explicit provenance tags:
-- `model_version`: "700-image LoRA r=8 -- final"
-- `data_provenance`: "correlation-based (heuristic CAAQMS labels, not ground truth)"
-- `land_use_note`: "land-use signal absent from this repo -- scoring uses only satellite + vehicle data"
-- Vehicle emissions: DEMO DATA flag (real totals, split evenly across zones — not per-zone verified)
+```
+Sentinel-2 imagery (GEE)          CAAQMS ground sensors         VAHAN vehicle registry
+        │                                  │                              │
+        ▼                                  ▼                              ▼
+  sort_drive_folder.py            CAAQMS scraper               category_mapper.py
+  build_labels.py (heuristic)     AQI computation              BS6 emission factors
+  augment_labels.py (D4 ×8)       time-series forecaster       emission load index
+        │                                  │                              │
+        ▼                                  │                              │
+  Prithvi-EO-2.0-100M-TL                  │                              │
+  + LoRA r=8 fine-tune                    │                              │
+  → per-zone source classification        │                              │
+  (dust / traffic / industrial / crop)    │                              │
+        │                                  │                              │
+        └──────────────────────────────────┴──────────────────────────────┘
+                                           │
+                                           ▼
+                               enforcement_ranker.py
+                         score = conf × source_weight + 0.3 × vei
+                                           │
+                                           ▼
+                              enforcement_ranking.csv
+                                           │
+                                           ▼
+                                  dashboard/index.html
+                         (GRAP stage mapping · zone ranking · AQI forecast)
+```
+
+**Data flows:**
+- **Satellite track** — GEE exports 13-zone Sentinel-2 tifs → heuristic labels from CAAQMS rules → D4 augmentation (700 → 5,600 images) → Prithvi LoRA fine-tune → per-zone attribution confidence
+- **Forecasting track** — CAAQMS hourly PM2.5/PM10/NO2 → daily panel → 24/48/72h AQI forecast → GRAP stage lookup
+- **Vehicle track** — VAHAN per-RTO registration counts + official BS6 emission factors → vehicle emission load index per zone
+- **Fusion** — `fuse.py` joins all three signals → `enforcement_ranker.py` scores and ranks → `index.html` renders the live dashboard
+
+---
+
+## Live Dashboard
+
+[airsentinal.pages.dev](https://airsentinal.pages.dev/)
